@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('../fonts/leaguegothic-condensedregular-webfont.eot');
+    src: url('../fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html {
+	height: 100%;
+	color: #fff;
+}
+.section-card {
+	height: 50%;
+	text-align: center;
+	position: relative;
+	background-color: #426780;
+}
+.section-card h1 {
+	position: absolute;
+	top: 25%;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 4em;
+}
+.title-card {
+	height: 50%;
+	text-align: center;
+	position: relative;
+	background-color: #D1EDFF;
+}
+	.title-card h2 {
+		position: absolute;
+		top: 35%;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		color: #687680;
+		font-family: "League Gothic Condensed", "Myriad Pro", Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		font-size: 3em;
+	}
+	.title-card a {
+		color: #687680;
+		text-decoration: none;
+	}
+		.title-card a:hover,
+		.title-card a:focus {
+			color: #426780;
+		}
+.photo-card {
+	height: 90%;
+	background-repeat: none;
+	overflow: hidden;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.section-card,
+.title-card {
+	z-index: 2;
+}
+.photo-card {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+.spacer {
+	position: relative;
+	height: 50%;
+}
+.spacer h3 {
+	position: absolute;
+	top: 35%;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	color: #426780;
+	font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	z-index: 3;
+}
+.spacer h3 span {
+	background: #D1EDFF;
+	background: rgba(209, 237, 255, 0.5);
+	padding: 5px 10px 3px;
+}
+.photo-card {
+	display: none;
+}
