@@ -7,17 +7,8 @@
 	<meta name="keywords" content="Snowboarding, Surfing, Pacific Northwest, Webcams" />
 	<meta name="author"	content="Brian (brainbrian.com)" />
 	<title>PNW Cams</title>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="_/css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="_/css/main.css" type="text/css">
-	<script type="text/javascript" src="_/js/_dependent/greensock/TweenMax.min.js"></script>
-	<script type="text/javascript" src="_/js/_dependent/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="_/js/_examples/general.js"></script>
-	<script type="text/javascript" src="_/js/_examples/highlight.pack.js"></script>
-  	<script type="text/javascript" src="_/js/_examples/modernizr.custom.min.js"></script>
-  	<script type="text/javascript" src="_/js/jquery.scrollmagic.js"></script>
-  	<!-- <script type="text/javascript" src="_/js/jquery.scrollmagic.debug.js"></script> -->
-  	<script type="text/javascript" src="_/js/pnwcams.main.js"></script>
 </head>
 <body>
 	<div id="snow" class="section-card">
@@ -153,7 +144,12 @@ http://icons.wunderground.com/webcamramdisk/s/h/shauntanner/38/current.jpg -->
 	<div class="section-card">
 		<h1>The End</h1>
 	</div>
-	<script type="text/javascript">
+	<script type="text/javascript" src="_/js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="_/js/lib/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="_/js/lib/modernizr.custom.min.js"></script>
+  	<script type="text/javascript" src="_/js/lib/jquery.scrollmagic.min.js"></script>
+  	<script type="text/javascript" src="_/js/pnwcams.main.js"></script>
+  	<script type="text/javascript">
 		$(document).ready(function(){
 			PNWCAMS.main.init();
 		});
