@@ -83,10 +83,6 @@
 			<div class="camera owl-lazy" data-src="http://www.nps.gov/webcams-mora/west.jpg?<?php echo time(); ?>">
 				<h3><span>Paradise - Parking West</span></h3>
 			</div>
-			<div class="camera owl-lazy" data-src="http://www.nps.gov/webcams-mora/west.jpg?<?php echo time(); ?>">
-				<h3><span>Paradise - Parking West</span></h3>
-			</div>
-
 			<div class="camera owl-lazy" data-src="http://www.nps.gov/webcams-mora/gh.jpg?<?php echo time(); ?>">
 				<h3><span>Paradise - Visitor Center</span></h3>
 			</div>
