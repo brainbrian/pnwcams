@@ -2,11 +2,13 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8"> 
+	<!--[if IE ]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=500" />
-	<meta name="keywords" content="Snowboarding, Surfing, Pacific Northwest, Webcams" />
-	<meta name="author"	content="Brian (brainbrian.com)" />
-	<title>PNW Cams</title>
+	<![endif]-->
+	<title>PNW Cams - Snow and Surf Web Cams</title>
+	<meta name="description" content="Snow and surf web cameras from around the Pacific Northwest." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Brian (brainbrian.com)" />
 	<link rel="stylesheet" href="_/css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="_/css/main.css" type="text/css">
 </head>
