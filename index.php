@@ -18,20 +18,6 @@
 	</div>
 	<div class="location">
 		<div class="title-card">
-			<h2>Stevens Pass</h2>
-			<!-- http://www.stevenspass.com/site/mountain/cams -->
-		</div>
-		<div class="cameras owl-carousel owl-theme">
-			<div class="camera owl-lazy" data-src="http://www.stevenspass.com/cams/base1/?<?php echo time(); ?>">
-				<h3><span>Base</span></h3>
-			</div>
-			<div class="camera owl-lazy" data-src="http://www.stevenspass.com/cams/mountain/?<?php echo time(); ?>">
-				<h3><span>Mountain</span></h3>
-			</div>
-		</div>
-	</div>
-	<div class="location">
-		<div class="title-card">
 			<h2>Snoqualmie Pass</h2>
 			<!-- http://www.summitatsnoqualmie.com/conditions -->
 		</div>
@@ -46,10 +32,30 @@
 				<h3><span>Silver Fir</span></h3>
 			</div>
 			<div class="camera owl-lazy" data-src="http://images.wsdot.wa.gov/sc/090VC05200.jpg?<?php echo time(); ?>">
-				<h3><span>DOT Snoqualmie</span></h3>
+				<h3><span>WSDOT Snoqualmie</span></h3>
 			</div>
 			<div class="camera owl-lazy" data-src="http://images.wsdot.wa.gov/sc/090VC05517.jpg?<?php echo time(); ?>">
-				<h3><span>DOT Hyak</span></h3>
+				<h3><span>WSDOT Hyak</span></h3>
+			</div>
+		</div>
+	</div>
+	<div class="location">
+		<div class="title-card">
+			<h2>Stevens Pass</h2>
+			<!-- http://www.stevenspass.com/site/mountain/cams -->
+		</div>
+		<div class="cameras owl-carousel owl-theme">
+			<div class="camera owl-lazy" data-src="http://www.stevenspass.com/cams/base1/?<?php echo time(); ?>">
+				<h3><span>Base</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://www.stevenspass.com/cams/mountain/?<?php echo time(); ?>">
+				<h3><span>Mountain</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://images.wsdot.wa.gov/us2/stvldg/sumtwest.jpg?<?php echo time(); ?>">
+				<h3><span>WSDOT W. Summit</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://images.wsdot.wa.gov/us2/stevens/sumteast.jpg?<?php echo time(); ?>">
+				<h3><span>WSDOT E. Summit</span></h3>
 			</div>
 		</div>
 	</div>
@@ -104,6 +110,26 @@
 			</div>
 			<div class="camera owl-lazy" data-src="http://www.nps.gov/webcams-olym/northcam.jpg?<?php echo time(); ?>">
 				<h3><span>Parking</span></h3>
+			</div>
+		</div>
+	</div>
+	<div class="location">
+		<div class="title-card">
+			<h2>Mission Ridge</h2>
+			<!-- http://www.missionridge.com/webcams -->
+		</div>
+		<div class="cameras owl-carousel owl-theme">
+			<div class="camera owl-lazy" data-src="http://missionridge.com/webcam/Tmissioncam000.jpg?<?php echo time(); ?>">
+				<h3><span>Summit 1</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://missionridge.com/webcam/missioncam3000.jpg?<?php echo time(); ?>">
+				<h3><span>Summit 2</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://missionridge.com/webcam/Tmissioncam4000.jpg?<?php echo time(); ?>">
+				<h3><span>Summit 3</span></h3>
+			</div>
+			<div class="camera owl-lazy" data-src="http://missionridge.com/webcam/Tmissioncam2.jpg?<?php echo time(); ?>">
+				<h3><span>Midway</span></h3>
 			</div>
 		</div>
 	</div>
