@@ -1,412 +1,298 @@
 {
-  "locations": [
-    {
-      "name": "Snoqualmie Pass",
-      "category": "snow",
-      "latitude": "47.44",
-      "longitude": "-121.44",
-      "links": [
-        {
-          "url": "http://www.summitatsnoqualmie.com/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Alpental Base",
-          "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
-        },
-        {
-          "name": "Summit Central",
-          "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
-        },
-        {
-          "name": "Silver Fir",
-          "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
-        },
-        {
-          "name": "WSDOT Snoqualmie",
-          "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
-        },
-        {
-          "name": "WSDOT Hyak",
-          "url": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Stevens Pass",
-      "category": "snow",
-      "latitude": "47.73",
-      "longitude": "-121.10",
-      "links": [
-        {
-          "url": "http://www.stevenspass.com/site/mountain/cams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Base",
-          "url": "http://www.stevenspass.com/cams/base1/"
-        },
-        {
-          "name": "Mountain",
-          "url": "http://www.stevenspass.com/cams/mountain/"
-        },
-        {
-          "name": "WSDOT W. Summit",
-          "url": "http://images.wsdot.wa.gov/us2/stvldg/sumtwest.jpg"
-        },
-        {
-          "name": "WSDOT E. Summit",
-          "url": "http://images.wsdot.wa.gov/us2/stevens/sumteast.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Crystal Mountain",
-      "category": "snow",
-      "latitude": "46.94",
-      "longitude": "-121.50",
-      "links": [
-        {
-          "url": "http://crystalmountainresort.com/the-mountain/about/webcams/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Mt. Rainier Gondola",
-          "url": "http://wwc.instacam.com/instacamimg/CRYMB/CRYMB_l.jpg"
-        },
-        {
-          "name": "Rainier Express",
-          "url": "http://wwc.instacam.com/instacamimg/CRYM4/CRYM4_l.jpg"
-        },
-        {
-          "name": "Gold Hills",
-          "url": "http://crystalmountainresort.com/webcam/goldhillscam.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Mt. Rainier",
-      "category": "snow",
-      "latitude": "46.82",
-      "longitude": "-121.73",
-      "links": [
-        {
-          "url": "http://www.nps.gov/mora/photosmultimedia/webcams.htm"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Paradise - Mountain",
-          "url": "http://www.nps.gov/webcams-mora/mountain.jpg"
-        },
-        {
-          "name": "Paradise - Parking East",
-          "url": "http://www.nps.gov/webcams-mora/east.jpg"
-        },
-        {
-          "name": "Paradise - Parking West",
-          "url": "http://www.nps.gov/webcams-mora/west.jpg"
-        },
-        {
-          "name": "Paradise - Visitor Center",
-          "url": "http://www.nps.gov/webcams-mora/gh.jpg"
-        },
-        {
-          "name": "Paradise - Tatoosh",
-          "url": "http://www.nps.gov/webcams-mora/tatoosh.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Hurricane Ridge",
-      "category": "snow",
-      "latitude": "47.93",
-      "longitude": "-123.41",
-      "links": [
-        {
-          "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Ridge",
-          "url": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
-        },
-        {
-          "name": "Parking",
-          "url": "http://www.nps.gov/webcams-olym/northcam.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Mission Ridge",
-      "category": "snow",
-      "latitude": "47.27",
-      "longitude": "-120.43",
-      "links": [
-        {
-          "url": "http://www.missionridge.com/webcams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Summit 1",
-          "url": "http://missionridge.com/webcam/Tmissioncam000.jpg"
-        },
-        {
-          "name": "Summit 2",
-          "url": "http://missionridge.com/webcam/missioncam3000.jpg"
-        },
-        {
-          "name": "Summit 3",
-          "url": "http://missionridge.com/webcam/Tmissioncam4000.jpg"
-        },
-        {
-          "name": "Midway",
-          "url": "http://missionridge.com/webcam/Tmissioncam2.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Westport",
-      "category": "surf",
-      "latitude": "46.90",
-      "longitude": "-124.13",
-      "links": [
-        {
-          "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
-        },
-        {
-          "url": "http://www.rainbowsendcam.com/webcam32.htm"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "The Groins - Left",
-          "url": "http://www.westportcam.com/images/position3.jpg"
-        },
-        {
-          "name": "The Groins - Right",
-          "url": "http://www.westportcam.com/images/position4.jpg"
-        },
-        {
-          "name": "The Jetty",
-          "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
-        },
-        {
-          "name": "Half Moon Bay - Left",
-          "url": "http://www.westportcam.com/images/position1.jpg"
-        },
-        {
-          "name": "Half Moon Bay - Right",
-          "url": "http://www.westportcam.com/images/position2.jpg"
-        },
-        {
-          "name": "The Marina & Westhaven Drive",
-          "url": "http://www.westportcam.com/images/position0.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Ocean Shores",
-      "category": "surf",
-      "latitude": "46.92",
-      "longitude": "-124.18",
-      "links": [
-        {
-          "url": ""
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Grays Harbor",
-          "url": "http://www.wrh.noaa.gov/images/mfr/camera/GraysH.jpg"
-        }
-      ]
-    },
-    {
-      "name": "La Push",
-      "category": "surf",
-      "latitude": "47.90",
-      "longitude": "-124.63",
-      "links": [
-        {
-          "url": "http://forkswa.com/first-beach-webcam/"
-        },
-        {
-          "url": "http://forkswa.com/james-island-webcam/"
-        },
-        {
-          "url": "http://www.thekalalochlodge.com/kalaloch-web-cam.aspx"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "First Beach",
-          "url": "http://webcam.forkswa.com/webcam1/netcam.jpg"
-        },
-        {
-          "name": "James Island",
-          "url": "http://webcam.forkswa.com/webcam2/netcam.jpg"
-        },
-        {
-          "name": "Quillayute River",
-          "url": "http://www.wrh.noaa.gov/images/mfr/camera/QRiver.jpg"
-        },
-        {
-          "name": "Kalaloch Lodge",
-          "url": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
-        }
-      ]
-    },
-    {
-      "name": "The Straight",
-      "category": "surf",
-      "latitude": "48.29",
-      "longitude": "-124.37",
-      "links": [
-        {
-          "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
-        },
-        {
-          "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
-        },
-        {
-          "url": "http://www.wunderground.com/webcams/SequimFlyer/1/show.html"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Hoko River",
-          "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
-        },
-        {
-          "name": "Port Angeles",
-          "url": "http://webcam.portangeles.org/webcam/pawaterfront.jpg"
-        },
-        {
-          "name": "Blue Ribbon Farms",
-          "url": "http://icons.wunderground.com/webcamramdisk/s/e/SequimFlyer/1/current.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Seaside",
-      "category": "surf",
-      "latitude": "45.98",
-      "longitude": "-123.94",
-      "links": [
-        {
-          "url": "http://www.seasidechamber.com/camhtml/index.html"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "The Cove",
-          "url": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
-        }
-      ]
-    },
-    {
-      "name": "Cannon Beach",
-      "category": "surf",
-      "latitude": "45.88",
-      "longitude": "-123.97",
-      "links": [
-        {
-          "url": "http://www.webbsscenicsurf.com/home.html"
-        },
-        {
-          "url": "http://www.cbcc.net/whats-new/webcam/"
-        }
-      ],
-      "cameras": [
-        {
-          "title": "Haystack Rock",
-          "subtitle": "from Tolovana Inn",
-          "url": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
-        },
-        {
-          "title": "Webb's Scenic Surf",
-          "url": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
-        },
-        {
-          "title": "Da Beach",
-          "subtitle": "from CBCC Beachfront lodge",
-          "url": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Manzanita",
-      "category": "surf",
-      "latitude": "45.72",
-      "longitude": "-123.94",
-      "links": [
-        {
-          "url": "http://www.summitatsnoqualmie.com/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "title": "xXXXXXXx",
-          "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Oceanside",
-      "category": "surf",
-      "latitude": "45.46",
-      "longitude": "-123.97",
-      "links": [
-        {
-          "url": "http://www.summitatsnoqualmie.com/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "The Three Arch Rocks",
-          "url": "http://www.oceansideoregon.com/cam.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Pacific City",
-      "category": "surf",
-      "latitude": "45.22",
-      "longitude": "-123.98",
-      "links": [
-        {
-          "url": "http://www.summitatsnoqualmie.com/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Cape Kiwanda",
-          "url": "http://archive.kgw.com/weather/images/core/webcams/pacific-city.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Lincoln City",
-      "category": "surf",
-      "latitude": "44.96",
-      "longitude": "-124.02",
-      "links": [
-        {
-          "url": "http://www.summitatsnoqualmie.com/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Road's End",
-          "url": "http://www.lcsurfshop.com/webcam32.jpg"
-        }
-      ]
-    }
-  ]
+  "locations": [{
+    "name": "Snoqualmie Pass",
+    "category": "snow",
+    "latitude": "47.44",
+    "longitude": "-121.44",
+    "links": [{
+      "url": "http://www.summitatsnoqualmie.com/conditions"
+    }],
+    "cameras": [{
+      "name": "Alpental Base",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
+    }, {
+      "na
+      me ": "
+      Summit Central ",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
+    }, {
+      "name": "Silver Fir",
+      "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
+    }, {
+      "name": "WSDOT Snoqualmie",
+      "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
+    }, {
+      "name": "WSDOT Hyak",
+      "url": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"
+    }]
+  }, {
+    "name": "Stevens Pass",
+    "category": "snow",
+    "latitude": "47.73",
+    "longitude": "-121.10",
+    "links": [{
+      "url": "http://www.stevenspass.com/site/mountain/cams"
+    }],
+    "cameras": [{
+      "name": "Base",
+      "url": "http://www.stevenspass.com/cams/base1/"
+    }, {
+      "name": "Mountain",
+      "url": "http://www.stevenspass.com/cams/mountain/"
+    }, {
+      "name": "WSDOT W. Summit",
+      "url": "http://images.wsdot.wa.gov/us2/stvldg/sumtwest.jpg"
+    }, {
+      "name": "WSDOT E. Summit",
+      "url": "http://images.wsdot.wa.gov/us2/stevens/sumteast.jpg"
+    }]
+  }, {
+    "name": "Crystal Mountain",
+    "category": "snow",
+    "latitude": "46.94",
+    "longitude": "-121.50",
+    "links": [{
+      "url": "http://crystalmountainresort.com/the-mountain/about/webcams/"
+    }],
+    "cameras": [{
+      "name": "Mt. Rainier Gondola",
+      "url": "http://wwc.instacam.com/instacamimg/CRYMB/CRYMB_l.jpg"
+    }, {
+      "name": "Rainier Express",
+      "url": "http://wwc.instacam.com/instacamimg/CRYM4/CRYM4_l.jpg"
+    }, {
+      "name": "Gold Hills",
+      "url": "http://crystalmountainresort.com/webcam/goldhillscam.jpg"
+    }]
+  }, {
+    "name": "Mt. Rainier",
+    "category": "snow",
+    "latitude": "46.82",
+    "longitude": "-121.73",
+    "links": [{
+      "url": "http://www.nps.gov/mora/photosmultimedia/webcams.htm"
+    }],
+    "cameras": [{
+      "name": "Paradise - Mountain",
+      "url": "http://www.nps.gov/webcams-mora/mountain.jpg"
+    }, {
+      "name": "Paradise - Parking East",
+      "url": "http://www.nps.gov/webcams-mora/east.jpg"
+    }, {
+      "name": "Paradise - Parking West",
+      "url": "http://www.nps.gov/webcams-mora/west.jpg"
+    }, {
+      "name": "Paradise - Visitor Center",
+      "url": "http://www.nps.gov/webcams-mora/gh.jpg"
+    }, {
+      "name": "Paradise - Tatoosh",
+      "url": "http://www.nps.gov/webcams-mora/tatoosh.jpg"
+    }]
+  }, {
+    "name": "Hurricane Ridge",
+    "category": "snow",
+    "latitude": "47.93",
+    "longitude": "-123.41",
+    "links": [{
+      "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+    }],
+    "cameras": [{
+      "name": "Ridge",
+      "url": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
+    }, {
+      "name": "Parking",
+      "url": "http://www.nps.gov/webcams-olym/northcam.jpg"
+    }]
+  }, {
+    "name": "Mission Ridge",
+    "category": "snow",
+    "latitude": "47.27",
+    "longitude": "-120.43",
+    "links": [{
+      "url": "http://www.missionridge.com/webcams"
+    }],
+    "cameras": [{
+      "name": "Summit 1",
+      "url": "http://missionridge.com/webcam/Tmissioncam000.jpg"
+    }, {
+      "name": "Summit 2",
+      "url": "http://missionridge.com/webcam/missioncam3000.jpg"
+    }, {
+      "name": "Summit 3",
+      "url": "http://missionridge.com/webcam/Tmissioncam4000.jpg"
+    }, {
+      "name": "Midway",
+      "url": "http://missionridge.com/webcam/Tmissioncam2.jpg"
+    }]
+  }, {
+    "name": "Westport",
+    "category": "surf",
+    "latitude": "46.90",
+    "longitude": "-124.13",
+    "links": [{
+      "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
+    }, {
+      "url": "http://www.rainbowsendcam.com/webcam32.htm"
+    }],
+    "cameras": [{
+      "name": "The Groins - Left",
+      "url": "http://www.westportcam.com/images/position3.jpg"
+    }, {
+      "name": "The Groins - Right",
+      "url": "http://www.westportcam.com/images/position4.jpg"
+    }, {
+      "name": "The Jetty",
+      "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
+    }, {
+      "name": "Half Moon Bay - Left",
+      "url": "http://www.westportcam.com/images/position1.jpg"
+    }, {
+      "name": "Half Moon Bay - Right",
+      "url": "http://www.westportcam.com/images/position2.jpg"
+    }, {
+      "name": "The Marina & Westhaven Drive",
+      "url": "http://www.westportcam.com/images/position0.jpg"
+    }]
+  }, {
+    "name": "Ocean Shores",
+    "category": "surf",
+    "latitude": "46.92",
+    "longitude": "-124.18",
+    "links": [{
+      "url": ""
+    }],
+    "cameras": [{
+      "name": "Grays Harbor",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/GraysH.jpg"
+    }]
+  }, {
+    "name": "La Push",
+    "category": "surf",
+    "latitude": "47.90",
+    "longitude": "-124.63",
+    "links": [{
+      "url": "http://forkswa.com/first-beach-webcam/"
+    }, {
+      "url": "http://forkswa.com/james-island-webcam/"
+    }, {
+      "url": "http://www.thekalalochlodge.com/kalaloch-web-cam.aspx"
+    }],
+    "cameras": [{
+      "name": "First Beach",
+      "url": "http://webcam.forkswa.com/webcam1/netcam.jpg"
+    }, {
+      "name": "James Island",
+      "url": "http://webcam.forkswa.com/webcam2/netcam.jpg"
+    }, {
+      "name": "Quillayute River",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/QRiver.jpg"
+    }, {
+      "name": "Kalaloch Lodge",
+      "url": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
+    }]
+  }, {
+    "name": "The Straight",
+    "category": "surf",
+    "latitude": "48.29",
+    "longitude": "-124.37",
+    "links": [{
+      "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
+    }, {
+      "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
+    }, {
+      "url": "http://www.wunderground.com/webcams/SequimFlyer/1/show.html"
+    }],
+    "cameras": [{
+      "name": "Hoko River",
+      "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
+    }, {
+      "name": "Port Angeles",
+      "url": "http://webcam.portangeles.org/webcam/pawaterfront.jpg"
+    }, {
+      "name": "Blue Ribbon Farms",
+      "url": "http://icons.wunderground.com/webcamramdisk/s/e/SequimFlyer/1/current.jpg"
+    }]
+  }, {
+    "name": "Seaside",
+    "category": "surf",
+    "latitude": "45.98",
+    "longitude": "-123.94",
+    "links": [{
+      "url": "http://www.seasidechamber.com/camhtml/index.html"
+    }],
+    "cameras": [{
+      "name": "The Cove",
+      "url": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
+    }]
+  }, {
+    "name": "Cannon Beach",
+    "category": "surf",
+    "latitude": "45.88",
+    "longitude": "-123.97",
+    "links": [{
+      "url": "http://www.webbsscenicsurf.com/home.html"
+    }, {
+      "url": "http://www.cbcc.net/whats-new/webcam/"
+    }],
+    "cameras": [{
+      "title": "Haystack Rock",
+      "subtitle": "from Tolovana Inn",
+      "url": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
+    }, {
+      "title": "Webb's Scenic Surf",
+      "url": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
+    }, {
+      "title": "Da Beach",
+      "subtitle": "from CBCC Beachfront lodge",
+      "url": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
+    }]
+  }, {
+    "name": "Manzanita",
+    "category": "surf",
+    "latitude": "45.72",
+    "longitude": "-123.94",
+    "links": [{
+      "url": "http://www.summitatsnoqualmie.com/conditions"
+    }],
+    "cameras": [{
+      "title": "xXXXXXXx",
+      "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
+    }]
+  }, {
+    "name": "Oceanside",
+    "category": "surf",
+    "latitude": "45.46",
+    "longitude": "-123.97",
+    "links": [{
+      "url": "http://www.summitatsnoqualmie.com/conditions"
+    }],
+    "cameras": [{
+      "name": "The Three Arch Rocks",
+      "url": "http://www.oceansideoregon.com/cam.jpg"
+    }]
+  }, {
+    "name": "Pacific City",
+    "category": "surf",
+    "latitude": "45.22",
+    "longitude": "-123.98",
+    "links": [{
+      "url": "http://www.summitatsnoqualmie.com/conditions"
+    }],
+    "cameras": [{
+      "name": "Cape Kiwanda",
+      "url": "http://archive.kgw.com/weather/images/core/webcams/pacific-city.jpg"
+    }]
+  }, {
+    "name": "Lincoln City",
+    "category": "surf",
+    "latitude": "44.96",
+    "longitude": "-124.02",
+    "links": [{
+      "url": "http://www.summitatsnoqualmie.com/conditions"
+    }],
+    "cameras": [{
+      "name": "Road's End",
+      "url": "http://www.lcsurfshop.com/webcam32.jpg"
+    }]
+  }]
 }
