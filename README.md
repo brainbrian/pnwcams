@@ -9,4 +9,4 @@ Add calls to open weather data
 # Created for/by
 I'm building this with really as a tool for myself to see webcams around the Pacific Northwest that I check on a regular basis. I hope you find it useful.
 
-- Brian (brainbrian.com)
+– Brian ([brainbrian.com](http://www.brainbrian.com))
