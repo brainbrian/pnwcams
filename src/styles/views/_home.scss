@@ -1,0 +1,90 @@
+body,
+html {
+  height: 100%;
+  color: #fff;
+}
+
+.section-card {
+  height: 50%;
+  text-align: center;
+  position: relative;
+  background-color: #426780;
+}
+
+.section-card h1 {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 4em;
+}
+
+.section-card h1 a {
+  color: #D1EDFF;
+  text-decoration: none;
+}
+
+.section-card h1 a:hover,
+.section-card h1 a:focus {
+  color: #687680;
+}
+
+.location {
+  height: 100%;
+  position: relative;
+}
+
+.title-card {
+  height: 50%;
+  text-align: center;
+  position: relative;
+  background-color: #D1EDFF;
+}
+
+.title-card h2 {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: #687680;
+  font-family: "League Gothic Condensed", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+.cameras {
+  height: 50%;
+  position: relative;
+  background: #000;
+}
+
+.camera {
+  height: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+h3 {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: #426780;
+  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  z-index: 3;
+}
+
+h3 span {
+  background: #D1EDFF;
+  background: rgba(209, 237, 255, 0.5);
+  padding: 5px 10px 3px;
+}
