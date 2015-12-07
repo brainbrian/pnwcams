@@ -5,19 +5,20 @@
     "latitude": "47.44",
     "longitude": "-121.44",
     "links": [{
-      "url": "http://www.summitatsnoqualmie.com/conditions"
+      "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
     }],
     "cameras": [{
       "name": "Alpental Base",
       "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
     }, {
-      "na
-      me ": "
-      Summit Central ",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
+      "name": "Alpental Mid-Mtn",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Alpentalmid.jpg"
     }, {
       "name": "Silver Fir",
       "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
+    }, {
+      "name": "Summit Central",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
     }, {
       "name": "WSDOT Snoqualmie",
       "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
@@ -37,14 +38,23 @@
       "name": "Base",
       "url": "http://www.stevenspass.com/cams/base1/"
     }, {
+      "name": "Jupiter",
+      "url": "https://www.stevenspass.com/cams/jupiter/"
+    }, {
       "name": "Mountain",
       "url": "http://www.stevenspass.com/cams/mountain/"
     }, {
-      "name": "WSDOT W. Summit",
-      "url": "http://images.wsdot.wa.gov/us2/stvldg/sumtwest.jpg"
+      "name": "Cowboy",
+      "url": "https://www.stevenspass.com/cams/cowboy/"
     }, {
-      "name": "WSDOT E. Summit",
-      "url": "http://images.wsdot.wa.gov/us2/stevens/sumteast.jpg"
+      "name": "WSDOT Summit West",
+      "url": "https://www.stevenspass.com/cams/summit-west/"
+    }, {
+      "name": "WSDOT Old Faithful",
+      "url": "https://www.stevenspass.com/cams/old-faithful/"
+    }, {
+      "name": "WSDOT Lower Mill Creek",
+      "url": "https://www.stevenspass.com/cams/lower-mill-creek/"
     }]
   }, {
     "name": "Crystal Mountain",
@@ -52,7 +62,7 @@
     "latitude": "46.94",
     "longitude": "-121.50",
     "links": [{
-      "url": "http://crystalmountainresort.com/the-mountain/about/webcams/"
+      "url": "http://crystalmountainresort.com/the-mountain/webcams/"
     }],
     "cameras": [{
       "name": "Mt. Rainier Gondola",
@@ -60,6 +70,9 @@
     }, {
       "name": "Rainier Express",
       "url": "http://wwc.instacam.com/instacamimg/CRYM4/CRYM4_l.jpg"
+    }, {
+      "name": "Chair 6",
+      "url": "http://wwc.instacam.com/instacamimg/CRYM2/CRYM2_s.jpg"
     }, {
       "name": "Gold Hills",
       "url": "http://crystalmountainresort.com/webcam/goldhillscam.jpg"
@@ -87,6 +100,9 @@
     }, {
       "name": "Paradise - Tatoosh",
       "url": "http://www.nps.gov/webcams-mora/tatoosh.jpg"
+    }, {
+      "name": "Longmire",
+      "url": "http://www.nps.gov/webcams-mora/longmire.jpg"
     }]
   }, {
     "name": "Hurricane Ridge",
@@ -109,20 +125,44 @@
     "latitude": "47.27",
     "longitude": "-120.43",
     "links": [{
-      "url": "http://www.missionridge.com/webcams"
+      "url": "https://www.missionridge.com/webcams"
     }],
     "cameras": [{
-      "name": "Summit 1",
-      "url": "http://missionridge.com/webcam/Tmissioncam000.jpg"
+      "name": "Sunspot",
+      "url": "https://missionridge.com/webcam/Tmissioncam000.jpg"
     }, {
-      "name": "Summit 2",
-      "url": "http://missionridge.com/webcam/missioncam3000.jpg"
+      "name": "Microwave",
+      "url": "https://missionridge.com/webcam/outdoorcam000.jpg"
     }, {
-      "name": "Summit 3",
-      "url": "http://missionridge.com/webcam/Tmissioncam4000.jpg"
+      "name": "Chair 2",
+      "url": "https://missionridge.com/webcam/Tmissioncam4000.jpg"
     }, {
       "name": "Midway",
-      "url": "http://missionridge.com/webcam/Tmissioncam2.jpg"
+      "url": "https://missionridge.com/webcam/Tmissioncam2.jpg"
+    }]
+  }, {
+    "name": "White Pass",
+    "category": "snow",
+    "latitude": "47.27",
+    "longitude": "-120.43",
+    "links": [{
+      "url": "http://skiwhitepass.com/the-mountain/mountain-cam.aspx"
+    }],
+    "cameras": [{
+      "name": "Pomaface",
+      "url": "http://skiwhitepass.com/mountaincam/pomaface.jpg"
+    }, {
+      "name": "Basin",
+      "url": "http://skiwhitepass.com/mountaincam/basin.jpg"
+    }, {
+      "name": "Base",
+      "url": "http://skiwhitepass.com/mountaincam/small.jpg"
+    }, {
+      "name": "WSDOT Summit West",
+      "url": "http://images.wsdot.wa.gov/sc/012vc15093.jpg"
+    }, {
+      "name": "WSDOT Summit East",
+      "url": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
     }]
   }, {
     "name": "Westport",
