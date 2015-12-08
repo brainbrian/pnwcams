@@ -5,20 +5,35 @@
 
 const Application = {
   config: {},
+
   init: function() {
-    var self, carousel;
-    self = this;
-    // set up owl carousel
-    carousel = $(".cameras").owlCarousel({
-      items: 1,
-      dots: true,
-      lazyLoad: true,
-      autoplay: false,
-      autoplayTimeout: 8000,
-      autoplayHoverPause: true,
-      loop: true
-    });
+    this._randomImgLoad();
+    this._buildCarousels();
   },
+
+  _randomImgLoad: function() {
+      var $cameras = $('.camera');
+      $cameras.each(function(index) {
+          var $camera = $($cameras[index]);
+          var imgUrl = $camera.data('src');
+          imgUrl += "?random=" + Math.round(Math.random() * 100000000);
+          $camera.attr('data-src', imgUrl);
+      }.bind(this));
+  },
+
+  _buildCarousels: function() {
+      // set up owl carousels
+      $(".cameras").owlCarousel({
+        items: 1,
+        dots: true,
+        lazyLoad: true,
+        autoplay: false,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        loop: true
+      });
+  },
+
   utilities: {
     cookie: {
       getCookie: function(name) {
@@ -31,6 +46,7 @@ const Application = {
         }
         return null;
       },
+
       setCookie: function(name, value, days) {
         var date, expires;
         if (days) {
@@ -43,6 +59,7 @@ const Application = {
         document.cookie = name + "=" + value + expires + "; path=/";
       }
     },
+
     pageScroll: function(hash) {
       // Smooth Page Scrolling, update hash on complete of animation
       $('html,body').animate({
