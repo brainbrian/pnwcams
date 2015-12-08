@@ -262,7 +262,7 @@
   width: 18px;
   height: 18px;
   margin: 5px 7px;
-  background: #D1EDFF;
+  background: $light-blue;
   display: block;
   -webkit-backface-visibility: visible;
   -webkit-transition: opacity 200ms ease;
@@ -273,11 +273,10 @@
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #fff;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #426780;
+  background: $dark-blue;
 }
 /* don't hide images while loading, show loader */
 .owl-carousel .owl-item .owl-lazy {

@@ -1,65 +1,61 @@
 body,
 html {
-  height: 100%;
-  color: #fff;
+  color: $white;
+  background: $grey;
+}
+
+.page-container {
+  max-width: $xl-breakpoint;
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 0 20px $black;
+}
+
+.title {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
 }
 
 .section-card {
-  height: 50%;
+  height: 200px;
   text-align: center;
   position: relative;
-  background-color: #426780;
-}
+  background-color: $dark-blue;
 
-.section-card h1 {
-  position: absolute;
-  top: 25%;
-  text-align: center;
-  width: 100%;
-  text-transform: uppercase;
-  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 4em;
-}
+  .title {
+    color: $white;
 
-.section-card h1 a {
-  color: #D1EDFF;
-  text-decoration: none;
-}
+    a {
+      color: $light-blue;
+      text-decoration: none;
 
-.section-card h1 a:hover,
-.section-card h1 a:focus {
-  color: #687680;
+      &:hover,
+      &:focus {
+        color: $grey;
+      }
+    }
+  }
 }
 
 .location {
-  height: 100%;
   position: relative;
 }
 
 .title-card {
-  height: 50%;
+  height: 200px;
   text-align: center;
   position: relative;
-  background-color: #D1EDFF;
-}
-
-.title-card h2 {
-  position: absolute;
-  top: 35%;
-  text-align: center;
-  width: 100%;
-  text-transform: uppercase;
-  color: #687680;
-  font-family: "League Gothic Condensed", "Myriad Pro", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 3em;
+  background-color: $light-blue;
 }
 
 .cameras {
-  height: 50%;
+  height: 300px;
   position: relative;
-  background: #000;
+  background: $black;
 }
 
 .camera {
@@ -68,23 +64,40 @@ html {
   overflow: hidden;
   background-size: cover;
   background-position: 50% 50%;
+
+  .title {
+    z-index: 3;
+
+    span {
+      background: $light-blue;
+      background: rgba(209, 237, 255, .5);
+      padding: 5px 10px 3px;
+    }
+  }
 }
 
-h3 {
-  position: absolute;
-  top: 35%;
-  text-align: center;
-  width: 100%;
-  text-transform: uppercase;
-  color: #426780;
-  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 2em;
-  z-index: 3;
+@media (min-width: $s-breakpoint) {
+  .section-card {
+    height: 300px;
+  }
+
+  .title-card {
+    height: 300px;
+  }
+
+  .cameras {
+    height: 420px;
+  }
 }
 
-h3 span {
-  background: #D1EDFF;
-  background: rgba(209, 237, 255, 0.5);
-  padding: 5px 10px 3px;
+@media (min-width: $m-breakpoint) {
+  .cameras {
+    height: 540px;
+  }
+}
+
+@media (min-width: $l-breakpoint) {
+  .cameras {
+    height: 660px;
+  }
 }
