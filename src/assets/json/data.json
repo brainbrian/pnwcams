@@ -175,13 +175,13 @@
       "url": "http://www.rainbowsendcam.com/webcam32.htm"
     }],
     "cameras": [{
-      "name": "The Groins - Left",
+      "name": "Groins - Left",
       "url": "http://www.westportcam.com/images/position3.jpg"
     }, {
-      "name": "The Groins - Right",
+      "name": "Groins - Right",
       "url": "http://www.westportcam.com/images/position4.jpg"
     }, {
-      "name": "The Jetty",
+      "name": "Jetty",
       "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
     }, {
       "name": "Half Moon Bay - Left",
@@ -240,17 +240,17 @@
     }, {
       "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
     }, {
-      "url": "http://www.wunderground.com/webcams/SequimFlyer/1/show.html"
+      "url": "http://forkswa.com/visiting-forks/webcamsontheolympicpeninsula/"
     }],
     "cameras": [{
       "name": "Hoko River",
       "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
     }, {
-      "name": "Port Angeles",
-      "url": "http://webcam.portangeles.org/webcam/pawaterfront.jpg"
+      "name": "Downtown PA",
+      "url": "http://webcam.portangeles.org/webcam/image.jpg"
     }, {
-      "name": "Blue Ribbon Farms",
-      "url": "http://icons.wunderground.com/webcamramdisk/s/e/SequimFlyer/1/current.jpg"
+      "name": "Dungeness Lighthouse",
+      "url": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
     }]
   }, {
     "name": "Seaside",
