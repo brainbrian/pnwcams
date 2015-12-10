@@ -2,11 +2,11 @@ module.exports = function(grunt) {
   return {
     dist: {
       files: [{
-        src: '<%= publicPath %>/<%= jsOutputPath %>/vendor.js',
-        dest: '<%= publicPath %>/<%= jsOutputPath %>/vendor.js'
+        src: '<%= distPath %>/<%= jsOutputPath %>/vendor.js',
+        dest: '<%= distPath %>/<%= jsOutputPath %>/vendor.js'
       }, {
-        src: '<%= publicPath %>/<%= jsOutputPath %>/<%= pkg.name %>.js',
-        dest: '<%= publicPath %>/<%= jsOutputPath %>/<%= pkg.name %>.js'
+        src: '<%= distPath %>/<%= jsOutputPath %>/<%= pkg.name %>.js',
+        dest: '<%= distPath %>/<%= jsOutputPath %>/<%= pkg.name %>.js'
       }]
     }
   };
