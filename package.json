@@ -48,7 +48,8 @@
     "handlebars": "~4.0.3",
     "load-grunt-config": "~0.17.2",
     "load-grunt-tasks": "~3.3.0",
-    "remapify": "2.0.3"
+    "remapify": "2.0.3",
+    "underscore": "^1.8.3"
   },
   "browserify": {
     "transform": [

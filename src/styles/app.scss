@@ -5,12 +5,14 @@
 // Style guide: utils
 @import 'utils/config';
 @import 'utils/reset';
+@import 'utils/mixins';
 
 // Chrome
 //
 // Covers styles used for the global chrome carried throughout the site.
 //
 // Style guide: chrome
+@import 'chrome/header';
 @import 'chrome/typography';
 
 // Views

@@ -8,7 +8,8 @@ html {
   max-width: $xl-breakpoint;
   position: relative;
   margin: 0 auto;
-  box-shadow: 0 0 20px $black;
+  box-shadow: 0 0 3px $black;
+  padding-top: 3em;
 }
 
 .title {

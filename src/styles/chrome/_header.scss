@@ -1,0 +1,51 @@
+.header {
+  @include clearfix;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 0 5px $black;
+
+  &__nav {
+    height: 3em;
+    margin: 0;
+  }
+
+  &__nav-list {
+    list-style: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__nav-item {
+    float: left;
+    height: 100%;
+    margin: 0;
+    width: 50%;
+  }
+
+  &__nav-btn {
+    background-color: $dark-blue;
+    color: $white;
+    display: block;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+
+    &:hover,
+    &:focus,
+    &--active {
+      background-color: $light-blue;
+      color: $grey;
+    }
+
+    .h1 {
+      display: block;
+      font-size: 2em;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

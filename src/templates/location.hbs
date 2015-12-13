@@ -1,0 +1,16 @@
+{{#each locations}}
+<div class="location">
+  <div class="title-card">
+    <h2 class="title">{{name}}</h2>
+  </div>
+  <div class="cameras owl-carousel owl-theme">
+    {{#each cameras}}
+    <div class="camera owl-lazy" data-src="{{url}}">
+      <h3 class="title">
+        <span>{{name}}</span>
+      </h3>
+    </div>
+    {{/each}}
+  </div>
+</div>
+{{/each}}
