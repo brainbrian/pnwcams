@@ -65,12 +65,12 @@ const Application = {
   },
 
   _randomImgLoad: function() {
-      var $cameras = $('.camera');
-      $cameras.each(function(index) {
-          var $camera = $($cameras[index]);
-          var imgUrl = $camera.data('src');
+      var $images = $('.owl-lazy');
+      $images.each(function(index) {
+          var $image = $($images[index]);
+          var imgUrl = $image.data('src');
           imgUrl += "?random=" + Math.round(Math.random() * 100000000);
-          $camera.attr('data-src', imgUrl);
+          $image.attr('data-src', imgUrl);
       }.bind(this));
   },
 

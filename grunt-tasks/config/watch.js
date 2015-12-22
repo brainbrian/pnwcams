@@ -19,7 +19,7 @@ module.exports = function(grunt) {
       files: [
         '<%= sourcePath %>/styles/**/*.scss'
       ],
-      tasks: ['sass:dev']
+      tasks: ['autoprefixer:dev', 'sass:dev']
     },
     scripts: {
       files: [

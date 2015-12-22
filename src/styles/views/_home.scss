@@ -61,10 +61,21 @@ html {
 
 .camera {
   height: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  background-size: cover;
-  background-position: 50% 50%;
+  position: relative;
+
+  .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+
+      opacity: 0;
+  }
 
   .title {
     z-index: 3;

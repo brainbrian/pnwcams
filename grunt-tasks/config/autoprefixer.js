@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   return {
     dev: {
       options: {
-        browsers: ['last 4 versions', 'ie 9'],
+        browsers: ['last 6 versions', 'ie 9'],
         map: true
       },
       files: [{
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     },
     dist: {
       options: {
-        browsers: ['last 4 versions', 'ie 9'],
+        browsers: ['last 6 versions', 'ie 9'],
         map: false
       },
       files: [{
