@@ -5,12 +5,14 @@
   </div>
   <div class="cameras owl-carousel owl-theme">
     {{#each cameras}}
-    <div class="camera">
-      <div class="image owl-lazy" data-src="{{url}}"></div>
-      <h3 class="title">
-        <span>{{name}}</span>
-      </h3>
-    </div>
+      <div class="camera">
+        <div class="image owl-lazy" data-src="{{url}}"></div>
+        {{#if name}}
+          <h3 class="title">
+            <span>{{name}}</span>
+          </h3>
+        {{/if}}
+      </div>
     {{/each}}
   </div>
 </div>

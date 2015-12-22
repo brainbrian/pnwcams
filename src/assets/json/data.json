@@ -275,15 +275,13 @@
       "url": "http://www.cbcc.net/whats-new/webcam/"
     }],
     "cameras": [{
-      "title": "Haystack Rock",
-      "subtitle": "from Tolovana Inn",
+      "name": "Haystack Rock",
       "url": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
     }, {
-      "title": "Webb's Scenic Surf",
+      "name": "Webb's Scenic Surf",
       "url": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
     }, {
-      "title": "Da Beach",
-      "subtitle": "from CBCC Beachfront lodge",
+      "name": "Beachfront Lodge",
       "url": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
     }]
   }, {
@@ -295,7 +293,6 @@
       "url": "http://www.summitatsnoqualmie.com/conditions"
     }],
     "cameras": [{
-      "title": "xXXXXXXx",
       "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
     }]
   }, {

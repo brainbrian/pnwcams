@@ -75,16 +75,35 @@ const Application = {
   },
 
   _buildCarousels: function() {
+    this.ui.cameras.each(function(index) {
+      var $carousel = $(this.ui.cameras[index]);
+      var $camera = $carousel.find('.camera');
+      var settings = {};
+      // console.log($camera.length);
+      if($camera.length > 1) {
+        // set up owl carousels
+        settings = {
+          items: 1,
+          dots: true,
+          lazyLoad: true,
+          autoplay: false,
+          autoplayTimeout: 8000,
+          autoplayHoverPause: true,
+          loop: true
+        };
+      } else {
+        // set up owl carousels
+        settings = {
+          items: 1,
+          dots: false,
+          lazyLoad: true,
+          autoplay: false,
+          loop: false
+        };
+      }
       // set up owl carousels
-      this.ui.cameras.owlCarousel({
-        items: 1,
-        dots: true,
-        lazyLoad: true,
-        autoplay: false,
-        autoplayTimeout: 8000,
-        autoplayHoverPause: true,
-        loop: true
-      });
+      $carousel.owlCarousel(settings);
+    }.bind(this));
   },
 
   _destroyCarousels: function() {
