@@ -1,0 +1,11 @@
+linters:
+    SelectorDepth:
+        enabled: true
+        max_depth: 5
+
+    NestingDepth:
+        enabled: true
+        max_depth: 5
+
+    Indentation:
+        width: 2

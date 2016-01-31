@@ -3,24 +3,39 @@ import _ from 'underscore';
 
 /**
  * PNW Cams - http://www.pnwcams.com
- * Author: brian@brainbrian.com - http://www.brainbrian.com
+ * @module  modules/Application
+ * @author  brian@brainbrian.com - http://www.brainbrian.com
  */
-
 const Application = {
+  /**
+   * Configuration for application
+   * @type {Object}
+   */
   config: {
     data: null
   },
+
+  /**
+   * User interface object for caching DOM elements
+   * @type {Object}
+   */
   ui: {},
 
+  /**
+   * Initialize the application
+   */
   init: function() {
-    this._requestData();
     this.ui = {
       locations: $('#locations'),
       navBtns: $('.header__nav-btn'),
       cameras: null
     };
+    this._requestData();
   },
 
+  /**
+   * Request json data for locations
+   */
   _requestData: function() {
     $.ajax({
       dataType: "json",
@@ -36,6 +51,9 @@ const Application = {
     });
   },
 
+  /**
+   * Bind event listeners for nav items
+   */
   _bindEvents: function() {
     this.ui.navBtns.on('click', function(e) {
       var target = e.target,
@@ -45,6 +63,11 @@ const Application = {
     }.bind(this));
   },
 
+  /**
+   * Build locations based on data
+   * @param  {[type]} data     Location data
+   * @param  {[type]} category Location category
+   */
   _buildLocations: function(data, category) {
     var locationHtml;
     this.ui.navBtns.removeClass('header__nav-btn--active');
@@ -62,8 +85,12 @@ const Application = {
     this.ui.cameras = this.ui.locations.find('.cameras');
     this._randomImgLoad();
     this._buildCarousels();
+    document.body.scrollTop = 0;
   },
 
+  /**
+   * Make images load randomly to prevent caching
+   */
   _randomImgLoad: function() {
       var $images = $('.owl-lazy');
       $images.each(function(index) {
@@ -74,6 +101,9 @@ const Application = {
       }.bind(this));
   },
 
+  /**
+   * Build Owl Carousels
+   */
   _buildCarousels: function() {
     this.ui.cameras.each(function(index) {
       var $carousel = $(this.ui.cameras[index]);
@@ -106,44 +136,11 @@ const Application = {
     }.bind(this));
   },
 
+  /**
+   * Destroy Owl Carousels
+   */
   _destroyCarousels: function() {
       if(this.ui.cameras !== null) this.ui.cameras.trigger('destroy.owl.carousel');
-  },
-
-  utilities: {
-    cookie: {
-      getCookie: function(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-          if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
-      },
-
-      setCookie: function(name, value, days) {
-        var date, expires;
-        if (days) {
-          date = new Date();
-          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-          expires = "; expires=" + date.toGMTString();
-        } else {
-          expires = "";
-        }
-        document.cookie = name + "=" + value + expires + "; path=/";
-      }
-    },
-
-    pageScroll: function(hash) {
-      // Smooth Page Scrolling, update hash on complete of animation
-      $('html,body').animate({
-        scrollTop: $(hash).offset().top
-      }, 'slow', function() {
-        window.location = hash;
-      });
-    }
   }
 };
 
