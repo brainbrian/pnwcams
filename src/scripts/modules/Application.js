@@ -96,7 +96,8 @@ const Application = {
       $images.each(function(index) {
           var $image = $($images[index]);
           var imgUrl = $image.data('src');
-          imgUrl += "?random=" + Math.round(Math.random() * 100000000);
+          imgUrl = imgUrl.indexOf('?') > -1 ? imgUrl + '&' : imgUrl + '?';
+          imgUrl += "random=" + Math.round(Math.random() * 100000000);
           $image.attr('data-src', imgUrl);
       }.bind(this));
   },
