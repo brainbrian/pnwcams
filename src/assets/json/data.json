@@ -8,11 +8,14 @@
       "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
     }],
     "cameras": [{
-      "name": "Alpental Base",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
+      "name": "Alpental Top",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Chair2.jpg"
     }, {
       "name": "Alpental Mid-Mtn",
       "url": "http://www.summitatsnoqualmie.com/webcams/Alpentalmid.jpg"
+    }, {
+      "name": "Alpental Base",
+      "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
     }, {
       "name": "Silver Fir",
       "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
