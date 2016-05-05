@@ -334,5 +334,17 @@
       "name": "Road's End",
       "url": "http://www.lcsurfshop.com/webcam32.jpg"
     }]
-  }]
+  }, {
+		"name": "Vancouver Island",
+		"category": "surf",
+		"latitude": "",
+		"longitude": "",
+		"links": [{
+			"url": "http://www.longbeachlodgeresort.com"
+		}],
+		"cameras": [{
+			"name": "Tofino",
+			"url": "http://webcam.longbeachlodgeresort.com/webcam/current.jpg"
+		}]
+	}]
 }
