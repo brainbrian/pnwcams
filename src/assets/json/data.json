@@ -168,6 +168,35 @@
       "url": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
     }]
   }, {
+    "name": "Mt. Hood",
+    "category": "snow",
+    "latitude": "",
+    "longitude": "",
+    "links": [{
+      "url": "https://www.skihood.com/the-mountain/conditions"
+    }, {
+      "url": "http://www.timberlinelodge.com/webcams/"
+    }],
+    "cameras": [{
+      "name": "Bottom of Vista",
+      "url": "https://www.skihood.com/cams/vista"
+    }, {
+      "name": "Base Area",
+      "url": "https://www.skihood.com/cams/base"
+    }, {
+      "name": "Top of Cascade",
+      "url": "https://www.skihood.com/cams/casc"
+    }, {
+      "name": "Jeff Flood",
+      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/floodtop.jpg"
+    }, {
+      "name": "Palmer/Silcox",
+      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/palmerbottom.jpg"
+    }, {
+      "name": "Bruno's",
+      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/brunotop.jpg"
+    }]
+  }, {
     "name": "Westport",
     "category": "surf",
     "latitude": "46.90",
