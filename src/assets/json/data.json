@@ -316,11 +316,11 @@
     "latitude": "45.22",
     "longitude": "-123.98",
     "links": [{
-      "url": "http://www.summitatsnoqualmie.com/conditions"
+      "url": "http://www.yourlittlebeachtown.com/"
     }],
     "cameras": [{
       "name": "Cape Kiwanda",
-      "url": "http://archive.kgw.com/weather/images/core/webcams/pacific-city.jpg"
+      "url": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
     }]
   }, {
     "name": "Lincoln City",
