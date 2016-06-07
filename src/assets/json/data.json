@@ -360,19 +360,42 @@
       "url": "http://www.westportcam.com/images/position0.jpg"
     }]
   }, {
-    "name": "Cape Disappointment, WA",
+    "name": "Long Beach Peninsula, WA",
     "category": "surf",
     "latitude": "46.28",
     "longitude": "-124.05",
     "links": [{
       "url": "http://cil-www.oce.orst.edu/batman.html"
+    }, {
+      "url": "https://www.planetargus.com/north_head/"
+    }, {
+      "url": "https://funbeach.com/explore/web-cams/"
+    }, {
+      "url": "http://www.skookumsurf.com/explore/"
+    }, {
+      "url": "http://breakerslongbeach.com/clarks-tree-ocean-web-cam/"
     }],
     "cameras": [{
+      "name": "Benson Beach - Left",
+      "url": "https://www.planetargus.com/north_head/most_recent/c6/snap.jpg"
+    }, {
+      "name": "Benson Beach - Right",
+      "url": "https://www.planetargus.com/north_head/most_recent/c5/snap.jpg"
+    }, {
       "name": "Columbia River - Left",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
     }, {
       "name": "Columbia River - Right",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
+    }, {
+      "name": "The Breakers",
+      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
+    }, {
+      "name": "Klipsan Beach",
+      "url": "http://cam.aaapacreal.com/clamcam.jpg"
+    }, {
+      "name": "Adrift Hotel",
+      "url": "http://pickledfish.dynalias.com/nph-jpeg.cgi"
     }]
   }, {
     "name": "Seaside, OR",
