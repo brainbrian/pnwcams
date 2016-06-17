@@ -64,20 +64,33 @@ html {
 }
 
 .weather-data {
-  margin: 0;
-  padding: 0;
+  display: block;
+  opacity: .5;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   top: 75%;
   transform: translateY(-50%);
+  transition: opacity 200ms ease-in-out;
   width: 100%;
 
-  li {
-    display: inline-block;
-    padding: 0 10px;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
 
-    small {
-      opacity: .5;
+  ul {
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      padding: 0 10px;
+
+      small {
+        opacity: .5;
+      }
     }
   }
 }

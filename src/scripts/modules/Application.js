@@ -124,8 +124,11 @@ const Application = {
       };
       var addWeatherData = function(data) {
         var $titleCard = $(this.ui.location[index]).find('.title-card');
+        var forecastUrl = 'http://forecast.weather.gov/MapClick.php?lat=' + latitude + '&lon=' + longitude;
         // define weather data obj
-        var weatherData = {};
+        var weatherData = {
+          forecastUrl: forecastUrl
+        };
         if(data.main && data.main.temp) weatherData.temp = data.main.temp;
         if(data.wind) {
           if(data.wind.speed) weatherData.windSpeed = data.wind.speed;
