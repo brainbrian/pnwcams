@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'League Gothic Condensed';
   src: url('../fonts/leaguegothic-condensedregular-webfont.eot');
@@ -15,7 +16,7 @@
 
 h1,
 .h1 {
-  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-family: $font;
   font-size: 4em;
   font-weight: normal;
   text-transform: uppercase;
@@ -23,14 +24,27 @@ h1,
 
 h2 {
   color: $grey;
-  font-family: "League Gothic Condensed", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-family: $font-condensed;
   font-size: 3em;
   font-weight: normal;
 }
 
 h3 {
   color: $dark-blue;
-  font-family: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
+  font-family: $font;
   font-size: 2em;
   font-weight: normal;
+}
+
+.weather-data {
+  color: $grey;
+  font-family: $font;
+  font-size: 1em;
+  font-weight: normal;
+  opacity: .5;
+  text-transform: uppercase;
+
+  @media (min-width: $s-breakpoint) {
+    font-size: 1.4em;
+  }
 }

@@ -2,7 +2,7 @@
   "locations": [{
     "name": "Hurricane Ridge, WA",
     "category": "snow",
-      "latitude": "47.93",
+    "latitude": "47.93",
     "longitude": "-123.41",
     "links": [{
       "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
@@ -17,7 +17,7 @@
   }, {
     "name": "Loup Loup, WA",
     "category": "snow",
-      "latitude": "48.39",
+    "latitude": "48.39",
     "longitude": "-119.91",
     "links": [{
       "url": "http://skitheloup.com/conditions/web-cams/"
@@ -260,18 +260,18 @@
       "url": "http://www.mtbachelor.com/webcams/summitsnowstake.jpg"
     }]
   }, {
-		"name": "Vancouver Island, BC",
-		"category": "surf",
-		"latitude": "49.10",
-		"longitude": "-125.87",
-		"links": [{
-			"url": "http://www.longbeachlodgeresort.com"
-		}],
-		"cameras": [{
-			"name": "Tofino",
-			"url": "http://webcam.longbeachlodgeresort.com/webcam/current.jpg"
-		}]
-	}, {
+    "name": "Vancouver Island, BC",
+    "category": "surf",
+    "latitude": "49.10",
+    "longitude": "-125.87",
+    "links": [{
+      "url": "http://www.longbeachlodgeresort.com"
+    }],
+    "cameras": [{
+      "name": "Tofino",
+      "url": "http://webcam.longbeachlodgeresort.com/webcam/current.jpg"
+    }]
+  }, {
     "name": "Strait of Juan de Fuca, WA",
     "category": "surf",
     "latitude": "48.11",

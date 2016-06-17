@@ -1,0 +1,7 @@
+<ul class="weather-data">
+  {{#if temp}}<li>{{temp}} <small>°f</small></li>{{/if}}
+  {{#if windSpeed}}<li>{{windSpeed}} <small>mph wind</small> {{#if windDirection}}({{windDirection}}){{/if}}</li>{{/if}}
+  {{#if clouds}}<li>{{clouds}}% <small>Clouds</small></li>{{/if}}
+  {{#if rain}}<li>{{rain}}" <small>rain in last 3hrs</small></li>{{/if}}
+  {{#if snow}}<li>{{snow}}" <small>snow in last 3hrs</small></li>{{/if}}
+</ul>

@@ -14,6 +14,7 @@ module.exports = function(grunt) {
       boss: true,
       eqnull: true,
       browser: true,
+      debug: true,
       globals: {
         'alert': true,
         'console': true,

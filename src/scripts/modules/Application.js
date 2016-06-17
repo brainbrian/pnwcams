@@ -1,4 +1,5 @@
-import locationTempalte from 'templates/location.hbs';
+import locationTemplate from 'templates/location.hbs';
+import weatherTemplate from 'templates/weather.hbs';
 import _ from 'underscore';
 
 /**
@@ -12,7 +13,9 @@ const Application = {
    * @type {Object}
    */
   config: {
-    data: null
+    data: null,
+    appId: 'aedd7de81c14d670e877d39ead4ed7b4',
+    weatherApi: 'http://api.openweathermap.org/data/2.5/weather'
   },
 
   /**
@@ -27,6 +30,7 @@ const Application = {
   init: function() {
     this.ui = {
       locations: $('#locations'),
+      location: null,
       navBtns: $('.header__nav-btn'),
       cameras: null
     };
@@ -72,18 +76,20 @@ const Application = {
     var locationHtml;
     this.ui.navBtns.removeClass('header__nav-btn--active');
     if(category === 'surf') {
-      locationHtml = locationTempalte({'locations': _.where(data.locations, {category: "surf"})});
+      locationHtml = locationTemplate({'locations': _.where(data.locations, {category: "surf"})});
       $('.header__nav-btn[data-cat="surf"]').addClass('header__nav-btn--active');
     } else {
       // default to snow
-      locationHtml = locationTempalte({'locations': _.where(data.locations, {category: "snow"})});
+      locationHtml = locationTemplate({'locations': _.where(data.locations, {category: "snow"})});
       $('.header__nav-btn[data-cat="snow"]').addClass('header__nav-btn--active');
     }
     this._destroyCarousels();
     this.ui.locations.html('');
     this.ui.locations.html(locationHtml);
+    this.ui.location = this.ui.locations.find('.location');
     this.ui.cameras = this.ui.locations.find('.cameras');
     this._randomImgLoad();
+    this._buildWeather();
     this._buildCarousels();
     document.body.scrollTop = 0;
   },
@@ -100,6 +106,47 @@ const Application = {
           imgUrl += "random=" + Math.round(Math.random() * 100000000);
           $image.attr('data-src', imgUrl);
       }.bind(this));
+  },
+
+  /**
+   * Build weather data for each location
+   */
+  _buildWeather: function() {
+    this.ui.location.each(function(index) {
+      var $location = $(this.ui.location[index]);
+      var latitude = String($location.data('latitude'));
+      var longitude = String($location.data('longitude'));
+      var requestData = {
+        units: 'imperial',
+        lat: latitude,
+        lon: longitude,
+        appid: this.config.appId
+      };
+      var addWeatherData = function(data) {
+        var $titleCard = $(this.ui.location[index]).find('.title-card');
+        // define weather data obj
+        var weatherData = {};
+        if(data.main && data.main.temp) weatherData.temp = data.main.temp;
+        if(data.wind) {
+          if(data.wind.speed) weatherData.windSpeed = data.wind.speed;
+          if(data.wind.degree) weatherData.windDirection = data.wind.degree;
+        }
+        if(data.clouds && data.clouds.all) weatherData.clouds = data.clouds.all;
+        if(data.rain && data.rain['3h']) weatherData.rain = data.rain['3h'];
+        if(data.snow && data.snow['3h']) weatherData.snow = data.snow['3h'];
+        // build and add html
+        var weatherHtml = weatherTemplate(weatherData);
+        $titleCard.append(weatherHtml);
+      };
+      $.ajax({
+        cache: true,
+        context: this,
+        data: requestData,
+        dataType: "json",
+        url: this.config.weatherApi,
+        success: addWeatherData
+      });
+    }.bind(this));
   },
 
   /**

@@ -1,15 +1,15 @@
 body,
 html {
-  color: $white;
   background: $grey;
+  color: $white;
 }
 
 .page-container {
-  max-width: $xl-breakpoint;
-  position: relative;
-  margin: 0 auto;
   box-shadow: 0 0 3px $black;
+  margin: 0 auto;
+  max-width: $xl-breakpoint;
   padding-top: 3em;
+  position: relative;
 }
 
 .title {
@@ -22,10 +22,10 @@ html {
 }
 
 .section-card {
-  height: 200px;
-  text-align: center;
-  position: relative;
   background-color: $dark-blue;
+  height: 200px;
+  position: relative;
+  text-align: center;
 
   .title {
     color: $white;
@@ -40,6 +40,16 @@ html {
       }
     }
   }
+
+  &--footer {
+    height: 100px;
+
+    .title {
+      font-family: $font;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .location {
@@ -47,16 +57,35 @@ html {
 }
 
 .title-card {
-  height: 200px;
-  text-align: center;
-  position: relative;
   background-color: $light-blue;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+
+.weather-data {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  transform: translateY(-50%);
+  width: 100%;
+
+  li {
+    display: inline-block;
+    padding: 0 10px;
+
+    small {
+      opacity: .5;
+    }
+  }
 }
 
 .cameras {
+  background: $black;
   height: 300px;
   position: relative;
-  background: $black;
 }
 
 .camera {
@@ -64,17 +93,16 @@ html {
   position: relative;
 
   .image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background-size: cover;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-
-      opacity: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 
   .title {
@@ -91,6 +119,10 @@ html {
 @media (min-width: $s-breakpoint) {
   .section-card {
     height: 300px;
+
+    &--footer {
+      height: 150px;
+    }
   }
 
   .title-card {
