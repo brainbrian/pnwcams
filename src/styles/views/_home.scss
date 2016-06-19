@@ -5,7 +5,6 @@ html {
 }
 
 .page-container {
-  box-shadow: 0 0 3px $black;
   margin: 0 auto;
   max-width: $xl-breakpoint;
   padding-top: 3em;
@@ -46,7 +45,7 @@ html {
 
     .title {
       font-family: $font;
-      font-size: 1.5em;
+      font-size: 1.2em;
       text-transform: uppercase;
     }
   }
@@ -135,6 +134,10 @@ html {
 
     &--footer {
       height: 150px;
+
+      .title {
+        font-size: 1.5em;
+      }
     }
   }
 
