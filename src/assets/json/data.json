@@ -274,8 +274,8 @@
   }, {
     "name": "Strait of Juan de Fuca, WA",
     "category": "surf",
-    "latitude": "48.11",
-    "longitude": "-123.48",
+    "latitude": "48.18",
+    "longitude": "-124.02",
     "links": [{
       "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
     }, {
@@ -296,8 +296,8 @@
   }, {
     "name": "La Push, WA",
     "category": "surf",
-    "latitude": "47.91",
-    "longitude": "-124.64",
+    "latitude": "47.90",
+    "longitude": "-124.63",
     "links": [{
       "url": "http://forkswa.com/first-beach-webcam/"
     }, {
@@ -322,7 +322,7 @@
     "name": "Ocean Shores, WA",
     "category": "surf",
     "latitude": "46.93",
-    "longitude": "-124.17",
+    "longitude": "-124.18",
     "links": [{
       "url": ""
     }],
@@ -334,17 +334,17 @@
     "name": "Westport, WA",
     "category": "surf",
     "latitude": "46.90",
-    "longitude": "-124.13",
+    "longitude": "-124.14",
     "links": [{
       "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
     }, {
       "url": "http://www.rainbowsendcam.com/webcam32.htm"
     }],
     "cameras": [{
-      "name": "Groins - Left",
+      "name": "The Groins - Left",
       "url": "http://www.westportcam.com/images/position3.jpg"
     }, {
-      "name": "Groins - Right",
+      "name": "The Groins - Right",
       "url": "http://www.westportcam.com/images/position4.jpg"
     }, {
       "name": "Jetty",
@@ -362,8 +362,8 @@
   }, {
     "name": "Long Beach Peninsula, WA",
     "category": "surf",
-    "latitude": "46.28",
-    "longitude": "-124.05",
+    "latitude": "46.31",
+    "longitude": "-124.07",
     "links": [{
       "url": "http://cil-www.oce.orst.edu/batman.html"
     }, {
@@ -412,8 +412,8 @@
   }, {
     "name": "Cannon Beach, OR",
     "category": "surf",
-    "latitude": "45.88",
-    "longitude": "-123.97",
+    "latitude": "45.72",
+    "longitude": "-123.95",
     "links": [{
       "url": "http://www.webbsscenicsurf.com/home.html"
     }, {
@@ -433,7 +433,7 @@
     "name": "Manzanita, OR",
     "category": "surf",
     "latitude": "45.72",
-    "longitude": "-123.94",
+    "longitude": "-123.95",
     "links": [{
       "url": "http://www.summitatsnoqualmie.com/conditions"
     }],
@@ -443,7 +443,7 @@
   }, {
     "name": "Oceanside, OR",
     "category": "surf",
-    "latitude": "45.46",
+    "latitude": "45.45",
     "longitude": "-123.97",
     "links": [{
       "url": "http://www.summitatsnoqualmie.com/conditions"
@@ -456,7 +456,7 @@
     "name": "Pacific City, OR",
     "category": "surf",
     "latitude": "45.22",
-    "longitude": "-123.97",
+    "longitude": "-123.98",
     "links": [{
       "url": "http://www.yourlittlebeachtown.com/"
     }],
@@ -495,7 +495,7 @@
     "name": "Port Orford, OR",
     "category": "surf",
     "latitude": "42.74",
-    "longitude": "-124.50",
+    "longitude": "-124.49",
     "links": [{
       "url": "http://castawaybythesea.com/port-webcam/"
     }],
