@@ -319,18 +319,6 @@
       "url": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
     }]
   }, {
-    "name": "Ocean Shores, WA",
-    "category": "surf",
-    "latitude": "46.93",
-    "longitude": "-124.18",
-    "links": [{
-      "url": ""
-    }],
-    "cameras": [{
-      "name": "Grays Harbor",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/GraysH.jpg"
-    }]
-  }, {
     "name": "Westport, WA",
     "category": "surf",
     "latitude": "46.90",
@@ -376,11 +364,11 @@
       "url": "http://breakerslongbeach.com/clarks-tree-ocean-web-cam/"
     }],
     "cameras": [{
-      "name": "Benson Beach - Left",
-      "url": "https://www.planetargus.com/north_head/most_recent/c6/snap.jpg"
+      "name": "Klipsan Beach",
+      "url": "http://cam.aaapacreal.com/clamcam.jpg"
     }, {
-      "name": "Benson Beach - Right",
-      "url": "https://www.planetargus.com/north_head/most_recent/c5/snap.jpg"
+      "name": "The Breakers",
+      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
     }, {
       "name": "Columbia River - Left",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
@@ -388,14 +376,14 @@
       "name": "Columbia River - Right",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
     }, {
-      "name": "The Breakers",
-      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
-    }, {
-      "name": "Klipsan Beach",
-      "url": "http://cam.aaapacreal.com/clamcam.jpg"
-    }, {
       "name": "Adrift Hotel",
       "url": "http://pickledfish.dynalias.com/nph-jpeg.cgi"
+    }, {
+      "name": "Benson Beach - Left",
+      "url": "http://www.planetargus.com/north_head/most_recent/c6/snap.jpg"
+    }, {
+      "name": "Benson Beach - Right",
+      "url": "http://www.planetargus.com/north_head/most_recent/c5/snap.jpg"
     }]
   }, {
     "name": "Seaside, OR",
@@ -485,11 +473,11 @@
       "url": "http://cil-www.oce.orst.edu/agate.html"
     }],
     "cameras": [{
-      "name": "Yaquina Head",
-      "url": "http://cil-www.oce.orst.edu/yhead/latest.c3.snap.jpg"
-    }, {
       "name": "Agate Beach",
       "url": "http://cil-www.oce.orst.edu/yhead/latest.c0.snap.jpg"
+    }, {
+      "name": "Yaquina Head",
+      "url": "http://cil-www.oce.orst.edu/yhead/latest.c3.snap.jpg"
     }]
   }, {
     "name": "Port Orford, OR",
