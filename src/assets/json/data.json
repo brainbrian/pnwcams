@@ -69,16 +69,7 @@
     }],
     "cameras": [{
       "name": "Microwave",
-      "url": "http://missionridge.com/webcam/outdoorcam000.jpg"
-    }, {
-      "name": "Chair 2",
-      "url": "http://missionridge.com/webcam/Tmissioncam4000.jpg"
-    }, {
-      "name": "Midway",
-      "url": "http://missionridge.com/webcam/Tmissioncam2.jpg"
-    }, {
-      "name": "Sunspot",
-      "url": "http://missionridge.com/webcam/Tmissioncam000.jpg"
+      "url": "https://www.missionridge.com/webcam/microwave-cam.jpg"
     }]
   }, {
     "name": "Snoqualmie Pass, WA",
