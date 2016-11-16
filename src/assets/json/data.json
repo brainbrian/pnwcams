@@ -110,17 +110,23 @@
       "url": "http://crystalmountainresort.com/the-mountain/webcams/"
     }],
     "cameras": [{
-      "name": "Mt. Rainier Gondola",
-      "url": "http://wwc.instacam.com/instacamimg/CRYMB/CRYMB_l.jpg"
+      "name": "Mt. Rainier Gondola (6,856 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYMB/CRYMB_l.jpg"
     }, {
-      "name": "Rainier Express",
-      "url": "http://wwc.instacam.com/instacamimg/CRYM4/CRYM4_l.jpg"
+      "name": "Rainier Express (5,270 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM5/CRYM5_l.jpg"
     }, {
-      "name": "Chair 6",
-      "url": "http://wwc.instacam.com/instacamimg/CRYM2/CRYM2_s.jpg"
+      "name": "Chair 6 Top (6,992 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM3/CRYM3_l.jpg"
     }, {
-      "name": "Gold Hills",
-      "url": "http://crystalmountainresort.com/webcam/goldhillscam.jpg"
+      "name": "Chair 6 Bottom (6,080 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM2/CRYM2_l.jpg"
+    }, {
+      "name": "Gold Hills (5,044 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM4/CRYM4_l.jpg"
+    }, {
+      "name": "Base Area (4,440 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM6/CRYM6_l.jpg"
     }]
   }, {
     "name": "Mt. Rainier, WA",
