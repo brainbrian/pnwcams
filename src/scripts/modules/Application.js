@@ -146,7 +146,7 @@ const Application = {
         appid: this.config.appId
       };
       var addWeatherData = function(data) {
-        var $titleCard = $(this.ui.location[index]).find('.title-card');
+        var $titleCard = $(this.ui.location[index]).find('.title-card__vertical-align');
         var forecastUrl = 'http://forecast.weather.gov/MapClick.php?lat=' + latitude + '&lon=' + longitude;
         // define weather data obj
         var weatherData = {

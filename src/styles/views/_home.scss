@@ -11,55 +11,22 @@ html {
   position: relative;
 }
 
-.title {
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-}
-
-.section-card {
-  background-color: $dark-blue;
-  height: 200px;
-  position: relative;
-  text-align: center;
-
-  .title {
-    color: $white;
-
-    a {
-      color: $light-blue;
-      text-decoration: none;
-
-      &:hover,
-      &:focus {
-        color: $grey;
-      }
-    }
-  }
-
-  &--footer {
-    height: 100px;
-
-    .title {
-      font-family: $font;
-      font-size: 1.2em;
-      text-transform: uppercase;
-    }
-  }
-}
-
 .location {
   position: relative;
 }
 
 .title-card {
   background-color: $light-blue;
-  height: 100px;
+  display: table;
+  height: 170px;
   position: relative;
   text-align: center;
+  width: 100%;
+
+  &__vertical-align {
+      display: table-cell;
+      vertical-align: middle;
+  }
 
   &--links {
       border-bottom: solid 1px $light-grey;
@@ -68,9 +35,6 @@ html {
       ul {
         margin: 0;
         padding: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         width: 100%;
       }
 
@@ -84,13 +48,9 @@ html {
 .weather-data {
   display: block;
   opacity: .5;
-  position: absolute;
   text-align: center;
   text-decoration: none;
-  top: 75%;
-  transform: translateY(-50%);
   transition: opacity 200ms ease-in-out;
-  width: 100%;
 
   &:hover,
   &:focus {
@@ -113,40 +73,6 @@ html {
   }
 }
 
-.cameras {
-  background: $black;
-  height: 300px;
-  position: relative;
-}
-
-.camera {
-  height: 100%;
-  position: relative;
-
-  .image {
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
-  .title {
-    z-index: 3;
-
-    span {
-      background: $light-blue;
-      background: rgba(209, 237, 255, .5);
-      padding: 5px 10px 3px;
-    }
-  }
-}
-
 @media (min-width: $s-breakpoint) {
   .section-card {
     height: 300px;
@@ -161,7 +87,7 @@ html {
   }
 
   .title-card {
-    height: 300px;
+    height: 250px;
 
     &--links {
       height: 4em;

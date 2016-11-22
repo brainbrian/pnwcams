@@ -1,14 +1,16 @@
 {{#each locations}}
 <div class="location" data-latitude="{{latitude}}" data-longitude="{{longitude}}">
   <div class="title-card">
-    <h2 class="title">{{name}}</h2>
+      <div class="title-card__vertical-align">
+          <h2 class="title-card__title">{{name}}</h2>
+      </div>
   </div>
   <div class="cameras owl-carousel owl-theme">
     {{#each cameras}}
       <div class="camera">
-        <div class="image owl-lazy" data-src="{{url}}"></div>
+        <div class="camera__image owl-lazy" data-src="{{url}}"></div>
         {{#if name}}
-          <h3 class="title">
+          <h3 class="camera__title">
             <span>{{name}}</span>
           </h3>
         {{/if}}

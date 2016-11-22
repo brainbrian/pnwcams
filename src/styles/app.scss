@@ -13,7 +13,15 @@
 //
 // Style guide: chrome
 @import 'chrome/header';
+@import 'chrome/footer';
 @import 'chrome/typography';
+
+// Modules
+//
+// Styles that relate to a specific modules.
+//
+// Style guide: modules
+@import 'modules/camera';
 
 // Views
 //
