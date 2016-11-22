@@ -1,3 +1,4 @@
+import linksTemplate from 'templates/links.hbs';
 import locationTemplate from 'templates/location.hbs';
 import weatherTemplate from 'templates/weather.hbs';
 import _ from 'underscore';
@@ -29,6 +30,7 @@ const Application = {
    */
   init: function() {
     this.ui = {
+      links: $('#links'),
       locations: $('#locations'),
       location: null,
       navBtns: $('.header__nav-btn'),
@@ -50,7 +52,8 @@ const Application = {
         if(hash === 'snow' || hash === 'surf') cat = hash;
         this.config.data = data;
         this._bindEvents();
-        this._buildLocations(this.config.data, cat);
+        if(this.config.data.links) this._buildLinks(this.config.data.links, cat);
+        if(this.config.data.locations) this._buildLocations(this.config.data.locations, cat);
       }.bind(this)
     });
   },
@@ -62,9 +65,29 @@ const Application = {
     this.ui.navBtns.on('click', function(e) {
       var target = e.target,
         $parent = $(target).parent(),
-        category = $parent.data('cat');
-      if(this.config.category !== category) this._buildLocations(this.config.data, category);
+        cat = $parent.data('cat');
+      if(this.config.category !== cat) {
+          this._buildLinks(this.config.data.links, cat);
+          this._buildLocations(this.config.data.locations, cat);
+      }
     }.bind(this));
+  },
+
+  /**
+   * Build links based on data
+   * @param  {[type]} data     Link data
+   * @param  {[type]} category Link category
+   */
+  _buildLinks: function(data, category) {
+    var linksHtml;
+    if(category === 'surf') {
+      linksHtml = linksTemplate({'links': _.where(data, {category: "surf"})});
+    } else {
+      // default to snow
+      linksHtml = linksTemplate({'links': _.where(data, {category: "snow"})});
+    }
+    this.ui.links.html('');
+    this.ui.links.html(linksHtml);
   },
 
   /**
@@ -76,11 +99,11 @@ const Application = {
     var locationHtml;
     this.ui.navBtns.removeClass('header__nav-btn--active');
     if(category === 'surf') {
-      locationHtml = locationTemplate({'locations': _.where(data.locations, {category: "surf"})});
+      locationHtml = locationTemplate({'locations': _.where(data, {category: "surf"})});
       $('.header__nav-btn[data-cat="surf"]').addClass('header__nav-btn--active');
     } else {
       // default to snow
-      locationHtml = locationTemplate({'locations': _.where(data.locations, {category: "snow"})});
+      locationHtml = locationTemplate({'locations': _.where(data, {category: "snow"})});
       $('.header__nav-btn[data-cat="snow"]').addClass('header__nav-btn--active');
     }
     this._destroyCarousels();

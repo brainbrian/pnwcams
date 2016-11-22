@@ -57,9 +57,28 @@ html {
 
 .title-card {
   background-color: $light-blue;
-  height: 200px;
+  height: 100px;
   position: relative;
   text-align: center;
+
+  &--links {
+      border-bottom: solid 1px $light-grey;
+      height: 3em;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+
+      li {
+        display: inline-block;
+        margin: 0 .5em;
+      }
+  }
 }
 
 .weather-data {
@@ -143,6 +162,23 @@ html {
 
   .title-card {
     height: 300px;
+
+    &--links {
+      height: 4em;
+
+      li {
+        margin: 0 .8em;
+      }
+
+      a {
+        transition: color 200ms ease-in-out;
+
+        &:hover,
+        &:focus {
+          color: $dark-grey;
+        }
+      }
+    }
   }
 
   .cameras {

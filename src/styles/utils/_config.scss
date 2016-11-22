@@ -2,8 +2,11 @@
 $white: #fff;
 $black: #000;
 $grey: #687680;
-$dark-blue: #426780;
-$light-blue: #d1edff;
+$dark-grey: darken($grey, 10%);
+$light-grey: lighten($grey, 30%);
+$blue: #518db6;
+$dark-blue: darken($blue, 20%);
+$light-blue: lighten($blue, 30%);
 
 // Breakpoints
 $s-breakpoint: 540px;

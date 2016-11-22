@@ -1,10 +1,17 @@
 .header {
   @include accelerate;
   @include clearfix;
-  border-bottom: 1px solid $grey;
   position: fixed;
   width: 100%;
   z-index: 10;
+
+  &:after {
+    border-bottom: 1px solid $grey;
+    bottom: -1px;
+    opacity: .4;
+    position: absolute;
+    width: 100%;
+  }
 
   &__nav {
     height: 3em;

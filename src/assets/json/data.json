@@ -1,4 +1,41 @@
 {
+  "links": [{
+    "name": "NWAC",
+    "category": "snow",
+    "url": "https://www.nwac.us"
+  }, {
+    "name": "Pass Reports",
+    "category": "snow",
+    "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
+  }, {
+    "name": "POTW",
+    "category": "snow",
+    "url": "http://thepeakoftheweek.com"
+  }, {
+    "name": "TAY",
+    "category": "snow",
+    "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
+  }, {
+    "name": "MSW CA",
+    "category": "surf",
+    "url": "http://magicseaweed.com/Canada-West-Surf-Forecast/50/"
+  }, {
+    "name": "MSW WA",
+    "category": "surf",
+    "url": "http://magicseaweed.com/Washington-Surf-Forecast/14/"
+  }, {
+    "name": "MSW OR",
+    "category": "surf",
+    "url": "http://magicseaweed.com/Oregon-Surf-Forecast/15/"
+  }, {
+    "name": "Surf WA",
+    "category": "surf",
+    "url": "http://www.surfwater.org"
+  }, {
+    "name": "Surfrider",
+    "category": "surf",
+    "url": "http://www.surfrider.org"
+  }],
   "locations": [{
     "name": "Hurricane Ridge, WA",
     "category": "snow",
@@ -70,6 +107,12 @@
     "cameras": [{
       "name": "Microwave",
       "url": "https://www.missionridge.com/webcam/microwave-cam.jpg"
+    }, {
+      "name": "Midway",
+      "url": "https://www.missionridge.com/webcam/Tmissioncam2.jpg"
+    }, {
+      "name": "WSDOT Blewett Pass",
+      "url": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
     }]
   }, {
     "name": "Snoqualmie Pass, WA",
@@ -95,8 +138,11 @@
       "name": "Summit Central",
       "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
     }, {
-      "name": "WSDOT Snoqualmie",
+      "name": "WSDOT Snoqualmie Summit",
       "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
+    }, {
+      "name": "WSDOT East Snoqualmie Summit",
+      "url": "http://images.wsdot.wa.gov/sc/090VC05347.jpg"
     }, {
       "name": "WSDOT Hyak",
       "url": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"

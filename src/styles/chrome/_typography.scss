@@ -36,12 +36,14 @@ h3 {
   font-weight: normal;
 }
 
+.link,
 .weather-data {
   color: $grey;
   font-family: $font;
   font-size: 1em;
   font-weight: normal;
   text-transform: uppercase;
+  text-decoration: none;
 
   @media (min-width: $s-breakpoint) {
     font-size: 1.4em;
