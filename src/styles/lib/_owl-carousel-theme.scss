@@ -51,7 +51,7 @@
         width: 18px;
         height: 18px;
         margin: 5px 7px;
-        background: $light-blue;
+        background: $blue-light;
         display: block;
         -webkit-backface-visibility: visible;
         transition: opacity 200ms ease;
@@ -61,7 +61,7 @@
       &.active span,
       &:hover span,
       &:focus span {
-        background: $dark-blue;
+        background: $blue-dark;
       }
     }
   }

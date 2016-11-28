@@ -33,7 +33,7 @@
   }
 
   &__nav-btn {
-    background-color: $dark-blue;
+    background-color: $blue-dark;
     color: $white;
     display: block;
     height: 100%;
@@ -44,7 +44,7 @@
     &:hover,
     &:focus,
     &--active {
-      background-color: $light-blue;
+      background-color: $blue-light;
       color: $grey;
     }
 

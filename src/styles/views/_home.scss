@@ -16,7 +16,7 @@ html {
 }
 
 .title-card {
-  background-color: $light-blue;
+  background-color: $blue-light;
   display: table;
   height: 170px;
   position: relative;
@@ -29,7 +29,7 @@ html {
   }
 
   &--links {
-      border-bottom: solid 1px $light-grey;
+      border-bottom: solid 1px $grey-light;
       height: 3em;
 
       ul {
@@ -101,7 +101,7 @@ html {
 
         &:hover,
         &:focus {
-          color: $dark-grey;
+          color: $grey-dark;
         }
       }
     }
