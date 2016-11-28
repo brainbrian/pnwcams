@@ -28,6 +28,13 @@ html {
       vertical-align: middle;
   }
 
+  &__title {
+    a {
+        color: $grey-dark;
+        text-decoration: none;
+    }
+  }
+
   &--links {
       border-bottom: solid 1px $grey-light;
       height: 3em;

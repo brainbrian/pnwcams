@@ -2,7 +2,11 @@
 <div class="location" data-latitude="{{latitude}}" data-longitude="{{longitude}}">
   <div class="title-card">
       <div class="title-card__vertical-align">
-          <h2 class="title-card__title">{{name}}</h2>
+          {{#if link}}
+            <h2 class="title-card__title"><a href="{{link}}" target="_blank" rel="noopener noreferrer">{{name}}</a></h2>
+          {{else}}
+              <h2 class="title-card__title">{{name}}</h2>
+          {{/if}}
       </div>
   </div>
   <div class="cameras owl-carousel owl-theme">
