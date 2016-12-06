@@ -190,9 +190,6 @@
       "url": "https://www.nps.gov/mora/photosmultimedia/webcams.htm"
     }],
     "cameras": [{
-      "name": "Camp Muir",
-      "url": "https://www.nps.gov/webcams-mora/muir.jpg"
-    }, {
       "name": "Paradise - Mountain",
       "url": "https://www.nps.gov/webcams-mora/mountain.jpg"
     }, {
@@ -213,6 +210,9 @@
     }, {
       "name": "Longmire",
       "url": "https://www.nps.gov/webcams-mora/longmire.jpg"
+    }, {
+      "name": "Camp Muir",
+      "url": "https://www.nps.gov/webcams-mora/muir.jpg"
     }]
   }, {
     "name": "White Pass, WA",
@@ -328,6 +328,7 @@
     "category": "surf",
     "latitude": "48.18",
     "longitude": "-124.02",
+    "link": "http://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
     "links": [{
       "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
     }, {
@@ -350,6 +351,7 @@
     "category": "surf",
     "latitude": "47.90",
     "longitude": "-124.63",
+    "link": "http://magicseaweed.com/La-Push-Surf-Report/308/",
     "links": [{
       "url": "http://forkswa.com/first-beach-webcam/"
     }, {
@@ -375,6 +377,7 @@
     "category": "surf",
     "latitude": "46.90",
     "longitude": "-124.14",
+    "link": "http://magicseaweed.com/Westport-Surf-Report/310/",
     "links": [{
       "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
     }, {
@@ -404,6 +407,7 @@
     "category": "surf",
     "latitude": "46.31",
     "longitude": "-124.07",
+    "link": "http://magicseaweed.com/Long-Beach-Surf-Report/311/",
     "links": [{
       "url": "http://cil-www.oce.orst.edu/batman.html"
     }, {
@@ -454,6 +458,7 @@
     "category": "surf",
     "latitude": "45.72",
     "longitude": "-123.95",
+    "link": "http://magicseaweed.com/Cannon-Beach-Surf-Report/313/",
     "links": [{
       "url": "http://www.webbsscenicsurf.com/home.html"
     }, {
@@ -474,19 +479,37 @@
     "category": "surf",
     "latitude": "45.72",
     "longitude": "-123.95",
+    "link": "http://www.surfline.com/surf-report/manzanita-pacific-northwest_142795/",
     "links": [{
-      "url": "http://www.summitatsnoqualmie.com/conditions"
+      "url": "http://www.oceaninnatmanzanita.com/oregon-coast-webcam/"
+    }, {
+      "url": "http://theoregoncoast.info/Webcams.html"
     }],
     "cameras": [{
+      "url": "http://97.90.56.254/jpeg.cgi"
+    }, {
       "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
+    }]
+  }, {
+    "name": "Tillamook, OR",
+    "category": "surf",
+    "latitude": "45.52",
+    "longitude": "-123.92",
+    "links": [{
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+    }],
+    "cameras": [{
+      "name": "Tillamook Bay",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
     }]
   }, {
     "name": "Oceanside, OR",
     "category": "surf",
     "latitude": "45.45",
     "longitude": "-123.97",
+    "link": "http://www.surfline.com/surf-report/oceanside-or-pacific-northwest_47668/",
     "links": [{
-      "url": "http://www.summitatsnoqualmie.com/conditions"
+      "url": "http://www.oceansideoregon.com/surf_cam.asp"
     }],
     "cameras": [{
       "name": "The Three Arch Rocks",
@@ -497,18 +520,28 @@
     "category": "surf",
     "latitude": "45.22",
     "longitude": "-123.98",
+    "link": "http://magicseaweed.com/Cape-Kiwanda-Surf-Report/560/",
     "links": [{
       "url": "http://www.yourlittlebeachtown.com/"
+    }, {
+      "url": "http://www.kgw.com/weather/live-cameras/pacific-city"
     }],
     "cameras": [{
       "name": "Cape Kiwanda",
+      "url": "http://cdn.tegna-media.com/kgw/weather/pacific-city.jpg"
+    }, {
+      "name": "Cape Kiwanda",
       "url": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
+    }, {
+      "name": "Cape Kiwanda",
+      "url": "http://camera.innatcapekiwanda.com:81/jpg/1/image.jpg"
     }]
   }, {
     "name": "Lincoln City, OR",
     "category": "surf",
     "latitude": "44.97",
     "longitude": "-124.04",
+    "link": "http://magicseaweed.com/Lincoln-City-Surf-Report/316/",
     "links": [{
       "url": "http://www.lcsurfshop.com/webcam.htm"
     }],
@@ -517,12 +550,27 @@
       "url": "http://www.lcsurfshop.com/webcam32.jpg"
     }]
   }, {
+    "name": "Depoe Bay, OR",
+    "category": "surf",
+    "latitude": "44.81",
+    "longitude": "-124.06",
+    "links": [{
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+    }],
+    "cameras": [{
+      "name": "Depoe Bay",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/DepoeB.jpg"
+    }]
+  }, {
     "name": "Newport, OR",
     "category": "surf",
     "latitude": "44.68",
     "longitude": "-124.08",
+    "link": "http://magicseaweed.com/Newport-Surf-Report/318/",
     "links": [{
       "url": "http://cil-www.oce.orst.edu/agate.html"
+    }, {
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
     }],
     "cameras": [{
       "name": "Agate Beach",
@@ -530,18 +578,66 @@
     }, {
       "name": "Yaquina Head",
       "url": "http://cil-www.oce.orst.edu/yhead/latest.c3.snap.jpg"
+    }, {
+      "name": "Yaquina Bay",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Yaquin.jpg"
     }]
   }, {
-    "name": "Port Orford, OR",
+    "name": "Florence, OR",
     "category": "surf",
-    "latitude": "42.74",
-    "longitude": "-124.49",
+    "latitude": "44.02",
+    "longitude": "-124.14",
+    "link": "http://magicseaweed.com/Florence-Surf-Report/696/",
     "links": [{
-      "url": "http://castawaybythesea.com/port-webcam/"
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
     }],
     "cameras": [{
-      "name": "Dock Beach",
-      "url": "http://www.gnifrus.com/netcam/netcam.jpg"
+      "name": "Siuslaw River",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Siusla.jpg"
+    }]
+  }, {
+    "name": "Winchester Bay, OR",
+    "category": "surf",
+    "latitude": "43.67",
+    "longitude": "-124.21",
+    "link": "http://magicseaweed.com/Winchester-Bay-Surf-Report/319/",
+    "links": [{
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+    }],
+    "cameras": [{
+      "name": "Umpqua River",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Umpqua.jpg"
+    }]
+  }, {
+    "name": "Coos Bay, OR",
+    "category": "surf",
+    "latitude": "43.36",
+    "longitude": "-124.34",
+    "link": "http://magicseaweed.com/Coos-Bay-Surf-Report/320/",
+    "links": [{
+      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+    }],
+    "cameras": [{
+      "name": "Coos Bay",
+      "url": "http://www.wrh.noaa.gov/images/mfr/camera/CoosBa.jpg"
+    }]
+  }, {
+    "name": "Bandon, OR",
+    "category": "surf",
+    "latitude": "43.12",
+    "longitude": "-124.43",
+    "links": [{
+      "url": "http://www.oregonsurf.com/pages/cams.html"
+    }, {
+      "url": "http://www.oregontravels.com/bandon/cam01_bandon.html"
+    }, {
+      "url": "http://www.bandonhomes.com"
+    }, {
+      "url": "http://www.rwre.com/webcam/"
+    }],
+    "cameras": [{
+      "name": "Jetty",
+      "url": "http://www.rwre.com/webcam/current_photo.jpg"
     }]
   }]
 }
