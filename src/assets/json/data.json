@@ -384,22 +384,22 @@
       "url": "http://www.rainbowsendcam.com/webcam32.htm"
     }],
     "cameras": [{
-      "name": "The Groins - Left",
+      "name": "Groins",
       "url": "http://www.westportcam.com/images/position3.jpg"
     }, {
-      "name": "The Groins - Right",
+      "name": "Groins",
       "url": "http://www.westportcam.com/images/position4.jpg"
     }, {
       "name": "Jetty",
       "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
     }, {
-      "name": "Half Moon Bay - Left",
+      "name": "Half Moon Bay",
       "url": "http://www.westportcam.com/images/position1.jpg"
     }, {
-      "name": "Half Moon Bay - Right",
+      "name": "Half Moon Bay",
       "url": "http://www.westportcam.com/images/position2.jpg"
     }, {
-      "name": "The Marina & Westhaven Drive",
+      "name": "Marina",
       "url": "http://www.westportcam.com/images/position0.jpg"
     }]
   }, {
@@ -532,9 +532,6 @@
     }, {
       "name": "Cape Kiwanda",
       "url": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
-    }, {
-      "name": "Cape Kiwanda",
-      "url": "http://camera.innatcapekiwanda.com:81/jpg/1/image.jpg"
     }]
   }, {
     "name": "Lincoln City, OR",
