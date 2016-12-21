@@ -73,9 +73,9 @@
     "category": "snow",
     "latitude": "47.74",
     "longitude": "-121.10",
-    "link": "",
+    "link": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/",
     "links": [{
-      "url": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/"
+      "url": "https://www.stevenspass.com/site/mountain/cams"
     }],
     "cameras": [{
       "name": "Base",
