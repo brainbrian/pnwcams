@@ -75,7 +75,7 @@
     "longitude": "-121.10",
     "link": "",
     "links": [{
-      "url": "https://www.stevenspass.com/site/mountain/cams"
+      "url": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/"
     }],
     "cameras": [{
       "name": "Base",
@@ -123,7 +123,7 @@
     "category": "snow",
     "latitude": "47.41",
     "longitude": "-121.41",
-    "link": "http://www.summitatsnoqualmie.com/",
+    "link": "http://www.summitatsnoqualmie.com/conditions",
     "links": [{
       "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
     }],
@@ -157,7 +157,7 @@
     "category": "snow",
     "latitude": "46.92",
     "longitude": "-121.51",
-    "link": "https://crystalmountainresort.com",
+    "link": "https://crystalmountainresort.com/the-mountain/current-conditions",
     "links": [{
       "url": "https://crystalmountainresort.com/the-mountain/webcams/"
     }],
