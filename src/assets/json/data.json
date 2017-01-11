@@ -100,6 +100,25 @@
       "url": "https://www.stevenspass.com/cams/lower-mill-creek/"
     }]
   }, {
+    "name": "Leavenworth, WA",
+    "category": "snow",
+    "latitude": "47.48",
+    "longitude": "-120.82",
+    "link": "http://www.wta.org/go-hiking/hikes/enchantment-lakes",
+    "links": [{
+      "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+    }],
+    "cameras": [{
+      "name": "Icicle Chalet",
+      "url": "http://www.iciclechalet.com/cam/icview.jpg"
+    }, {
+      "name": "Mtn. Home Lodge",
+      "url": "http://www.redmondrents.com/kebcam.jpg"
+    }, {
+      "name": "Downtown",
+      "url": "http://inleavenworth.com/frontstreet.jpg"
+    }]
+  }, {
     "name": "Mission Ridge, WA",
     "category": "snow",
     "latitude": "47.29",
@@ -142,6 +161,9 @@
     }, {
       "name": "Summit Central",
       "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
+    }, {
+      "name": "Hyak",
+      "url": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
     }, {
       "name": "WSDOT Snoqualmie Summit",
       "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
@@ -238,6 +260,19 @@
     }, {
       "name": "WSDOT Summit East",
       "url": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
+    }]
+  }, {
+    "name": "Mount St. Helens",
+    "category": "snow",
+    "latitude": "46.19",
+    "longitude": "-122.19",
+    "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
+    "links": [{
+      "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+    }],
+    "cameras": [{
+      "name": "Johnston Ridge",
+      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
     }]
   }, {
     "name": "Mt. Hood Meadows, OR",
@@ -453,6 +488,9 @@
     "cameras": [{
       "name": "The Cove",
       "url": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
+    }, {
+      "name": "Aquaruim",
+      "url": "http://207.224.31.229/-wvhttp-01-/image.cgi?v=jpg:640x480"
     }]
   }, {
     "name": "Cannon Beach, OR",
