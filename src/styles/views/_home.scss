@@ -78,6 +78,12 @@ html {
       }
     }
   }
+
+  p {
+    margin: 5px 0;
+    opacity: .7;
+    text-transform: capitalize;
+  }
 }
 
 @media (min-width: $s-breakpoint) {

@@ -43,8 +43,8 @@ h3 {
   font-family: $font;
   font-size: 1em;
   font-weight: normal;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
 
   @media (min-width: $s-breakpoint) {
     font-size: 1.4em;

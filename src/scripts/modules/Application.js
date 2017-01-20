@@ -15,8 +15,8 @@ const Application = {
    */
   config: {
     data: null,
-    appId: 'aedd7de81c14d670e877d39ead4ed7b4',
-    weatherApi: 'http://api.openweathermap.org/data/2.5/weather'
+    snowApi: 'http://forecast.weather.gov/MapClick.php?FcstType=json',
+    surfApi: 'http://api.openweathermap.org/data/2.5/weather?units=imperial&appid=aedd7de81c14d670e877d39ead4ed7b4'
   },
 
   /**
@@ -51,6 +51,7 @@ const Application = {
         var cat = 'snow';
         if(hash === 'snow' || hash === 'surf') cat = hash;
         this.config.data = data;
+        this.config.category = cat;
         this._bindEvents();
         if(this.config.data.links) this._buildLinks(this.config.data.links, cat);
         if(this.config.data.locations) this._buildLocations(this.config.data.locations, cat);
@@ -67,6 +68,7 @@ const Application = {
         $parent = $(target).parent(),
         cat = $parent.data('cat');
       if(this.config.category !== cat) {
+          this.config.category = cat;
           this._buildLinks(this.config.data.links, cat);
           this._buildLocations(this.config.data.locations, cat);
       }
@@ -140,11 +142,11 @@ const Application = {
       var latitude = String($location.data('latitude'));
       var longitude = String($location.data('longitude'));
       var requestData = {
-        units: 'imperial',
         lat: latitude,
-        lon: longitude,
-        appid: this.config.appId
+        lon: longitude
       };
+      var apiUrl = this.config.snowApi;
+      if(this.config.category === 'surf') apiUrl = this.config.surfApi;
       var addWeatherData = function(data) {
         var $titleCard = $(this.ui.location[index]).find('.title-card__vertical-align');
         var forecastUrl = 'http://forecast.weather.gov/MapClick.php?lat=' + latitude + '&lon=' + longitude;
@@ -152,14 +154,27 @@ const Application = {
         var weatherData = {
           forecastUrl: forecastUrl
         };
-        if(data.main && data.main.temp) weatherData.temp = data.main.temp;
-        if(data.wind) {
-          if(data.wind.speed) weatherData.windSpeed = data.wind.speed;
-          if(data.wind.degree) weatherData.windDirection = data.wind.degree;
+        // build weather data object based on category and returned data
+        if(this.config.category === 'surf') {
+          if(data.main && data.main.temp) weatherData.temp = data.main.temp;
+          if(data.wind) {
+            if(data.wind.speed) weatherData.windSpeed = data.wind.speed;
+            if(data.wind.deg) weatherData.windDirection = this.degToCompass(data.wind.deg);
+          }
+          if(data.rain && data.rain['3h']) weatherData.rain = data.rain['3h'];
+          if(data.snow && data.snow['3h']) weatherData.snow = data.snow['3h'];
+          if(data.weather && data.weather.length > 0 && data.weather[0].description) weatherData.description = data.weather[0].description; // or .main (shorter desc)
+        } else {
+          if(data.data) {
+            if(data.data.temperature && data.data.temperature.length > 0 && data.data.temperature[0] !== 'NA') weatherData.temp = data.data.temperature[0];
+            if(data.data.weather && data.data.weather.length > 0) weatherData.description = data.data.weather[0];
+          }
+          if(data.currentobservation) {
+            if(data.currentobservation.Winds && data.currentobservation.Winds !== 'NA') weatherData.windSpeed = data.currentobservation.Winds;
+            if(data.currentobservation.Windd && data.currentobservation.Windd !== 'NA') weatherData.windDirection = this.degToCompass(data.currentobservation.Windd);
+          }
+          if(data.location && data.location.elevation && data.location.elevation !== 'NA') weatherData.elevation = data.location.elevation;
         }
-        if(data.clouds && data.clouds.all) weatherData.clouds = data.clouds.all;
-        if(data.rain && data.rain['3h']) weatherData.rain = data.rain['3h'];
-        if(data.snow && data.snow['3h']) weatherData.snow = data.snow['3h'];
         // build and add html
         var weatherHtml = weatherTemplate(weatherData);
         $titleCard.append(weatherHtml);
@@ -168,8 +183,8 @@ const Application = {
         cache: true,
         context: this,
         data: requestData,
-        dataType: "json",
-        url: this.config.weatherApi,
+        dataType: "jsonp",
+        url: apiUrl,
         success: addWeatherData
       });
     }.bind(this));
@@ -215,6 +230,17 @@ const Application = {
    */
   _destroyCarousels: function() {
       if(this.ui.cameras !== null) this.ui.cameras.trigger('destroy.owl.carousel');
+  },
+
+  /**
+   * Convert direction in degrees to human readable value
+   * @param  {Number} num Direction in degrees
+   * @return {String}     String value of direction
+   */
+  degToCompass: function(num) {
+    var val = Math.floor((num / 22.5) + 0.5);
+    var arr = ['N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'];
+    return arr[(val % arr.length)];
   }
 };
 
