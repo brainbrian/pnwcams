@@ -48,7 +48,7 @@ const Application = {
       url: '/assets/json/data.json',
       success: function(data) {
         var hash = window.location.hash.replace('#', '');
-        var cat = 'snow';
+        var cat = 'surf';
         if(hash === 'snow' || hash === 'surf') cat = hash;
         this.config.data = data;
         this.config.category = cat;
