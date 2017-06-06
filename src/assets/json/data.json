@@ -347,7 +347,7 @@
       "url": "http://www.mtbachelor.com/webcams/summitsnowstake.jpg"
     }]
   }, {
-    "name": "Vancouver Island, BC",
+    "name": "Tofino, BC",
     "category": "surf",
     "latitude": "49.10",
     "longitude": "-125.87",
@@ -356,8 +356,11 @@
       "url": "http://www.longbeachlodgeresort.com"
     }],
     "cameras": [{
-      "name": "Tofino",
+      "name": "Cox Bay - LBR",
       "url": "http://webcam.longbeachlodgeresort.com/webcam/current.jpg"
+    }, {
+      "name": "Cox Bay - PSBR",
+      "url": "http://192.187.30.10:8081/record/current.jpg"
     }]
   }, {
     "name": "Strait of Juan de Fuca, WA",
@@ -373,14 +376,14 @@
       "url": "http://forkswa.com/visiting-forks/webcamsontheolympicpeninsula/"
     }],
     "cameras": [{
-      "name": "Hoko River",
-      "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
-    }, {
       "name": "Downtown PA",
       "url": "http://webcam.portangeles.org/webcam/image.jpg"
     }, {
       "name": "Dungeness Lighthouse",
       "url": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
+    }, {
+      "name": "Hoko River",
+      "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
     }]
   }, {
     "name": "La Push, WA",
@@ -407,6 +410,21 @@
     }, {
       "name": "Kalaloch Lodge",
       "url": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
+    }]
+  }, {
+    "name": "Ocean Shores, WA",
+    "category": "surf",
+    "latitude": "46.93",
+    "longitude": "-124.18",
+    "link": "http://magicseaweed.com/Ocean-Shores-Surf-Report/3813/",
+    "links": [{
+      "url": "http://beachcam.osgov.com:85/"
+    }, {
+      "url": "http://osgov.com/"
+    }],
+    "cameras": [{
+      "name": "Best Western",
+      "url": "http://beachcam.osgov.com:85/nph-jpeg.cgi"
     }]
   }, {
     "name": "Westport, WA",

@@ -100,13 +100,13 @@ const Application = {
   _buildLocations: function(data, category) {
     var locationHtml;
     this.ui.navBtns.removeClass('header__nav-btn--active');
-    if(category === 'surf') {
-      locationHtml = locationTemplate({'locations': _.where(data, {category: "surf"})});
-      $('.header__nav-btn[data-cat="surf"]').addClass('header__nav-btn--active');
-    } else {
-      // default to snow
+    if(category === 'snow') {
       locationHtml = locationTemplate({'locations': _.where(data, {category: "snow"})});
       $('.header__nav-btn[data-cat="snow"]').addClass('header__nav-btn--active');
+    } else {
+      // default to surf
+      locationHtml = locationTemplate({'locations': _.where(data, {category: "surf"})});
+      $('.header__nav-btn[data-cat="surf"]').addClass('header__nav-btn--active');
     }
     this._destroyCarousels();
     this.ui.locations.html('');

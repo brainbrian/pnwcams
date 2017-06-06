@@ -11,4 +11,4 @@ I'm building this tool for myself to see webcams around the Pacific Northwest th
 
 ## Todo
 * Build App w/ React & JSX
-* Build App w/ Angular & TypeScript
+* Add support for video feeds like [this](https://www.youtube.com/watch?v=00CSlKmSvwU)
