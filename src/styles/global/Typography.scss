@@ -1,0 +1,58 @@
+//
+// Typography
+// -------------------------------------
+
+@import 'utils/config';
+
+@font-face {
+  font-family: 'League Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/leaguegothic-regular-webfont.eot');
+  src: url(../../assets/fonts/leaguegothic-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../../assets/fonts/leaguegothic-regular-webfont.woff) format('woff'), url(../../assets/fonts/leaguegothic-regular-webfont.ttf) format('truetype'), url(../../assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular) format('svg');
+}
+
+@font-face {
+  font-family: 'League Gothic Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../assets/fonts/leaguegothic-condensedregular-webfont.eot');
+  src: url(../../assets/fonts/leaguegothic-condensedregular-webfont.eot?#iefix) format('embedded-opentype'), url(../../assets/fonts/leaguegothic-condensedregular-webfont.woff) format('woff'), url(../../assets/fonts/leaguegothic-condensedregular-webfont.ttf) format('truetype'), url(../../assets/fonts/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg) format('svg');
+}
+
+h1,
+.h1 {
+  font-family: $font;
+  font-size: 4em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: $grey;
+  font-family: $font-condensed;
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0 0 .05em;
+}
+
+h3 {
+  color: $blue-dark;
+  font-family: $font;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.link,
+.weather-data {
+  color: $grey;
+  font-family: $font;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  @media (min-width: $s-breakpoint) {
+    font-size: 1.4em;
+  }
+}

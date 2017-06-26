@@ -1,3 +1,7 @@
+node_modules
+npm-debug.log*
+dist
+
 # Compiled source #
 ###################
 *.dll
@@ -33,15 +37,6 @@ pids
 logs
 results
 
-npm-debug.log
-node_modules
-
 # Sass #
 ########
 .sass-cache
-
-# Development Environment #
-###########################
-node_modules
-dist
-local

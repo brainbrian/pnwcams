@@ -1,64 +1,71 @@
 {
-  "name": "pnwcams",
-  "version": "0.0.1",
-  "description": "Site build for pnwcams.com",
-  "main": "Gruntfile.js",
-  "readmeFilename": "README.md",
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "A build template for React w/ Hot Module Replacement and production bundling for static sites.",
+  "main": "./src/scripts/index.js",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "react-preload": "^0.5.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^3.0.5",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chalk": "^1.1.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.4",
+    "del": "^2.2.2",
+    "ejs": "^2.5.6",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^1.3.3",
+    "postcss-smart-import": "^0.6.13",
+    "postcss-strip-inline-comments": "^0.1.5",
+    "precss": "^1.4.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "redux-logger": "^2.10.2",
+    "sass-lint": "^1.10.2",
+    "sass-loader": "^6.0.5",
+    "sasslint-webpack-plugin": "^1.0.4",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^2.6.1",
+    "whatwg-fetch": "^2.0.3"
+  },
   "scripts": {
+    "start": "node run",
+    "build": "node run build",
+    "clean": "node run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brainbrian/pnwcams.git"
+    "url": "https://bitbucket.wearepop.com/scm/~brianbehrens/webpack-react.git"
   },
-  "keywords": [
-    "Web",
-    "Cam",
-    "PNW",
-    "Pacific",
-    "Northwest"
-  ],
-  "author": "Brian Behrens <brian@brainbrian.com> (http://www.brainbrian.com)",
+  "author": "Brian Behrens <brian.behrens@popagency.com> (http://www.popagency.com)",
+  "private": true,
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brainbrian/pnwcams/issues"
-  },
-  "homepage": "https://github.com/brainbrian/pnwcams#readme",
-  "devDependencies": {
-    "async": "0.9.0",
-    "babelify": "6.4.0",
-    "browserify": "11.2.0",
-    "browserify-handlebars": "~1.0.0",
-    "browserify-shim": "3.8.10",
-    "grunt": "0.4.5",
-    "grunt-autoprefixer": "~3.0.3",
-    "grunt-browserify": "4.0.1",
-    "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-concat": "~0.5.1",
-    "grunt-contrib-connect": "~0.11.2",
-    "grunt-contrib-copy": "~0.8.2",
-    "grunt-contrib-cssmin": "~0.14.0",
-    "grunt-contrib-imagemin": "~0.9.4",
-    "grunt-contrib-jshint": "~0.11.3",
-    "grunt-contrib-sass": "~0.9.2",
-    "grunt-contrib-uglify": "~0.9.2",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-include-replace": "~3.2.0",
-    "grunt-newer": "~1.1.1",
-    "handlebars": "~4.0.3",
-    "load-grunt-config": "~0.17.2",
-    "load-grunt-tasks": "~3.3.0",
-    "remapify": "2.0.3",
-    "underscore": "^1.8.3"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-shim",
-      "browserify-handlebars",
-      "babelify"
-    ]
-  },
-  "browserify-shim": {
-    "jquery": "global:$"
-  }
+  "readmeFilename": "README.md"
 }

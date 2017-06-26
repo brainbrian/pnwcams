@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE ]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>PNW Cams - Snow and Surf Web Cams</title>
+    <meta name="description" content="Snow and surf web cameras from around the Pacific Northwest." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#666666">
+    <meta name="author" content="Brian (brainbrian.com)" />
+    <meta property="og:url" content="<%= baseURL %>">
+    <meta property="og:image" content="./assets/images/pnwcams-share.jpg" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <%_ if (env === 'production') { _%>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <%_ } _%>
+  </head>
+  <body>
+    <div id="app-root"></div>
+    <script src="<%= bundle %>"></script>
+  </body>
+</html>
