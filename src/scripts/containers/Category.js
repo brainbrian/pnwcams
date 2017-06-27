@@ -7,18 +7,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router';
 import { bindActionCreators } from 'redux';
 import { locationsUpdate } from '../actions';
 import Location from '../components/Location';
 
 class Category extends React.Component {
   static propTypes = {
+    location: PropTypes.object.isRequired,
     locations: PropTypes.object.isRequired,
   };
 
   constructor(props) {
     super(props);
-    this.state = {};
   }
 
   render() {
@@ -36,7 +37,9 @@ class Category extends React.Component {
         cameras: location.cameras,
       };
       locID ++;
-      return <Location {...props} />;
+      let returnComponent = null;
+      if (location.category === this.props.locations.category) returnComponent = <Location {...props} />;
+      return returnComponent;
     });
 
     return (
@@ -58,4 +61,4 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(locationsUpdate, dispatch);
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Category);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Category));
