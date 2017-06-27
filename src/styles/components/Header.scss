@@ -1,3 +1,7 @@
+//
+// Header
+// -------------------------------------
+
 @import 'utils/config';
 @import 'utils/helpers';
 
@@ -8,7 +12,7 @@
   z-index: 10;
 
   &:after {
-    border-bottom: 1px solid $grey;
+    border-bottom: 1px solid $color-grey;
     bottom: -1px;
     opacity: .4;
     position: absolute;
@@ -35,8 +39,8 @@
   }
 
   &__nav-btn {
-    background-color: $blue-light;
-    color: $grey;
+    background-color: $color-blue-light;
+    color: $color-grey;
     display: block;
     height: 100%;
     text-align: center;
@@ -46,8 +50,8 @@
     &:hover,
     &:focus,
     &--active {
-      background-color: $blue-medium;
-      color: $white;
+      background-color: $color-blue-medium;
+      color: $color-white;
     }
 
     .h1 {

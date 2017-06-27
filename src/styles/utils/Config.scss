@@ -3,20 +3,22 @@
 // -------------------------------------
 
 // Colors
+// Adobe Color Config - https://color.adobe.com/create/color-wheel/?base=2&rule=Monochromatic&selected=3&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.18823529411764706,0.3411764705882353,0.44313725490196076,0.7247787610619469,0.8899115044246911,1,0.4247787610619469,0.7699115044245957,1,0.36238938053097347,0.44495575221234557,0.5,0.3398230088495575,0.6159292035396766,0.8&swatchOrder=0,1,2,3,4
 $color-black: #000;
 $color-white: #fff;
-$color-grey: #666;
-$color-grey-dark: #333;
-$color-grey-med: #999;
-$color-grey-light: #ccc;
-$color-red: #eb4d5c;
-$color-green: #81b949;
-$color-green-tint: #6fa43a;
-$body-bg: $color-white;
-$text-color: $color-black;
-$title-color: $color-red;
-$link-color: $color-green;
-$link-hover-color: $color-green-tint;
+$color-blue: #6cc4ff;
+$color-blue-dark: #305771;
+$color-blue-light: #b9e3ff;
+$color-blue-medium: #579dcc;
+$color-grey: #5c717f;
+$color-grey-dark: darken($color-grey, 10%);
+$color-grey-light: lighten($color-grey, 30%);
+$color-grey-med: lighten($color-grey, 20%);
+$body-bg: $color-grey-dark;
+$text-color: $color-grey-dark;
+$title-color: $color-white;
+$link-color: $color-grey;
+$link-hover-color: $color-grey-light;
 
 // Paths
 $image-path: '../../assets/images/';
@@ -48,21 +50,6 @@ $desktop-container-width: 960px;
 $desktop-wide-container-width: 1200px;
 
 
-
-/// NEW!!!
-
-// Colors
-// Adobe Color Config - https://color.adobe.com/create/color-wheel/?base=2&rule=Monochromatic&selected=3&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.18823529411764706,0.3411764705882353,0.44313725490196076,0.7247787610619469,0.8899115044246911,1,0.4247787610619469,0.7699115044245957,1,0.36238938053097347,0.44495575221234557,0.5,0.3398230088495575,0.6159292035396766,0.8&swatchOrder=0,1,2,3,4
-$white: #fff;
-$black: #000;
-$grey: #5C717F;
-$grey-dark: darken($grey, 10%);
-$grey-light: lighten($grey, 30%);
-$blue: #6CC4FF;
-$blue-medium: #579DCC;
-$blue-dark: #305771;
-$blue-light: #B9E3FF;
-
 // Breakpoints
 $s-breakpoint: 540px;
 $m-breakpoint: 768px;
@@ -70,5 +57,5 @@ $l-breakpoint: 960px;
 $xl-breakpoint: 1024px;
 
 // fonts
-$font: "League Gothic", "Myriad Pro", Helvetica, Arial, sans-serif;
-$font-condensed: "League Gothic Condensed", "Myriad Pro", Helvetica, Arial, sans-serif;
+$font: 'League Gothic', 'Myriad Pro', Helvetica, Arial, sans-serif;
+$font-condensed: 'League Gothic Condensed', 'Myriad Pro', Helvetica, Arial, sans-serif;

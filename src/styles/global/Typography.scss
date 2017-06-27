@@ -1,6 +1,7 @@
 //
 // Typography
 // -------------------------------------
+// sass-lint:disable no-duplicate-properties
 
 @import 'utils/config';
 
@@ -29,7 +30,7 @@ h1,
 }
 
 h2 {
-  color: $grey;
+  color: $color-grey;
   font-family: $font-condensed;
   font-size: 3em;
   font-weight: normal;
@@ -37,7 +38,7 @@ h2 {
 }
 
 h3 {
-  color: $blue-dark;
+  color: $color-blue-dark;
   font-family: $font;
   font-size: 2em;
   font-weight: normal;
@@ -45,7 +46,7 @@ h3 {
 
 .link,
 .weather-data {
-  color: $grey;
+  color: $color-grey;
   font-family: $font;
   font-size: 1em;
   font-weight: normal;

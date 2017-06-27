@@ -6,7 +6,7 @@
 @import 'utils/helpers';
 
 .title-card {
-  background-color: $blue-light;
+  background-color: $color-blue-light;
   display: table;
   height: 170px;
   position: relative;
@@ -20,13 +20,13 @@
 
   &__title {
     a {
-      color: $grey-dark;
+      color: $color-grey-dark;
       text-decoration: none;
     }
   }
 
   &--links {
-    border-bottom: solid 1px $grey-light;
+    border-bottom: solid 1px $color-grey-light;
     height: 3em;
 
     ul {
@@ -56,7 +56,7 @@
 
         &:hover,
         &:focus {
-          color: $grey-dark;
+          color: $color-grey-dark;
         }
       }
     }

@@ -19,9 +19,10 @@ class Camera extends React.Component {
   }
 
   render() {
+    console.log('IMAGE', this.props.image);
     return (
       <div className='camera'>
-        <div className='camera__image owl-lazy' data-src='{this.props.image}'></div>
+        <div className='camera__image owl-lazy' data-src={this.props.image}></div>
         {name &&
           <h3 className='camera__title'>
             <span>{this.props.name}</span>

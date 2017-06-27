@@ -8,6 +8,7 @@
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.5.2",
     "react-dom": "^15.5.4",
+    "react-owl-carousel": "^2.2.0",
     "react-preload": "^0.5.1",
     "react-redux": "^5.0.5",
     "react-router": "^3.0.5",

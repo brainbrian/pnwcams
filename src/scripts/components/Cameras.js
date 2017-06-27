@@ -4,12 +4,17 @@
  */
 
 import '../../styles/components/Cameras.scss';
+import '../../styles/lib/OwlCarousel.scss';
+import '../../styles/lib/OwlCarouselTheme.scss';
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
+import OwlCarousel from 'react-owl-carousel';
 import Camera from './Camera';
 
 class Cameras extends React.Component {
-  static propTypes = {};
+  static propTypes = {
+    data: PropTypes.array.isRequired,
+  };
 
   constructor(props) {
     super(props);
@@ -17,10 +22,23 @@ class Cameras extends React.Component {
   }
 
   render() {
+    let cameras = null;
+    let cameraID = 0;
+    cameras = this.props.data.map(camera => {
+      const props = {
+        id: cameraID,
+        key: `loc-${cameraID}`,
+        name: camera.name,
+        image: camera.url
+      };
+      cameraID ++;
+      return <Camera {...props} />;
+    });
+
     return (
-      <div className='cameras owl-carousel owl-theme'>
-        <Camera image='http://' name='test camera' />
-      </div>
+      <OwlCarousel className="cameras owl-theme" items={1} autoplay={false} dots lazyLoad loop>
+        {cameras}
+      </OwlCarousel>
     );
   }
 }

@@ -30,7 +30,7 @@ class Location extends React.Component {
     return (
       <div className="location">
         <TitleCard name={this.props.name} link={this.props.link} />
-        <Cameras />
+        <Cameras data={this.props.cameras} />
       </div>
     );
   }

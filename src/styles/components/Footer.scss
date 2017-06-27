@@ -1,13 +1,17 @@
+//
+// Footer
+// -------------------------------------
+
 @import 'utils/config';
 
 .footer {
-  background-color: $blue-dark;
+  background-color: $color-blue-dark;
   height: 100px;
   position: relative;
   text-align: center;
 
   &__title {
-    color: $white;
+    color: $color-white;
     font-family: $font;
     font-size: 1.2em;
     position: absolute;
@@ -17,12 +21,12 @@
     width: 100%;
 
     a {
-      color: $blue-light;
+      color: $color-blue-light;
       text-decoration: none;
 
       &:hover,
       &:focus {
-        color: $grey;
+        color: $color-grey;
       }
     }
   }
