@@ -11,6 +11,7 @@ import { withRouter } from 'react-router';
 import { bindActionCreators } from 'redux';
 import { locationsUpdate } from '../actions';
 import Location from '../components/Location';
+import TitleCardLinks from '../components/TitleCardLinks';
 
 class Category extends React.Component {
   static propTypes = {
@@ -44,7 +45,9 @@ class Category extends React.Component {
 
     return (
       <div>
-        <section className='links'>links here</section>
+        <section className='links'>
+          <TitleCardLinks />
+        </section>
         <section className='locations'>
           {locations}
         </section>

@@ -8,11 +8,13 @@ import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 import ui from './ui';
 import locations from './locations';
+import links from './links';
 
 const rootReducer = combineReducers({
   routing: routerReducer,
   ui,
-  locations
+  locations,
+  links,
 });
 
 export default rootReducer;

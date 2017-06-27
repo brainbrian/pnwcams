@@ -9,6 +9,8 @@ const DATA_URL = process.env.DATA_URL || '/assets/json/data.json';
 
 export const LOCATIONS_UPDATE = 'LOCATIONS_UPDATE';
 export const LOCATIONS_FAILED = 'LOCATIONS_FAILED';
+export const LINKS_UPDATE = 'LINKS_UPDATE';
+export const LINKS_FAILED = 'LINKS_FAILED';
 export const UI_LOADING = 'UI_LOADING';
 
 export const locationsUpdate = (value) => ({
@@ -18,6 +20,15 @@ export const locationsUpdate = (value) => ({
 
 export const locationsFailed = () => ({
   type: LOCATIONS_FAILED
+});
+
+export const linksUpdate = (value) => ({
+  type: LINKS_UPDATE,
+  payload: value
+});
+
+export const linksFailed = () => ({
+  type: LINKS_FAILED
 });
 
 const uiLoading = (isLoading) => ({
@@ -56,14 +67,17 @@ export const requireData = (nextState, replace, callback) => {
     }).then((json) => {
       if(json && json.locations) {
         dispatch(locationsUpdate({data: json.locations}));
+        dispatch(linksUpdate({data: json.links}));
         callback();
       } else {
         dispatch(locationsFailed());
+        dispatch(linksFailed());
       }
       dispatch(uiLoading(false));
     }).catch((reason) => {
       console.log('error', reason);
       dispatch(locationsFailed());
+      dispatch(linksFailed());
       dispatch(uiLoading(false));
     });
   };
