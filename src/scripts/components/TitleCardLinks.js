@@ -33,7 +33,7 @@ class TitleCardLinks extends React.Component {
       };
       linkID ++;
       let returnComponent = null;
-      if (link.category === this.props.locations.category) returnComponent = <li><a href={props.url} className="link" target="_blank" rel="noopener noreferrer">{props.name}</a></li>;
+      if (link.category === this.props.locations.category) returnComponent = <li key={props.key}><a href={props.url} className="link" target="_blank" rel="noopener noreferrer">{props.name}</a></li>;
       return returnComponent;
     });
 

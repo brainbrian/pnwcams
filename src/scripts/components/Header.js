@@ -14,10 +14,10 @@ class Header extends React.Component {
         <nav className="header__nav">
           <ul className="header__nav-list">
             <li className="header__nav-item">
-              <Link to='/surf' className='header__nav-btn' activeClassName='active'><span className="h1">Surf Cams</span></Link>
+              <Link to='/surf' className='header__nav-btn' activeClassName='header__nav-btn--active'><span className="h1">Surf Cams</span></Link>
             </li>
             <li className="header__nav-item">
-              <Link to='/snow' className='header__nav-btn' activeClassName='active'><span className="h1">Snow Cams</span></Link>
+              <Link to='/snow' className='header__nav-btn' activeClassName='header__nav-btn--active'><span className="h1">Snow Cams</span></Link>
             </li>
           </ul>
         </nav>
