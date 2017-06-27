@@ -6,7 +6,6 @@
 
 const fs = require('fs');
 const del = require('del');
-const path = require('path');
 const ejs = require('ejs');
 const chalk = require('chalk');
 const webpack = require('webpack');
@@ -23,38 +22,6 @@ function run(task) {
   }, err => console.error(err.stack));
 }
 
-function copyFileSync(source, target) {
-  let targetFile = target;
-  if(fs.existsSync(target)) {
-    if(fs.lstatSync(target).isDirectory()) {
-      targetFile = path.join(target, path.basename(source));
-    }
-  }
-  fs.writeFileSync(targetFile, fs.readFileSync(source));
-}
-
-/*
-function copyFolderRecursiveSync(source, target) {
-  let files = [];
-  // make new dir if dir does not exist
-  const targetFolder = path.join(target, path.basename(source));
-  if (!fs.existsSync(targetFolder)) {
-    fs.mkdirSync(targetFolder);
-  }
-  // copy files
-  if(fs.lstatSync(source).isDirectory()) {
-    files = fs.readdirSync(source);
-    files.forEach(function(file) {
-      const curSource = path.join(source, file);
-      if (fs.lstatSync(curSource).isDirectory()) {
-        copyFolderRecursiveSync(curSource, targetFolder);
-      } else {
-        copyFileSync(curSource, targetFolder);
-      }
-    });
-  }
-}*/
-
 /**
  * Clean the output directory
  */
@@ -67,15 +34,8 @@ tasks.set('clean', () => del(['dist/*'], {dot: true}));
 tasks.set('html', () => {
   const template = fs.readFileSync('./src/templates/index.ejs', 'utf8');
   const render = ejs.compile(template, {filename: './src/templates/index.ejs'});
-  const output = render({env: process.env['NODE_ENV'], baseURL: 'http://www.wearepop.com', bundle: './assets/js/app.bundle.js'});
+  const output = render({env: process.env['NODE_ENV'], baseURL: 'http://www.pnwcams.com', bundle: './assets/js/app.bundle.js'});
   fs.writeFileSync(`${distDir}/index.html`, output, 'utf8');
-});
-
-/**
- * Copy favicon to dist folder
- */
-tasks.set('favicon', () => {
-  copyFileSync('./src/assets/images/favicon.ico', `${distDir}/assets/images/`);
 });
 
 /**
@@ -103,8 +63,7 @@ tasks.set('build', () => {
   return Promise.resolve()
     .then(() => run('clean'))
     .then(() => run('bundle'))
-    .then(() => run('html'))
-    .then(() => run('favicon'));
+    .then(() => run('html'));
 });
 
 /**

@@ -67,8 +67,9 @@ module.exports = function() {
         }
       }),
       new CopyWebpackPlugin([
-        { from: resolve(__dirname, '../src/assets/fonts/'), to: resolve(__dirname, '../dist/assets/fonts/') },
-        { from: resolve(__dirname, '../src/assets/json/'), to: resolve(__dirname, '../dist/assets/json/') },
+        {from: resolve(__dirname, '../src/assets/fonts/'), to: resolve(__dirname, '../dist/assets/fonts/')},
+        {from: resolve(__dirname, '../src/assets/json/'), to: resolve(__dirname, '../dist/assets/json/')},
+        {from: resolve(__dirname, '../src/assets/images/app-icons/'), to: resolve(__dirname, '../dist/assets/images/app-icons/')},
       ])
     ],
     // https://webpack.js.org/configuration/stats/
