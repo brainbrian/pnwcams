@@ -1,0 +1,24 @@
+//
+// Cameras
+// -------------------------------------
+
+@import 'utils/config';
+@import 'utils/helpers';
+
+.cameras {
+  background: $black;
+  height: 300px;
+  position: relative;
+
+  @media (min-width: $s-breakpoint) {
+    height: 420px;
+  }
+
+  @media (min-width: $m-breakpoint) {
+    height: 540px;
+  }
+
+  @media (min-width: $l-breakpoint) {
+    height: 660px;
+  }
+}

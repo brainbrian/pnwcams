@@ -7,8 +7,6 @@
 import React from 'react';
 import { Router } from 'react-router';
 import PropTypes from 'prop-types';
-import Preload from 'react-preload';
-import Preloader from '../components/Preloader';
 import routes from '../routes';
 
 class App extends React.Component {
@@ -19,17 +17,9 @@ class App extends React.Component {
 
   render() {
     const { history, store } = this.props;
-    // preloader animation
-    const prelaoder = (
-      <Preloader />
-    );
-    // assets to preload
-    const preloadImages = [];
 
     return (
-      <Preload loadingIndicator={prelaoder} images={preloadImages} resolveOnError={true} mountChildren={true}>
-          <Router routes={routes(store)} history={history} onUpdate={() => window.scrollTo(0, 0)} />
-      </Preload>
+      <Router routes={routes(store)} history={history} onUpdate={() => window.scrollTo(0, 0)} />
     );
   }
 }

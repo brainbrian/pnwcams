@@ -18,47 +18,6 @@ html {
   position: relative;
 }
 
-.location {
-  position: relative;
-}
-
-.title-card {
-  background-color: $blue-light;
-  display: table;
-  height: 170px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-
-  &__vertical-align {
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  &__title {
-    a {
-      color: $grey-dark;
-      text-decoration: none;
-    }
-  }
-
-  &--links {
-    border-bottom: solid 1px $grey-light;
-    height: 3em;
-
-    ul {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
-    li {
-      display: inline-block;
-      margin: 0 .5em;
-    }
-  }
-}
-
 .weather-data {
   display: block;
   opacity: .5;
@@ -104,42 +63,5 @@ html {
         font-size: 1.5em;
       }
     }
-  }
-
-  .title-card {
-    height: 250px;
-
-    &--links {
-      height: 4em;
-
-      li {
-        margin: 0 .8em;
-      }
-
-      a {
-        transition: color 200ms ease-in-out;
-
-        &:hover,
-        &:focus {
-          color: $grey-dark;
-        }
-      }
-    }
-  }
-
-  .cameras {
-    height: 420px;
-  }
-}
-
-@media (min-width: $m-breakpoint) {
-  .cameras {
-    height: 540px;
-  }
-}
-
-@media (min-width: $l-breakpoint) {
-  .cameras {
-    height: 660px;
   }
 }

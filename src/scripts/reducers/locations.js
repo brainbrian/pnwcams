@@ -8,7 +8,7 @@ import { LOCATIONS_UPDATE, LOCATIONS_FAILED } from '../actions';
 const locations = (state = {}, action) => {
   switch (action.type) {
     case LOCATIONS_UPDATE:
-      return Object.assign({status: 'success'}, state, {data: action.payload});
+      return Object.assign({}, state, action.payload);
     case LOCATIONS_FAILED:
       return Object.assign({}, state, {
         status: 'failure'

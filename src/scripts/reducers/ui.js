@@ -3,7 +3,7 @@
  * http://redux.js.org/docs/basics/Reducers.html
  */
 
-import { UI_LOADING } from '../actions';
+import {UI_LOADING} from '../actions';
 
 const ui = (state = {
   loading: false

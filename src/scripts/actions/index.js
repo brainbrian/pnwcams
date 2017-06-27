@@ -3,14 +3,9 @@
  * http://redux.js.org/docs/basics/Actions.html
  */
 
-export const UI_LOADING = 'UI_LOADING';
 export const LOCATIONS_UPDATE = 'LOCATIONS_UPDATE';
 export const LOCATIONS_FAILED = 'LOCATIONS_FAILED';
-
-const uiLoading = (isLoading) => ({
-  type: UI_LOADING,
-  payload: isLoading
-});
+export const UI_LOADING = 'UI_LOADING';
 
 export const locationsUpdate = (value) => ({
   type: LOCATIONS_UPDATE,
@@ -19,6 +14,11 @@ export const locationsUpdate = (value) => ({
 
 export const locationsFailed = () => ({
   type: LOCATIONS_FAILED
+});
+
+const uiLoading = (isLoading) => ({
+  type: UI_LOADING,
+  payload: isLoading
 });
 
 export const requireData = (nextState, replace, callback) => {
@@ -37,7 +37,7 @@ export const requireData = (nextState, replace, callback) => {
       return response.json();
     }).then((json) => {
       if(json && json.locations) {
-        dispatch(locationsUpdate(json.locations));
+        dispatch(locationsUpdate({data: json.locations}));
         callback();
       } else {
         dispatch(locationsFailed());
