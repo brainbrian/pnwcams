@@ -4,8 +4,6 @@
  */
 
 import '../../styles/components/Cameras.scss';
-import '../../styles/lib/OwlCarousel.scss';
-import '../../styles/lib/OwlCarouselTheme.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
 import OwlCarousel from 'react-owl-carousel';

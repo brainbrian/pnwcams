@@ -17,6 +17,7 @@ class Location extends React.Component {
     link: PropTypes.string,
     links: PropTypes.array.isRequired,
     cameras: PropTypes.array.isRequired,
+    weather: PropTypes.object.isRequired,
   };
 
   constructor(props) {
@@ -27,7 +28,7 @@ class Location extends React.Component {
   render() {
     return (
       <div className="location">
-        <TitleCard name={this.props.name} link={this.props.link} />
+        <TitleCard name={this.props.name} link={this.props.link} latitude={this.props.latitude} longitude={this.props.longitude} weather={this.props.weather} />
         <Cameras data={this.props.cameras} />
       </div>
     );

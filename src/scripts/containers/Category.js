@@ -36,6 +36,7 @@ class Category extends React.Component {
         link: location.link,
         links: location.links,
         cameras: location.cameras,
+        weather: location.weather ? location.weather : {},
       };
       locID ++;
       let returnComponent = null;
