@@ -1,9 +1,0 @@
-<a href="{{forecastUrl}}" class="weather-data" target="_blank">
-  <ul>
-    {{#if temp}}<li>{{temp}} <small>°f</small></li>{{/if}}
-    {{#if windSpeed}}<li>{{windSpeed}} <small>mph</small> {{#if windDirection}}{{windDirection}}{{/if}} <small>wind</small></li>{{/if}}
-    {{#if elevation}}<li>{{elevation}}' <small>Elevation</small></li>{{/if}}
-    {{#if clouds}}<li>{{clouds}}</li>{{/if}}
-  </ul>
-  {{#if description}}<p>{{description}}</p>{{/if}}
-</a>
