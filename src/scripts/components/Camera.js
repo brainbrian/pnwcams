@@ -15,14 +15,21 @@ class Camera extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      image: this.randomImage(this.props.image),
+    };
+  }
+
+  randomImage(img) {
+    img = img.indexOf('?') > -1 ? `${img}&` : `${img}?`;
+    img += `random=${Math.round(Math.random() * 100000000)}`;
+    return img;
   }
 
   render() {
     return (
       <div className='camera'>
-        <div className='camera__image' data-src={this.props.image}></div>
-        <img src={this.props.image} />
+        <img className='camera__image' src={this.state.image} />
         {name &&
           <h3 className='camera__title'>
             <span>{this.props.name}</span>

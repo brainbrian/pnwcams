@@ -23,4 +23,37 @@
   @media (min-width: $l-breakpoint) {
     height: 660px;
   }
+
+  .slick-list,
+  .slick-track {
+    height: 100%;
+  }
+
+  .slick-dots {
+    bottom: 35px;
+
+    li {
+      button {
+        &::before {
+          color: $color-white;
+          font-size: 16px;
+          opacity: 0.5;
+        }
+
+        &:hover {
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+
+      &.slick-active {
+        button {
+          &::before {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+  }
 }

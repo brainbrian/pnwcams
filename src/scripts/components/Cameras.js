@@ -35,11 +35,12 @@ class Cameras extends React.Component {
 
     const slickSettings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       autoplay: false,
       slidesToShow: 1,
       slidesToScroll: 1,
       lazyLoad: true,
+      className: 'cameras',
     };
 
     return (
