@@ -34,13 +34,15 @@ class Cameras extends React.Component {
     });
 
     const slickSettings = {
-      dots: true,
-      infinite: false,
+      arrows: false,
       autoplay: false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      lazyLoad: true,
       className: 'cameras',
+      dots: cameras.length > 1 ? true : false,
+      infinite: false,
+      lazyLoad: true,
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      swipe: cameras.length > 1 ? true : false,
     };
 
     return (
