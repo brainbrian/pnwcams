@@ -37,14 +37,11 @@ class TitleCard extends React.Component {
     } else {
       headingElement = <h2 className='title-card__title'>{this.props.name}</h2>;
     }
-
     const data = this.props.weather;
-    const forecastUrl = `http://forecast.weather.gov/MapClick.php?lat=${1}&lon=${2}`;
-    const weatherData = {
-      url: forecastUrl,
-    };
+    const weatherData = {};
     if (data.main) {
       // surf weather - openweathermap.org
+      if(data.coord && data.coord.lat && data.coord.lon) weatherData.url = `http://forecast.weather.gov/MapClick.php?lat=${data.coord.lat}&lon=${data.coord.lon}`;
       if(data.main && data.main.temp) weatherData.temp = data.main.temp;
       if(data.wind) {
         if(data.wind.speed) weatherData.windSpeed = data.wind.speed;
@@ -56,6 +53,7 @@ class TitleCard extends React.Component {
     } else if (data.data) {
       // snow weather - forecast.weather.gov
       // build weather data object based on category and returned data
+      if(data.location && data.location.latitude && data.location.longitude) weatherData.url = `http://forecast.weather.gov/MapClick.php?lat=${data.location.latitude}&lon=${data.location.longitude}`;
       if(data.data) {
         if(data.data.temperature && data.data.temperature.length > 0 && data.data.temperature[0] !== 'NA') weatherData.temp = data.data.temperature[0];
         if(data.data.weather && data.data.weather.length > 0) weatherData.description = data.data.weather[0];
