@@ -60,7 +60,8 @@ module.exports = function() {
           options: {
             // sourceMap: true,
             includePaths: [
-              resolve(__dirname, '../src/styles/')
+              resolve(__dirname, '../src/styles/'),
+              resolve(__dirname, '../node_modules/'),
             ]
           }
         }]

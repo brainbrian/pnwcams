@@ -6,7 +6,7 @@
 import '../../styles/components/Cameras.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
-import OwlCarousel from 'react-owl-carousel';
+import ReactSlick from 'react-slick';
 import Camera from './Camera';
 
 class Cameras extends React.Component {
@@ -30,13 +30,22 @@ class Cameras extends React.Component {
         image: camera.url
       };
       cameraID ++;
-      return <Camera {...props} />;
+      return <div key={props.key}><Camera {...props} /></div>;
     });
 
+    const slickSettings = {
+      dots: true,
+      infinite: true,
+      autoplay: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      lazyLoad: true,
+    };
+
     return (
-      <OwlCarousel className="cameras owl-theme" items={1} autoplay={false} dots lazyLoad loop>
+      <ReactSlick {...slickSettings}>
         {cameras}
-      </OwlCarousel>
+      </ReactSlick>
     );
   }
 }

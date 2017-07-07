@@ -31,7 +31,8 @@ module.exports = function() {
               loader: 'sass-loader',
               options: {
                 includePaths: [
-                  resolve(__dirname, '../src/styles/')
+                  resolve(__dirname, '../src/styles/'),
+                  resolve(__dirname, '../node_modules/')
                 ]
               }
             }
