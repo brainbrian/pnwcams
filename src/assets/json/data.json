@@ -59,14 +59,14 @@
     "longitude": "-119.91",
     "link": "https://skitheloup.com",
     "links": [{
-      "url": "https://skitheloup.com/conditions/web-cams/"
+      "url": "https://skitheloup.com/loup-loup-mountain-cams/"
     }],
     "cameras": [{
       "name": "Top",
-      "url": "https://skitheloup.com/image_base.jpg"
+      "url": "https://skitheloup.com/skiview/loup-loup-ski-bowl-top-chair.jpg"
     }, {
       "name": "Base",
-      "url": "https://skitheloup.com/image_top.jpg"
+      "url": "https://skitheloup.com/loup-loup-ski-bowl-base-area.jpg"
     }]
   }, {
     "name": "Stevens Pass, WA",
@@ -243,17 +243,17 @@
     "longitude": "-121.39",
     "link": "http://skiwhitepass.com",
     "links": [{
-      "url": "http://skiwhitepass.com/the-mountain/mountain-cam.aspx"
+      "url": "https://skiwhitepass.com/mountain-cams"
     }],
     "cameras": [{
       "name": "Base",
-      "url": "http://skiwhitepass.com/mountaincam/small.jpg"
+      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
     }, {
-      "name": "Pomaface",
-      "url": "http://skiwhitepass.com/mountaincam/pomaface.jpg"
+      "name": "Highcamp",
+      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
     }, {
       "name": "Basin",
-      "url": "http://skiwhitepass.com/mountaincam/basin.jpg"
+      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
     }, {
       "name": "WSDOT Summit West",
       "url": "http://images.wsdot.wa.gov/sc/012vc15093.jpg"
@@ -304,16 +304,28 @@
     }],
     "cameras": [{
       "name": "Jeff Flood",
-      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/floodtop.jpg"
+      "url": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
     }, {
       "name": "Palmer/Silcox",
-      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/palmerbottom.jpg"
+      "url": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
     }, {
       "name": "Bruno's",
-      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/brunotop.jpg"
+      "url": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
     }, {
       "name": "Lodge",
-      "url": "http://www.timberlinelodge.com/wp-content/themes/Jupiter-child/cams/lodge.jpg"
+      "url": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
+    }, {
+      "name": "US26 at G. Camp Lp Rd",
+      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
+    }, {
+      "name": "US26 EB at G. Camp Maint. West",
+      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govn%20Camp%20Maint_pid1899.JPG"
+    }, {
+      "name": "US26 at G. Camp (Timberline Rd)",
+      "url": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
+    }, {
+      "name": "US26 EB at Snow Bunny",
+      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
     }]
   }, {
     "name": "Mt. Bachelor, OR",
