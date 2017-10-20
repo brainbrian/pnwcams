@@ -47,16 +47,21 @@ const uiLoading = (isLoading) => ({
 
 export const requireData = (nextState, replace, callback) => {
   return (dispatch) => {
+    let cat = 'surf';
     if (
-      nextState.location.pathname !== '/'
-      && nextState.location.pathname !== '/snow'
+      nextState.location.pathname !== '/snow'
       && nextState.location.pathname !== '/surf'
     ) {
-      hashHistory.push(`/`);
-    }
-    // update locations with current category
-    let cat = 'surf';
-    if (nextState.location.pathname === '/snow') {
+      let currentMonth = new Date().getMonth();
+      // set it to snow if we're October - March, otherwise default to surf
+      if (currentMonth > 8 || currentMonth < 3) {
+        hashHistory.push(`/snow`);
+        cat = 'snow';
+      } else {
+        hashHistory.push(`/surf`);
+        cat = 'surf';
+      }
+    } else if (nextState.location.pathname === '/snow') {
       cat = 'snow';
     }
     dispatch(locationsUpdate({category: cat}));
