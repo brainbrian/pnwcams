@@ -269,10 +269,15 @@
     "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
     "links": [{
       "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+    }, {
+      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
     }],
     "cameras": [{
       "name": "Johnston Ridge",
       "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
+    }, {
+      "name": "Johnston Ridge",
+      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
     }]
   }, {
     "name": "Mt. Hood Meadows, OR",
@@ -512,6 +517,7 @@
     "category": "surf",
     "latitude": "45.98",
     "longitude": "-123.94",
+    "link": "http://www.surfline.com/surf-report/seaside-pacific-northwest_142801/",
     "links": [{
       "url": "http://www.seasidechamber.com/camhtml/index.html"
     }],
