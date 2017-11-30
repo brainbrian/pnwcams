@@ -30,7 +30,7 @@ class Camera extends React.Component {
     return (
       <div className='camera'>
         <img className='camera__image' src={this.state.image} />
-        {name &&
+        {this.props.name &&
           <h3 className='camera__title'>
             <span>{this.props.name}</span>
           </h3>

@@ -52,7 +52,7 @@ export const requireData = (nextState, replace, callback) => {
       nextState.location.pathname !== '/snow'
       && nextState.location.pathname !== '/surf'
     ) {
-      let currentMonth = new Date().getMonth();
+      const currentMonth = new Date().getMonth();
       // set it to snow if we're October - March, otherwise default to surf
       if (currentMonth > 8 || currentMonth < 3) {
         hashHistory.push(`/snow`);

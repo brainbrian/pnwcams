@@ -29,7 +29,7 @@
     z-index: 3;
 
     span {
-      background: lighten($color-blue-light, 30%);
+      background: $color-blue-trans;
       padding: 5px 10px 3px;
     }
   }
