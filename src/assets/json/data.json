@@ -55,6 +55,9 @@
     }, {
       "name": "Parking",
       "url": "http://www.nps.gov/webcams-olym/northcam.jpg"
+    }, {
+      "name": "Olympic View Cabins",
+      "url": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
     }]
   }, {
     "name": "Loup Loup, WA",
@@ -138,10 +141,13 @@
       "url": "https://www.missionridge.com/webcams"
     }],
     "cameras": [{
+      "name": "Sunspot",
+      "url": "https://www.missionridge.com/webcam/sunspot-cam.jpg"
+    }, {
       "name": "Midway",
       "url": "https://www.missionridge.com/webcam/midway-cam.jpg"
     }, {
-      "name": "Microwave",
+      "name": "Micro",
       "url": "https://www.missionridge.com/webcam/microwave-cam.jpg"
     }, {
       "name": "WSDOT Blewett Pass",
@@ -168,6 +174,9 @@
     }, {
       "name": "Silver Fir",
       "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
+    }, {
+      "name": "Central Express",
+      "url": "http://www.summitatsnoqualmie.com/webcams/CentralExpress.jpg"
     }, {
       "name": "Summit Central",
       "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
@@ -197,14 +206,14 @@
       "name": "Summit (6,856 ft)",
       "url": "https://instacam.weatherbug.com/instacamimg/CRYM7/CRYM7_l.jpg"
     }, {
-      "name": "Rainier Express (5,270 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM5/CRYM5_l.jpg"
-    }, {
-      "name": "Chair 6 Top (6,992 ft)",
+      "name": "Chair 6 Top (7,002 ft)",
       "url": "https://instacam.weatherbug.com/instacamimg/CRYM3/CRYM3_l.jpg"
     }, {
       "name": "Chair 6 Bottom (6,080 ft)",
       "url": "https://instacam.weatherbug.com/instacamimg/CRYM2/CRYM2_l.jpg"
+    }, {
+      "name": "Rainier Express (5,270 ft)",
+      "url": "https://instacam.weatherbug.com/instacamimg/CRYM5/CRYM5_l.jpg"
     }, {
       "name": "Gold Hills (5,044 ft)",
       "url": "https://instacam.weatherbug.com/instacamimg/CRYM4/CRYM4_l.jpg"
@@ -327,6 +336,9 @@
       "name": "Lodge",
       "url": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
     }, {
+      "name": "Snow Stake",
+      "url": "https://www.timberlinelodge.com/snowcameras//snowstake.jpg"
+    }, {
       "name": "US26 at G. Camp Lp Rd",
       "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
     }, {
@@ -349,26 +361,47 @@
       "url": "http://www.mtbachelor.com/live-cams/"
     }],
     "cameras": [{
-      "name": "Outback Express",
-      "url": "http://www.mtbachelor.com/webcams/outbackliftline.jpg"
+      "name": "Pine Marten Lift",
+      "url": "https://www.mtbachelor.com/webcams/pmxlift.jpg"
     }, {
-      "name": "Sunrise Express",
-      "url": "http://www.mtbachelor.com/webcams/summitliftline.jpg"
+      "name": "The Cone",
+      "url": "https://www.mtbachelor.com/webcams/thecone.jpg"
+    }, {
+      "name": "Gravity School Learning Zone",
+      "url": "https://www.mtbachelor.com/webcams/gravitysportswv.jpg"
+    }, {
+      "name": "Sunrise Base Area",
+      "url": "https://www.mtbachelor.com/webcams/sunrisehome.jpg"
+    }, {
+      "name": "Outback Express",
+      "url": "https://www.mtbachelor.com/webcams/outbackliftline.jpg"
+    }, {
+      "name": "Summit Lift Line",
+      "url": "https://www.mtbachelor.com/webcams/summitliftlinehome.jpg"
     }, {
       "name": "Marshmallow Run",
-      "url": "http://www.mtbachelor.com/webcams/marshmallow.jpg"
+      "url": "https://www.mtbachelor.com/webcams/marshmallow.jpg"
+    }, {
+      "name": "Carrousel Learning Zone",
+      "url": "https://www.mtbachelor.com/webcams/carnivallearningzone.jpg"
+    }, {
+      "name": "Broken Top and Pine Marten Lodge",
+      "url": "https://www.mtbachelor.com/webcams/brokentoppinelodge.jpg"
+    }, {
+      "name": "South Sisters from Outback",
+      "url": "https://www.mtbachelor.com/webcams/southsisteroutback.jpg"
+    }, {
+      "name": "Tumalo and Bend from Outback",
+      "url": "https://www.mtbachelor.com/webcams/tumalobend.jpg"
     }, {
       "name": "West Village",
-      "url": "http://www.mtbachelor.com/webcams/westvillage.jpg"
-    }, {
-      "name": "Nordic Base",
-      "url": "http://www.mtbachelor.com/webcams/nordic.jpg"
+      "url": "https://www.mtbachelor.com/webcams/westvillage.jpg"
     }, {
       "name": "Base Stake",
-      "url": "http://www.mtbachelor.com/webcams/snowstake.jpg"
+      "url": "https://www.mtbachelor.com/webcams/snowstake.jpg"
     }, {
-      "name": "Mid Mtn Stake",
-      "url": "http://www.mtbachelor.com/webcams/summitsnowstake.jpg"
+      "name": "Clearing Rock Bar",
+      "url": "https://www.mtbachelor.com/webcams/rockbar.jpg"
     }]
   }, {
     "name": "Tofino, BC",
@@ -378,9 +411,26 @@
     "link": "http://magicseaweed.com/Tofino-Cox-Bay-Surf-Report/1122/",
     "links": [{
       "url": "http://www.longbeachlodgeresort.com"
+    }, {
+      "url": "https://tourismtofino.com/plan-your-trip/weather/"
+    }, {
+      "url": "http://tofinoseakayaking.com/webcam/"
+    }, {
+      "url": "https://www.crystalcove.ca/crystal-cove-webcam"
+    }, {
+      "url": "https://www.wickinn.com/beachcam"
     }],
     "cameras": [{
       "name": "Cox Bay - LBR",
+      "url": "https://images.webcams.travel/original/1240892193-Weather-Tofino-Surf-Cam-Long-Beach-Lodge-Resort-Tofino.jpg?token=webcams.travel:81528d560ae403f65b34238b8d4f49f3:1519114233"
+    }, {
+      "name": "Esowista Peninsula - Tofino Sea Kayaking",
+      "url": "http://tofinoseakayaking.com/netcam/tofinoseakayaking-webcam.jpg"
+    }, {
+      "name": "Crystal Cove",
+      "url": "http://192.187.29.199:8080/cgi-bin/viewer/video.jpg?streamid=2&quality=10"
+    }, {
+      "name": "Cox Bay - LBR - YouTube",
       "url": "https://img.youtube.com/vi/00CSlKmSvwU/maxresdefault.jpg"
     }, {
       "name": "Cox Bay - PSBR",
@@ -398,6 +448,10 @@
       "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
     }, {
       "url": "http://forkswa.com/visiting-forks/webcamsontheolympicpeninsula/"
+    }, {
+      "url": "http://northolympic.com/webcam/sekiu/"
+    }, {
+      "url": "http://icons.wunderground.com/webcamramdisk/m/a/MattHoko/1/current.jpg"
     }],
     "cameras": [{
       "name": "Downtown PA",
@@ -406,8 +460,11 @@
       "name": "Dungeness Lighthouse",
       "url": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
     }, {
-      "name": "Hoko River",
+      "name": "Sekiu - Hoko River",
       "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
+    }, {
+      "name": "Sequim Valley Airport",
+      "url": "http://olypen.com/sequimvalleyairport/webcam/webcam.jpg"
     }]
   }, {
     "name": "La Push, WA",
@@ -462,14 +519,17 @@
       "url": "http://www.rainbowsendcam.com/webcam32.htm"
     }],
     "cameras": [{
+      "name": "Jetty",
+      "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
+    }, {
       "name": "Groins",
       "url": "http://www.westportcam.com/images/position3.jpg"
     }, {
       "name": "Groins",
       "url": "http://www.westportcam.com/images/position4.jpg"
     }, {
-      "name": "Jetty",
-      "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
+      "name": "Groins",
+      "url": "http://www.westportcam.com/images/position7.jpg"
     }, {
       "name": "Half Moon Bay",
       "url": "http://www.westportcam.com/images/position1.jpg"
@@ -477,8 +537,17 @@
       "name": "Half Moon Bay",
       "url": "http://www.westportcam.com/images/position2.jpg"
     }, {
-      "name": "Marina",
+      "name": "Half Moon Bay",
+      "url": "http://www.westportcam.com/images/position5.jpg"
+    }, {
+      "name": "Marina & Westhaven Drive",
       "url": "http://www.westportcam.com/images/position0.jpg"
+    }, {
+      "name": "Marina",
+      "url": "http://www.westportcam.com/images/position8.jpg"
+    }, {
+      "name": "Harbor Entrance",
+      "url": "http://www.westportcam.com/images/position6.jpg"
     }]
   }, {
     "name": "Long Beach Peninsula, WA",
@@ -501,23 +570,23 @@
       "name": "Klipsan Beach",
       "url": "http://cam.aaapacreal.com/clamcam.jpg"
     }, {
-      "name": "The Breakers",
-      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
-    }, {
       "name": "Columbia River - Left",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
     }, {
       "name": "Columbia River - Right",
       "url": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
     }, {
-      "name": "Adrift Hotel",
-      "url": "http://pickledfish.dynalias.com/nph-jpeg.cgi"
-    }, {
       "name": "Benson Beach - Left",
       "url": "http://www.planetargus.com/north_head/most_recent/c6/snap.jpg"
     }, {
       "name": "Benson Beach - Right",
       "url": "http://www.planetargus.com/north_head/most_recent/c5/snap.jpg"
+    }, {
+      "name": "The Breakers",
+      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
+    }, {
+      "name": "Adrift Hotel",
+      "url": "http://pickledfish.dynalias.com/nph-jpeg.cgi"
     }]
   }, {
     "name": "Seaside, OR",
@@ -568,9 +637,9 @@
       "url": "http://theoregoncoast.info/Webcams.html"
     }],
     "cameras": [{
-      "url": "http://97.90.56.254/jpeg.cgi"
-    }, {
       "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
+    }, {
+      "url": "http://97.90.56.254/jpeg.cgi"
     }]
   }, {
     "name": "Tillamook, OR",
@@ -592,10 +661,12 @@
     "link": "http://www.surfline.com/surf-report/oceanside-or-pacific-northwest_47668/",
     "links": [{
       "url": "http://www.oceansideoregon.com/surf_cam.asp"
+    }, {
+      "url": "https://www.alltravelcams.com/webcams/oregon_coast/oceanside_three_arch_rocks.php"
     }],
     "cameras": [{
       "name": "The Three Arch Rocks",
-      "url": "http://www.oceansideoregon.com/cam.jpg"
+      "url": "http://threearchinn.com/OceansideOregon000.jpg"
     }]
   }, {
     "name": "Pacific City, OR",
@@ -607,6 +678,8 @@
       "url": "http://www.yourlittlebeachtown.com/"
     }, {
       "url": "http://www.kgw.com/weather/live-cameras/pacific-city"
+    }, {
+      "url": "https://www.capekiwandarvresort.com/MOBI/Webcam.html"
     }],
     "cameras": [{
       "name": "Cape Kiwanda",
@@ -614,6 +687,9 @@
     }, {
       "name": "Cape Kiwanda",
       "url": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
+    }, {
+      "name": "Cape Kiwanda RV Resort",
+      "url": "https://images.webcams.travel/original/1510725684-pacific-city.jpg?token=webcams.travel:4053ed0e85f373935fc736288d49a268:1519113584"
     }]
   }, {
     "name": "Lincoln City, OR",
@@ -623,6 +699,8 @@
     "link": "http://magicseaweed.com/Lincoln-City-Surf-Report/316/",
     "links": [{
       "url": "http://www.lcsurfshop.com/webcam.htm"
+    }, {
+      "url": "https://www.windfinder.com/webcams/yaquina_bay_bridge"
     }],
     "cameras": [{
       "name": "Road's End",
@@ -650,6 +728,10 @@
       "url": "http://cil-www.oce.orst.edu/agate.html"
     }, {
       "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+    }, {
+      "url": "http://donaldtcampbell.com/athleticaid/yaquina/yaquinacams.html"
+    }, {
+      "url": "https://www.alltravelcams.com/webcams/oregon_coast/newport_yaquina_bay.php"
     }],
     "cameras": [{
       "name": "Agate Beach",
@@ -660,6 +742,18 @@
     }, {
       "name": "Yaquina Bay",
       "url": "http://www.wrh.noaa.gov/images/mfr/camera/Yaquin.jpg"
+    }, {
+      "name": "Yaquina Bay Jetty",
+      "url": "https://www.tripcheck.com/RoadCams/cams/Yaquina%20Bay%20Jetty_pid2766.JPG"
+    }, {
+      "name": "Yaquina Bay - KGW TV",
+      "url": "http://cdn.tegna-media.com/kgw/weather/newport.jpg"
+    }, {
+      "name": "Hatfield Marine Science Center",
+      "url": "http://webcam.oregonstate.edu/cam/hmsc/live/live.jpg"
+    }, {
+      "name": "Yaquina Head Lighthouse",
+      "url": "http://icons.wunderground.com/webcamramdisk/b/i/BirderBob/1/current.jpg?t=1519112458"
     }]
   }, {
     "name": "Florence, OR",
