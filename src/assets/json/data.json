@@ -204,22 +204,22 @@
     }],
     "cameras": [{
       "name": "Summit (6,856 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM7/CRYM7_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
     }, {
       "name": "Chair 6 Top (7,002 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM3/CRYM3_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
     }, {
       "name": "Chair 6 Bottom (6,080 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM2/CRYM2_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
     }, {
       "name": "Rainier Express (5,270 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM5/CRYM5_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
     }, {
       "name": "Gold Hills (5,044 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM4/CRYM4_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
     }, {
       "name": "Base (4,440 ft)",
-      "url": "https://instacam.weatherbug.com/instacamimg/CRYM6/CRYM6_l.jpg"
+      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
     }]
   }, {
     "name": "Mt. Rainier, WA",
