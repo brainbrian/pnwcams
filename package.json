@@ -11,7 +11,7 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-preload": "^0.5.2",
-    "react-redux": "^5.1.0",
+    "react-redux": "^5.1.1",
     "react-router": "^3.2.1",
     "react-router-redux": "^4.0.8",
     "react-slick": "^0.14.11",
@@ -54,7 +54,7 @@
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
     "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.11.3",
+    "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^2.6.1",
     "whatwg-fetch": "^3.0.0"
   },
