@@ -6,37 +6,31 @@
 import '../../styles/components/Camera.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
+import cx from 'classnames';
 
 class Camera extends React.Component {
   static propTypes = {
-    image: PropTypes.string.isRequired,
-    name: PropTypes.string,
+    image: PropTypes.string,
+    youtubeId: PropTypes.string,
+    name: PropTypes.string
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      image: this.randomImage(this.props.image),
-    };
-  }
-
   randomImage(img) {
-    img = img.indexOf('?') > -1 ? `${img}&` : `${img}?`;
+    img = img.indexOf("?") > -1 ? `${img}&` : `${img}?`;
     img += `random=${Math.round(Math.random() * 100000000)}`;
     return img;
   }
 
   render() {
-    return (
-      <div className='camera'>
-        <img className='camera__image' src={this.state.image} />
-        {this.props.name &&
-          <h3 className='camera__title'>
-            <span>{this.props.name}</span>
-          </h3>
-        }
-      </div>
-    );
+    const {image, name, youtubeId} = this.props;
+
+    return <div className="camera">
+        {image && <img className="camera__image" src={this.randomImage(image)} />}
+        {youtubeId && <iframe className="camera__iframe" type="text/html" src={`http://www.youtube.com/embed/${youtubeId}?controls=0&color=white&modestbranding=1&playsinline=1`} frameBorder="0" />}
+      {name && <h3 className={cx('camera__title', {'camera__title--video': youtubeId})}>
+            <span>{name}</span>
+          </h3>}
+      </div>;
   }
 }
 

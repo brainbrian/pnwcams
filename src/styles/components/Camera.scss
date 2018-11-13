@@ -10,7 +10,8 @@
   position: relative;
   width: 100%;
 
-  &__image {
+  &__image,
+  &__iframe {
     height: 100%;
     left: 0;
     overflow: hidden;
@@ -31,6 +32,10 @@
     span {
       background: $color-blue-trans;
       padding: 5px 10px 3px;
+    }
+
+    &--video {
+      top: 40%;
     }
   }
 }

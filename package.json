@@ -4,6 +4,7 @@
   "description": "A build template for React w/ Hot Module Replacement and production bundling for static sites.",
   "main": "./src/scripts/index.js",
   "dependencies": {
+    "classnames": "^2.2.6",
     "fetch-jsonp": "^1.1.1",
     "prop-types": "^15.6.2",
     "react": "^15.6.2",

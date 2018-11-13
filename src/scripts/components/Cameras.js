@@ -14,22 +14,15 @@ class Cameras extends React.Component {
     data: PropTypes.array.isRequired,
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
-    let cameras = null;
-    let cameraID = 0;
-    cameras = this.props.data.map(camera => {
+    const cameras = this.props.data.map((camera, key) => {
       const props = {
-        id: cameraID,
-        key: `loc-${cameraID}`,
+        id: key,
+        key: `loc-${key}`,
         name: camera.name,
-        image: camera.url
+        image: camera.url,
+        youtubeId: camera.youtubeId
       };
-      cameraID ++;
       return <div key={props.key}><Camera {...props} /></div>;
     });
 

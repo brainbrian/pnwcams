@@ -164,22 +164,13 @@
     }],
     "cameras": [{
       "name": "Alpental Mid-Mtn",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Alpentalmid.jpg"
+      "youtubeId": "zpZtUEbuJOg"
     }, {
       "name": "Alpental Base",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Alpcam.jpg"
-    }, {
-      "name": "Alpental Top",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Chair2.jpg"
-    }, {
-      "name": "Silver Fir",
-      "url": "http://www.summitatsnoqualmie.com/webcams/silverfir.jpg"
-    }, {
-      "name": "Central Express",
-      "url": "http://www.summitatsnoqualmie.com/webcams/CentralExpress.jpg"
+      "youtubeId": "6FNVI6uBM2I"
     }, {
       "name": "Summit Central",
-      "url": "http://www.summitatsnoqualmie.com/webcams/Centcam.jpg"
+      "youtubeId": "lMuA5S2DV3c"
     }, {
       "name": "Hyak",
       "url": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
@@ -421,6 +412,9 @@
       "url": "https://www.wickinn.com/beachcam"
     }],
     "cameras": [{
+      "name": "Cox Bay - LBR - YouTube",
+      "youtubeId": "00CSlKmSvwU"
+    }, {
       "name": "Cox Bay - LBR",
       "url": "https://images.webcams.travel/original/1240892193-Weather-Tofino-Surf-Cam-Long-Beach-Lodge-Resort-Tofino.jpg?token=webcams.travel:81528d560ae403f65b34238b8d4f49f3:1519114233"
     }, {
@@ -429,9 +423,6 @@
     }, {
       "name": "Crystal Cove",
       "url": "http://192.187.29.199:8080/cgi-bin/viewer/video.jpg?streamid=2&quality=10"
-    }, {
-      "name": "Cox Bay - LBR - YouTube",
-      "url": "https://img.youtube.com/vi/00CSlKmSvwU/maxresdefault.jpg"
     }, {
       "name": "Cox Bay - PSBR",
       "url": "http://192.187.30.10:8081/record/current.jpg"
