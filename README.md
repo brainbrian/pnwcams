@@ -37,5 +37,4 @@ Configuration of the Webpack build is located in `webpack-config`. Here you will
 * [OpenWeatherMap](http://api.openweathermap.org/data/2.5/weather?lat=46.80&lon=-121.73)
 
 ## Todo
-* Add support for video feeds like [this](https://www.youtube.com/watch?v=00CSlKmSvwU)
 * Build App w/ React Native
