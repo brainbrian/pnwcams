@@ -164,13 +164,19 @@
     }],
     "cameras": [{
       "name": "Alpental Mid-Mtn",
-      "youtubeId": "6urCfIAXS-8"
+      "youtubeId": "BM_ZZPeUsjo"
     }, {
       "name": "Alpental Base",
-      "youtubeId": "-M2NxU7XBA0"
+      "youtubeId": "2FMU-CLh-N4"
     }, {
       "name": "Summit Central",
-      "youtubeId": "z_qyLL-mELE"
+      "youtubeId": "Rw4PmRvyzPA"
+    }, {
+      "name": "Central Express Top",
+      "youtubeId": "OL5UxNJuyPg"
+    }, {
+      "name": "Silver Fir Base",
+      "youtubeId": "OV5bHGSkloI"
     }, {
       "name": "Hyak",
       "url": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
@@ -352,15 +358,6 @@
       "url": "http://www.mtbachelor.com/live-cams/"
     }],
     "cameras": [{
-      "name": "Pine Marten Lift",
-      "url": "https://www.mtbachelor.com/webcams/pmxlift.jpg"
-    }, {
-      "name": "The Cone",
-      "url": "https://www.mtbachelor.com/webcams/thecone.jpg"
-    }, {
-      "name": "Gravity School Learning Zone",
-      "url": "https://www.mtbachelor.com/webcams/gravitysportswv.jpg"
-    }, {
       "name": "Sunrise Base Area",
       "url": "https://www.mtbachelor.com/webcams/sunrisehome.jpg"
     }, {
@@ -390,9 +387,6 @@
     }, {
       "name": "Base Stake",
       "url": "https://www.mtbachelor.com/webcams/snowstake.jpg"
-    }, {
-      "name": "Clearing Rock Bar",
-      "url": "https://www.mtbachelor.com/webcams/rockbar.jpg"
     }]
   }, {
     "name": "Tofino, BC",
@@ -413,7 +407,7 @@
     }],
     "cameras": [{
       "name": "Cox Bay - LBR - YouTube",
-      "youtubeId": "NOoCp9lU5OU"
+      "youtubeId": "SBj-U5c-DAY"
     }, {
       "name": "Cox Bay - LBR",
       "url": "https://images.webcams.travel/original/1240892193-Weather-Tofino-Surf-Cam-Long-Beach-Lodge-Resort-Tofino.jpg?token=webcams.travel:81528d560ae403f65b34238b8d4f49f3:1519114233"
