@@ -3,16 +3,17 @@
  * React Component Docs - https://facebook.github.io/react/docs/react-component.html
  */
 
-import '../../styles/components/Camera.scss';
-import React from 'react';
-import PropTypes from 'prop-types';
-import cx from 'classnames';
+import "../../styles/components/Camera.scss";
+import React from "react";
+import PropTypes from "prop-types";
+import cx from "classnames";
 
 class Camera extends React.Component {
   static propTypes = {
     image: PropTypes.string,
-    youtubeId: PropTypes.string,
-    name: PropTypes.string
+    iframe: PropTypes.string,
+    name: PropTypes.string,
+    youtube: PropTypes.string
   };
 
   randomImage(img) {
@@ -22,15 +23,26 @@ class Camera extends React.Component {
   }
 
   render() {
-    const {image, name, youtubeId} = this.props;
+    const { image, name, youtube, iframe } = this.props;
+    let iframeUrl = "";
 
-    return <div className="camera">
+    if (youtube) {
+      iframeUrl = `http://www.youtube.com/embed/${youtube}?controls=0&color=white&modestbranding=1&playsinline=1`;
+    } else if (iframe) {
+      iframeUrl = iframe;
+    }
+
+    return (
+      <div className="camera">
         {image && <img className="camera__image" src={this.randomImage(image)} />}
-        {youtubeId && <iframe className="camera__iframe" type="text/html" src={`http://www.youtube.com/embed/${youtubeId}?controls=0&color=white&modestbranding=1&playsinline=1`} frameBorder="0" />}
-      {name && <h3 className={cx('camera__title', {'camera__title--video': youtubeId})}>
+        {iframeUrl !== "" && <iframe className="camera__iframe" type="text/html" src={iframeUrl} frameBorder="0" scrolling="no" allowFullScreen />}
+        {name && (
+          <h3 className={cx("camera__title", { "camera__title--video": iframeUrl })}>
             <span>{name}</span>
-          </h3>}
-      </div>;
+          </h3>
+        )}
+      </div>
+    );
   }
 }
 

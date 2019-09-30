@@ -1,801 +1,1091 @@
 {
-  "links": [{
-    "name": "NWAC",
-    "category": "snow",
-    "url": "https://www.nwac.us"
-  }, {
-    "name": "Pass Reports",
-    "category": "snow",
-    "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
-  }, {
-    "name": "POTW",
-    "category": "snow",
-    "url": "http://thepeakoftheweek.com"
-  }, {
-    "name": "TAY",
-    "category": "snow",
-    "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
-  }, {
-    "name": "Mt. Baker",
-    "category": "snow",
-    "url": "http://www.mtbaker.us/snow-report"
-  }, {
-    "name": "MSW CA",
-    "category": "surf",
-    "url": "http://magicseaweed.com/Canada-West-Surf-Forecast/50/"
-  }, {
-    "name": "MSW WA",
-    "category": "surf",
-    "url": "http://magicseaweed.com/Washington-Surf-Forecast/14/"
-  }, {
-    "name": "MSW OR",
-    "category": "surf",
-    "url": "http://magicseaweed.com/Oregon-Surf-Forecast/15/"
-  }, {
-    "name": "Surf WA",
-    "category": "surf",
-    "url": "http://www.surfwater.org"
-  }, {
-    "name": "Surfrider",
-    "category": "surf",
-    "url": "http://www.surfrider.org"
-  }],
-  "locations": [{
-    "name": "Hurricane Ridge, WA",
-    "category": "snow",
-    "latitude": "47.93",
-    "longitude": "-123.41",
-    "link": "http://hurricaneridge.com",
-    "links": [{
-      "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
-    }],
-    "cameras": [{
-      "name": "Ridge",
-      "url": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
-    }, {
-      "name": "Parking",
-      "url": "http://www.nps.gov/webcams-olym/northcam.jpg"
-    }, {
-      "name": "Olympic View Cabins",
-      "url": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
-    }]
-  }, {
-    "name": "Loup Loup, WA",
-    "category": "snow",
-    "latitude": "48.39",
-    "longitude": "-119.91",
-    "link": "https://skitheloup.com",
-    "links": [{
-      "url": "https://skitheloup.com/loup-loup-mountain-cams/"
-    }],
-    "cameras": [{
-      "name": "Top",
-      "url": "https://skitheloup.com/skiview/loup-loup-ski-bowl-top-chair.jpg"
-    }, {
-      "name": "Base",
-      "url": "https://skitheloup.com/loup-loup-ski-bowl-base-area.jpg"
-    }]
-  }, {
-    "name": "Stevens Pass, WA",
-    "category": "snow",
-    "latitude": "47.74",
-    "longitude": "-121.10",
-    "link": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/",
-    "links": [{
-      "url": "https://www.stevenspass.com/site/mountain/cams"
-    }],
-    "cameras": [{
-      "name": "Base",
-      "url": "https://www.stevenspass.com/cams/base1/"
-    }, {
-      "name": "Jupiter",
-      "url": "https://www.stevenspass.com/cams/jupiter/"
-    }, {
-      "name": "Skyline Top",
-      "url": "https://www.stevenspass.com/cams/c-3/"
-    },{
-      "name": "Skyline Base",
-      "url": "https://www.stevenspass.com/cams/mountain/"
-    }, {
-      "name": "Plaza",
-      "url": "https://www.stevenspass.com/cams/cowboy/"
-    }, {
-      "name": "WSDOT Summit West",
-      "url": "https://www.stevenspass.com/cams/summit-west/"
-    }, {
-      "name": "WSDOT Summit East",
-      "url": "https://www.stevenspass.com/cams/summit-east/"
-    }, {
-      "name": "WSDOT Old Faithful",
-      "url": "https://www.stevenspass.com/cams/old-faithful/"
-    }, {
-      "name": "WSDOT Lower Mill Creek",
-      "url": "https://www.stevenspass.com/cams/lower-mill-creek/"
-    }]
-  }, {
-    "name": "Leavenworth, WA",
-    "category": "snow",
-    "latitude": "47.48",
-    "longitude": "-120.82",
-    "link": "http://www.wta.org/go-hiking/hikes/enchantment-lakes",
-    "links": [{
-      "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
-    }],
-    "cameras": [{
-      "name": "Icicle Chalet",
-      "url": "http://www.iciclechalet.com/cam/icview.jpg"
-    }, {
-      "name": "Mtn. Home Lodge",
-      "url": "http://www.redmondrents.com/kebcam.jpg"
-    }, {
-      "name": "Downtown",
-      "url": "http://inleavenworth.com/frontstreet.jpg"
-    }]
-  }, {
-    "name": "Mission Ridge, WA",
-    "category": "snow",
-    "latitude": "47.29",
-    "longitude": "-120.40",
-    "link": "https://www.missionridge.com",
-    "links": [{
-      "url": "https://www.missionridge.com/webcams"
-    }],
-    "cameras": [{
-      "name": "Sunspot",
-      "url": "https://www.missionridge.com/webcam/sunspot-cam.jpg"
-    }, {
-      "name": "Midway",
-      "url": "https://www.missionridge.com/webcam/midway-cam.jpg"
-    }, {
-      "name": "Micro",
-      "url": "https://www.missionridge.com/webcam/microwave-cam.jpg"
-    }, {
-      "name": "WSDOT Blewett Pass",
-      "url": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
-    }]
-  }, {
-    "name": "Snoqualmie Pass, WA",
-    "category": "snow",
-    "latitude": "47.42",
-    "longitude": "-121.43",
-    "link": "http://www.summitatsnoqualmie.com/conditions",
-    "links": [{
-      "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
-    }],
-    "cameras": [{
-      "name": "Alpental Mid-Mtn",
-      "youtubeId": "BM_ZZPeUsjo"
-    }, {
-      "name": "Alpental Base",
-      "youtubeId": "2FMU-CLh-N4"
-    }, {
-      "name": "Summit Central",
-      "youtubeId": "Rw4PmRvyzPA"
-    }, {
-      "name": "Central Express Top",
-      "youtubeId": "OL5UxNJuyPg"
-    }, {
-      "name": "Silver Fir Base",
-      "youtubeId": "OV5bHGSkloI"
-    }, {
-      "name": "Hyak",
-      "url": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
-    }, {
-      "name": "WSDOT Snoqualmie Summit",
-      "url": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
-    }, {
-      "name": "WSDOT East Snoqualmie Summit",
-      "url": "http://images.wsdot.wa.gov/sc/090VC05347.jpg"
-    }, {
-      "name": "WSDOT Hyak",
-      "url": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"
-    }]
-  }, {
-    "name": "Crystal Mountain, WA",
-    "category": "snow",
-    "latitude": "46.92",
-    "longitude": "-121.51",
-    "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
-    "links": [{
-      "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
-    }],
-    "cameras": [{
-      "name": "Summit (6,856 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
-    }, {
-      "name": "Chair 6 Top (7,002 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
-    }, {
-      "name": "Chair 6 Bottom (6,080 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
-    }, {
-      "name": "Rainier Express (5,270 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
-    }, {
-      "name": "Gold Hills (5,044 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
-    }, {
-      "name": "Base (4,440 ft)",
-      "url": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
-    }]
-  }, {
-    "name": "Mt. Rainier, WA",
-    "category": "snow",
-    "latitude": "46.80",
-    "longitude": "-121.73",
-    "link": "https://www.nps.gov/mora/index.htm",
-    "links": [{
-      "url": "https://www.nps.gov/mora/photosmultimedia/webcams.htm"
-    }],
-    "cameras": [{
-      "name": "Paradise - Mountain",
-      "url": "https://www.nps.gov/webcams-mora/mountain.jpg"
-    }, {
-      "name": "Paradise - Tatoosh",
-      "url": "https://www.nps.gov/webcams-mora/tatoosh.jpg"
-    }, {
-      "name": "Paradise - Nisqually Valley",
-      "url": "https://nature.nps.gov/air/WebCams/parks/moracam/mora.jpg"
-    }, {
-      "name": "Paradise - Parking East",
-      "url": "https://www.nps.gov/webcams-mora/east.jpg"
-    }, {
-      "name": "Paradise - Parking West",
-      "url": "https://www.nps.gov/webcams-mora/west.jpg"
-    }, {
-      "name": "Paradise - Visitor Center",
-      "url": "https://www.nps.gov/webcams-mora/gh.jpg"
-    }, {
-      "name": "Longmire",
-      "url": "https://www.nps.gov/webcams-mora/longmire.jpg"
-    }, {
-      "name": "Camp Muir",
-      "url": "https://www.nps.gov/webcams-mora/muir.jpg"
-    }]
-  }, {
-    "name": "White Pass, WA",
-    "category": "snow",
-    "latitude": "46.64",
-    "longitude": "-121.39",
-    "link": "http://skiwhitepass.com",
-    "links": [{
-      "url": "https://skiwhitepass.com/mountain-cams"
-    }],
-    "cameras": [{
-      "name": "Base",
-      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
-    }, {
-      "name": "Highcamp",
-      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
-    }, {
-      "name": "Basin",
-      "url": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
-    }, {
-      "name": "WSDOT Summit East",
-      "url": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
-    }]
-  }, {
-    "name": "Mount St. Helens",
-    "category": "snow",
-    "latitude": "46.19",
-    "longitude": "-122.19",
-    "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
-    "links": [{
-      "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
-    }, {
-      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
-    }],
-    "cameras": [{
-      "name": "Johnston Ridge",
-      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
-    }, {
-      "name": "Johnston Ridge",
-      "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
-    }]
-  }, {
-    "name": "Mt. Hood Meadows, OR",
-    "category": "snow",
-    "latitude": "45.33",
-    "longitude": "-121.67",
-    "link": "https://www.skihood.com",
-    "links": [{
-      "url": "https://www.skihood.com/the-mountain/conditions"
-    }],
-    "cameras": [{
-      "name": "Bottom of Vista",
-      "url": "https://www.skihood.com/cams/vista"
-    }, {
-      "name": "Base Area",
-      "url": "https://www.skihood.com/cams/base"
-    }, {
-      "name": "Top of Cascade",
-      "url": "https://www.skihood.com/cams/casc"
-    }]
-  }, {
-    "name": "Timberline Lodge, OR",
-    "category": "snow",
-    "latitude": "45.33",
-    "longitude": "-121.71",
-    "link": "http://www.timberlinelodge.com",
-    "links": [{
-      "url": "http://www.timberlinelodge.com/webcams/"
-    }],
-    "cameras": [{
-      "name": "Jeff Flood",
-      "url": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
-    }, {
-      "name": "Palmer/Silcox",
-      "url": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
-    }, {
-      "name": "Bruno's",
-      "url": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
-    }, {
-      "name": "Lodge",
-      "url": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
-    }, {
-      "name": "Snow Stake",
-      "url": "https://www.timberlinelodge.com/snowcameras//snowstake.jpg"
-    }, {
-      "name": "US26 at G. Camp Lp Rd",
-      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
-    }, {
-      "name": "US26 EB at G. Camp Maint. West",
-      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govn%20Camp%20Maint_pid1899.JPG"
-    }, {
-      "name": "US26 at G. Camp (Timberline Rd)",
-      "url": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
-    }, {
-      "name": "US26 EB at Snow Bunny",
-      "url": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
-    }]
-  }, {
-    "name": "Mt. Bachelor, OR",
-    "category": "snow",
-    "latitude": "43.99",
-    "longitude": "-121.68",
-    "link": "http://www.mtbachelor.com",
-    "links": [{
-      "url": "http://www.mtbachelor.com/live-cams/"
-    }],
-    "cameras": [{
-      "name": "Sunrise Base Area",
-      "url": "https://www.mtbachelor.com/webcams/sunrisehome.jpg"
-    }, {
-      "name": "Outback Express",
-      "url": "https://www.mtbachelor.com/webcams/outbackliftline.jpg"
-    }, {
-      "name": "Summit Lift Line",
-      "url": "https://www.mtbachelor.com/webcams/summitliftlinehome.jpg"
-    }, {
-      "name": "Marshmallow Run",
-      "url": "https://www.mtbachelor.com/webcams/marshmallow.jpg"
-    }, {
-      "name": "Carrousel Learning Zone",
-      "url": "https://www.mtbachelor.com/webcams/carnivallearningzone.jpg"
-    }, {
-      "name": "Broken Top and Pine Marten Lodge",
-      "url": "https://www.mtbachelor.com/webcams/brokentoppinelodge.jpg"
-    }, {
-      "name": "South Sisters from Outback",
-      "url": "https://www.mtbachelor.com/webcams/southsisteroutback.jpg"
-    }, {
-      "name": "Tumalo and Bend from Outback",
-      "url": "https://www.mtbachelor.com/webcams/tumalobend.jpg"
-    }, {
-      "name": "West Village",
-      "url": "https://www.mtbachelor.com/webcams/westvillage.jpg"
-    }, {
-      "name": "Base Stake",
-      "url": "https://www.mtbachelor.com/webcams/snowstake.jpg"
-    }]
-  }, {
-    "name": "Tofino, BC",
-    "category": "surf",
-    "latitude": "49.10",
-    "longitude": "-125.87",
-    "link": "http://magicseaweed.com/Tofino-Cox-Bay-Surf-Report/1122/",
-    "links": [{
-      "url": "http://www.longbeachlodgeresort.com"
-    }, {
-      "url": "https://tourismtofino.com/plan-your-trip/weather/"
-    }, {
-      "url": "http://tofinoseakayaking.com/webcam/"
-    }, {
-      "url": "https://www.crystalcove.ca/crystal-cove-webcam"
-    }, {
-      "url": "https://www.wickinn.com/beachcam"
-    }],
-    "cameras": [{
-      "name": "Cox Bay - LBR - YouTube",
-      "youtubeId": "SBj-U5c-DAY"
-    }, {
-      "name": "Cox Bay - LBR",
-      "url": "https://images.webcams.travel/original/1240892193-Weather-Tofino-Surf-Cam-Long-Beach-Lodge-Resort-Tofino.jpg?token=webcams.travel:81528d560ae403f65b34238b8d4f49f3:1519114233"
-    }, {
-      "name": "Esowista Peninsula - Tofino Sea Kayaking",
-      "url": "http://tofinoseakayaking.com/netcam/tofinoseakayaking-webcam.jpg"
-    }, {
-      "name": "Crystal Cove",
-      "url": "http://192.187.29.199:8080/cgi-bin/viewer/video.jpg?streamid=2&quality=10"
-    }, {
-      "name": "Cox Bay - PSBR",
-      "url": "http://192.187.30.10:8081/record/current.jpg"
-    }]
-  }, {
-    "name": "Strait of Juan de Fuca, WA",
-    "category": "surf",
-    "latitude": "48.18",
-    "longitude": "-124.02",
-    "link": "http://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
-    "links": [{
-      "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
-    }, {
-      "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
-    }, {
-      "url": "http://forkswa.com/visiting-forks/webcamsontheolympicpeninsula/"
-    }, {
-      "url": "http://northolympic.com/webcam/sekiu/"
-    }, {
-      "url": "http://icons.wunderground.com/webcamramdisk/m/a/MattHoko/1/current.jpg"
-    }],
-    "cameras": [{
-      "name": "Downtown PA",
-      "url": "http://webcam.portangeles.org/webcam/image.jpg"
-    }, {
-      "name": "Dungeness Lighthouse",
-      "url": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
-    }, {
-      "name": "Sekiu - Hoko River",
-      "url": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
-    }, {
-      "name": "Sequim Valley Airport",
-      "url": "http://olypen.com/sequimvalleyairport/webcam/webcam.jpg"
-    }]
-  }, {
-    "name": "La Push, WA",
-    "category": "surf",
-    "latitude": "47.90",
-    "longitude": "-124.63",
-    "link": "http://magicseaweed.com/La-Push-Surf-Report/308/",
-    "links": [{
-      "url": "http://forkswa.com/first-beach-webcam/"
-    }, {
-      "url": "http://forkswa.com/james-island-webcam/"
-    }, {
-      "url": "http://www.thekalalochlodge.com/kalaloch-web-cam.aspx"
-    }],
-    "cameras": [{
-      "name": "First Beach",
-      "url": "http://webcam.forkswa.com/webcam1/netcam.jpg"
-    }, {
-      "name": "James Island",
-      "url": "http://webcam.forkswa.com/webcam2/netcam.jpg"
-    }, {
-      "name": "Quillayute River",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/QRiver.jpg"
-    }, {
-      "name": "Kalaloch Lodge",
-      "url": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
-    }]
-  }, {
-    "name": "Ocean Shores, WA",
-    "category": "surf",
-    "latitude": "46.93",
-    "longitude": "-124.18",
-    "link": "http://magicseaweed.com/Ocean-Shores-Surf-Report/3813/",
-    "links": [{
-      "url": "http://beachcam.osgov.com:85/"
-    }, {
-      "url": "http://osgov.com/"
-    }],
-    "cameras": [{
-      "name": "Best Western",
-      "url": "http://beachcam.osgov.com:85/nph-jpeg.cgi"
-    }]
-  }, {
-    "name": "Westport, WA",
-    "category": "surf",
-    "latitude": "46.90",
-    "longitude": "-124.14",
-    "link": "http://magicseaweed.com/Westport-Surf-Report/310/",
-    "links": [{
-      "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
-    }, {
-      "url": "http://www.rainbowsendcam.com/webcam32.htm"
-    }],
-    "cameras": [{
-      "name": "Jetty",
-      "url": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
-    }, {
-      "name": "Groins",
-      "url": "http://www.westportcam.com/images/position3.jpg"
-    }, {
-      "name": "Groins",
-      "url": "http://www.westportcam.com/images/position4.jpg"
-    }, {
-      "name": "Groins",
-      "url": "http://www.westportcam.com/images/position7.jpg"
-    }, {
-      "name": "Half Moon Bay",
-      "url": "http://www.westportcam.com/images/position1.jpg"
-    }, {
-      "name": "Half Moon Bay",
-      "url": "http://www.westportcam.com/images/position2.jpg"
-    }, {
-      "name": "Half Moon Bay",
-      "url": "http://www.westportcam.com/images/position5.jpg"
-    }, {
-      "name": "Marina & Westhaven Drive",
-      "url": "http://www.westportcam.com/images/position0.jpg"
-    }, {
-      "name": "Marina",
-      "url": "http://www.westportcam.com/images/position8.jpg"
-    }, {
-      "name": "Harbor Entrance",
-      "url": "http://www.westportcam.com/images/position6.jpg"
-    }]
-  }, {
-    "name": "Long Beach Peninsula, WA",
-    "category": "surf",
-    "latitude": "46.31",
-    "longitude": "-124.07",
-    "link": "http://magicseaweed.com/Long-Beach-Surf-Report/311/",
-    "links": [{
-      "url": "http://cil-www.oce.orst.edu/batman.html"
-    }, {
-      "url": "https://www.planetargus.com/north_head/"
-    }, {
-      "url": "https://funbeach.com/explore/web-cams/"
-    }, {
-      "url": "http://www.skookumsurf.com/explore/"
-    }, {
-      "url": "http://breakerslongbeach.com/clarks-tree-ocean-web-cam/"
-    }],
-    "cameras": [{
-      "name": "Klipsan Beach",
-      "url": "http://cam.aaapacreal.com/clamcam.jpg"
-    }, {
-      "name": "Columbia River - Left",
-      "url": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
-    }, {
-      "name": "Columbia River - Right",
-      "url": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
-    }, {
-      "name": "Benson Beach - Left",
-      "url": "http://www.planetargus.com/north_head/most_recent/c6/snap.jpg"
-    }, {
-      "name": "Benson Beach - Right",
-      "url": "http://www.planetargus.com/north_head/most_recent/c5/snap.jpg"
-    }, {
-      "name": "The Breakers",
-      "url": "http://www.breakerslongbeach.com/CAM/cam.jpg"
-    }, {
-      "name": "Adrift Hotel",
-      "url": "http://pickledfish.dynalias.com/nph-jpeg.cgi"
-    }]
-  }, {
-    "name": "Seaside, OR",
-    "category": "surf",
-    "latitude": "45.98",
-    "longitude": "-123.94",
-    "link": "http://www.surfline.com/surf-report/seaside-pacific-northwest_142801/",
-    "links": [{
-      "url": "http://www.seasidechamber.com/camhtml/index.html"
-    }],
-    "cameras": [{
-      "name": "The Cove",
-      "url": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
-    }, {
-      "name": "Aquaruim",
-      "url": "http://207.224.31.229/-wvhttp-01-/image.cgi?v=jpg:640x480"
-    }]
-  }, {
-    "name": "Cannon Beach, OR",
-    "category": "surf",
-    "latitude": "45.72",
-    "longitude": "-123.95",
-    "link": "http://magicseaweed.com/Cannon-Beach-Surf-Report/313/",
-    "links": [{
-      "url": "http://www.webbsscenicsurf.com/home.html"
-    }, {
-      "url": "http://www.cbcc.net/whats-new/webcam/"
-    }],
-    "cameras": [{
-      "name": "Haystack Rock",
-      "url": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
-    }, {
-      "name": "Webb's Scenic Surf",
-      "url": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
-    }, {
-      "name": "Beachfront Lodge",
-      "url": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
-    }]
-  }, {
-    "name": "Manzanita, OR",
-    "category": "surf",
-    "latitude": "45.72",
-    "longitude": "-123.95",
-    "link": "http://www.surfline.com/surf-report/manzanita-pacific-northwest_142795/",
-    "links": [{
-      "url": "http://www.oceaninnatmanzanita.com/oregon-coast-webcam/"
-    }, {
-      "url": "http://theoregoncoast.info/Webcams.html"
-    }],
-    "cameras": [{
-      "url": "http://www.weathercam.neahkahnie.net/netcam.jpg"
-    }, {
-      "url": "http://97.90.56.254/jpeg.cgi"
-    }]
-  }, {
-    "name": "Tillamook, OR",
-    "category": "surf",
-    "latitude": "45.52",
-    "longitude": "-123.92",
-    "links": [{
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }],
-    "cameras": [{
-      "name": "Tillamook Bay",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
-    }]
-  }, {
-    "name": "Oceanside, OR",
-    "category": "surf",
-    "latitude": "45.45",
-    "longitude": "-123.97",
-    "link": "http://www.surfline.com/surf-report/oceanside-or-pacific-northwest_47668/",
-    "links": [{
-      "url": "http://www.oceansideoregon.com/surf_cam.asp"
-    }, {
-      "url": "https://www.alltravelcams.com/webcams/oregon_coast/oceanside_three_arch_rocks.php"
-    }],
-    "cameras": [{
-      "name": "The Three Arch Rocks",
-      "url": "http://threearchinn.com/OceansideOregon000.jpg"
-    }]
-  }, {
-    "name": "Pacific City, OR",
-    "category": "surf",
-    "latitude": "45.22",
-    "longitude": "-123.98",
-    "link": "http://magicseaweed.com/Cape-Kiwanda-Surf-Report/560/",
-    "links": [{
-      "url": "http://www.yourlittlebeachtown.com/"
-    }, {
-      "url": "http://www.kgw.com/weather/live-cameras/pacific-city"
-    }, {
-      "url": "https://www.capekiwandarvresort.com/MOBI/Webcam.html"
-    }],
-    "cameras": [{
-      "name": "Cape Kiwanda",
-      "url": "http://cdn.tegna-media.com/kgw/weather/pacific-city.jpg"
-    }, {
-      "name": "Cape Kiwanda",
-      "url": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
-    }, {
-      "name": "Cape Kiwanda RV Resort",
-      "url": "https://images.webcams.travel/original/1510725684-pacific-city.jpg?token=webcams.travel:4053ed0e85f373935fc736288d49a268:1519113584"
-    }]
-  }, {
-    "name": "Lincoln City, OR",
-    "category": "surf",
-    "latitude": "44.97",
-    "longitude": "-124.04",
-    "link": "http://magicseaweed.com/Lincoln-City-Surf-Report/316/",
-    "links": [{
-      "url": "http://www.lcsurfshop.com/webcam.htm"
-    }, {
-      "url": "https://www.windfinder.com/webcams/yaquina_bay_bridge"
-    }],
-    "cameras": [{
-      "name": "Road's End",
-      "url": "http://www.lcsurfshop.com/webcam32.jpg"
-    }]
-  }, {
-    "name": "Depoe Bay, OR",
-    "category": "surf",
-    "latitude": "44.81",
-    "longitude": "-124.06",
-    "links": [{
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }],
-    "cameras": [{
-      "name": "Depoe Bay",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/DepoeB.jpg"
-    }]
-  }, {
-    "name": "Newport, OR",
-    "category": "surf",
-    "latitude": "44.68",
-    "longitude": "-124.08",
-    "link": "http://magicseaweed.com/Newport-Surf-Report/318/",
-    "links": [{
-      "url": "http://cil-www.oce.orst.edu/agate.html"
-    }, {
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }, {
-      "url": "http://donaldtcampbell.com/athleticaid/yaquina/yaquinacams.html"
-    }, {
-      "url": "https://www.alltravelcams.com/webcams/oregon_coast/newport_yaquina_bay.php"
-    }],
-    "cameras": [{
-      "name": "Agate Beach",
-      "url": "http://cil-www.oce.orst.edu/yhead/latest.c0.snap.jpg"
-    }, {
-      "name": "Yaquina Head",
-      "url": "http://cil-www.oce.orst.edu/yhead/latest.c3.snap.jpg"
-    }, {
-      "name": "Yaquina Bay",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Yaquin.jpg"
-    }, {
-      "name": "Yaquina Bay Jetty",
-      "url": "https://www.tripcheck.com/RoadCams/cams/Yaquina%20Bay%20Jetty_pid2766.JPG"
-    }, {
-      "name": "Yaquina Bay - KGW TV",
-      "url": "http://cdn.tegna-media.com/kgw/weather/newport.jpg"
-    }, {
-      "name": "Hatfield Marine Science Center",
-      "url": "http://webcam.oregonstate.edu/cam/hmsc/live/live.jpg"
-    }, {
-      "name": "Yaquina Head Lighthouse",
-      "url": "http://icons.wunderground.com/webcamramdisk/b/i/BirderBob/1/current.jpg?t=1519112458"
-    }]
-  }, {
-    "name": "Florence, OR",
-    "category": "surf",
-    "latitude": "44.02",
-    "longitude": "-124.14",
-    "link": "http://magicseaweed.com/Florence-Surf-Report/696/",
-    "links": [{
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }],
-    "cameras": [{
-      "name": "Siuslaw River",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Siusla.jpg"
-    }]
-  }, {
-    "name": "Winchester Bay, OR",
-    "category": "surf",
-    "latitude": "43.67",
-    "longitude": "-124.21",
-    "link": "http://magicseaweed.com/Winchester-Bay-Surf-Report/319/",
-    "links": [{
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }],
-    "cameras": [{
-      "name": "Umpqua River",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/Umpqua.jpg"
-    }]
-  }, {
-    "name": "Coos Bay, OR",
-    "category": "surf",
-    "latitude": "43.36",
-    "longitude": "-124.34",
-    "link": "http://magicseaweed.com/Coos-Bay-Surf-Report/320/",
-    "links": [{
-      "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
-    }],
-    "cameras": [{
-      "name": "Coos Bay",
-      "url": "http://www.wrh.noaa.gov/images/mfr/camera/CoosBa.jpg"
-    }]
-  }, {
-    "name": "Bandon, OR",
-    "category": "surf",
-    "latitude": "43.12",
-    "longitude": "-124.43",
-    "links": [{
-      "url": "http://www.oregonsurf.com/pages/cams.html"
-    }, {
-      "url": "http://www.oregontravels.com/bandon/cam01_bandon.html"
-    }, {
-      "url": "http://www.bandonhomes.com"
-    }, {
-      "url": "http://www.rwre.com/webcam/"
-    }],
-    "cameras": [{
-      "name": "Jetty",
-      "url": "http://www.rwre.com/webcam/current_photo.jpg"
-    }]
-  }]
+  "links": [
+    {
+      "name": "NWAC",
+      "category": "snow",
+      "url": "https://www.nwac.us"
+    },
+    {
+      "name": "Pass Reports",
+      "category": "snow",
+      "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
+    },
+    {
+      "name": "POTW",
+      "category": "snow",
+      "url": "http://thepeakoftheweek.com"
+    },
+    {
+      "name": "TAY",
+      "category": "snow",
+      "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
+    },
+    {
+      "name": "Mt. Baker",
+      "category": "snow",
+      "url": "http://www.mtbaker.us/snow-report"
+    },
+    {
+      "name": "MSW CA",
+      "category": "surf",
+      "url": "http://magicseaweed.com/Canada-West-Surf-Forecast/50/"
+    },
+    {
+      "name": "MSW WA",
+      "category": "surf",
+      "url": "http://magicseaweed.com/Washington-Surf-Forecast/14/"
+    },
+    {
+      "name": "MSW OR",
+      "category": "surf",
+      "url": "http://magicseaweed.com/Oregon-Surf-Forecast/15/"
+    },
+    {
+      "name": "Surf WA",
+      "category": "surf",
+      "url": "http://www.surfwater.org"
+    },
+    {
+      "name": "Surfrider",
+      "category": "surf",
+      "url": "http://www.surfrider.org"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Hurricane Ridge, WA",
+      "category": "snow",
+      "latitude": "47.93",
+      "longitude": "-123.41",
+      "link": "http://hurricaneridge.com",
+      "links": [
+        {
+          "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Ridge",
+          "image": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
+        },
+        {
+          "name": "Parking",
+          "image": "http://www.nps.gov/webcams-olym/northcam.jpg"
+        },
+        {
+          "name": "Olympic View Cabins",
+          "image": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Loup Loup, WA",
+      "category": "snow",
+      "latitude": "48.39",
+      "longitude": "-119.91",
+      "link": "https://skitheloup.com",
+      "links": [
+        {
+          "url": "https://skitheloup.com/loup-loup-mountain-cams/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Top",
+          "image": "https://skitheloup.com/skiview/loup-loup-ski-bowl-top-chair.jpg"
+        },
+        {
+          "name": "Base",
+          "image": "https://skitheloup.com/loup-loup-ski-bowl-base-area.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Stevens Pass, WA",
+      "category": "snow",
+      "latitude": "47.74",
+      "longitude": "-121.10",
+      "link": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/",
+      "links": [
+        {
+          "url": "https://www.stevenspass.com/site/mountain/cams"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Base",
+          "image": "https://www.stevenspass.com/cams/base1/"
+        },
+        {
+          "name": "Jupiter",
+          "image": "https://www.stevenspass.com/cams/jupiter/"
+        },
+        {
+          "name": "Skyline Top",
+          "image": "https://www.stevenspass.com/cams/c-3/"
+        },
+        {
+          "name": "Skyline Base",
+          "image": "https://www.stevenspass.com/cams/mountain/"
+        },
+        {
+          "name": "Plaza",
+          "image": "https://www.stevenspass.com/cams/cowboy/"
+        },
+        {
+          "name": "WSDOT Summit West",
+          "image": "https://www.stevenspass.com/cams/summit-west/"
+        },
+        {
+          "name": "WSDOT Summit East",
+          "image": "https://www.stevenspass.com/cams/summit-east/"
+        },
+        {
+          "name": "WSDOT Old Faithful",
+          "image": "https://www.stevenspass.com/cams/old-faithful/"
+        },
+        {
+          "name": "WSDOT Lower Mill Creek",
+          "image": "https://www.stevenspass.com/cams/lower-mill-creek/"
+        }
+      ]
+    },
+    {
+      "name": "Leavenworth, WA",
+      "category": "snow",
+      "latitude": "47.48",
+      "longitude": "-120.82",
+      "link": "http://www.wta.org/go-hiking/hikes/enchantment-lakes",
+      "links": [
+        {
+          "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Icicle Chalet",
+          "image": "http://www.iciclechalet.com/cam/icview.jpg"
+        },
+        {
+          "name": "Mtn. Home Lodge",
+          "image": "http://www.redmondrents.com/kebcam.jpg"
+        },
+        {
+          "name": "Downtown",
+          "image": "http://inleavenworth.com/frontstreet.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mission Ridge, WA",
+      "category": "snow",
+      "latitude": "47.29",
+      "longitude": "-120.40",
+      "link": "https://www.missionridge.com",
+      "links": [
+        {
+          "url": "https://www.missionridge.com/webcams"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Sunspot",
+          "image": "https://www.missionridge.com/webcam/sunspot-cam.jpg"
+        },
+        {
+          "name": "Midway",
+          "image": "https://www.missionridge.com/webcam/midway-cam.jpg"
+        },
+        {
+          "name": "Micro",
+          "image": "https://www.missionridge.com/webcam/microwave-cam.jpg"
+        },
+        {
+          "name": "WSDOT Blewett Pass",
+          "image": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Snoqualmie Pass, WA",
+      "category": "snow",
+      "latitude": "47.42",
+      "longitude": "-121.43",
+      "link": "http://www.summitatsnoqualmie.com/conditions",
+      "links": [
+        {
+          "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Alpental Mid-Mtn",
+          "youtube": "BM_ZZPeUsjo"
+        },
+        {
+          "name": "Alpental Base",
+          "youtube": "2FMU-CLh-N4"
+        },
+        {
+          "name": "Summit Central",
+          "youtube": "Rw4PmRvyzPA"
+        },
+        {
+          "name": "Central Express Top",
+          "youtube": "OL5UxNJuyPg"
+        },
+        {
+          "name": "Silver Fir Base",
+          "youtube": "OV5bHGSkloI"
+        },
+        {
+          "name": "Hyak",
+          "image": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
+        },
+        {
+          "name": "WSDOT Snoqualmie Summit",
+          "image": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
+        },
+        {
+          "name": "WSDOT East Snoqualmie Summit",
+          "image": "http://images.wsdot.wa.gov/sc/090VC05347.jpg"
+        },
+        {
+          "name": "WSDOT Hyak",
+          "image": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Mountain, WA",
+      "category": "snow",
+      "latitude": "46.92",
+      "longitude": "-121.51",
+      "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
+      "links": [
+        {
+          "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Summit (6,856 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
+        },
+        {
+          "name": "Chair 6 Top (7,002 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
+        },
+        {
+          "name": "Chair 6 Bottom (6,080 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
+        },
+        {
+          "name": "Rainier Express (5,270 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
+        },
+        {
+          "name": "Gold Hills (5,044 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
+        },
+        {
+          "name": "Base (4,440 ft)",
+          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mt. Rainier, WA",
+      "category": "snow",
+      "latitude": "46.80",
+      "longitude": "-121.73",
+      "link": "https://www.nps.gov/mora/index.htm",
+      "links": [
+        {
+          "url": "https://www.nps.gov/mora/photosmultimedia/webcams.htm"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Paradise - Mountain",
+          "image": "https://www.nps.gov/webcams-mora/mountain.jpg"
+        },
+        {
+          "name": "Paradise - Tatoosh",
+          "image": "https://www.nps.gov/webcams-mora/tatoosh.jpg"
+        },
+        {
+          "name": "Paradise - Nisqually Valley",
+          "image": "https://nature.nps.gov/air/WebCams/parks/moracam/mora.jpg"
+        },
+        {
+          "name": "Paradise - Parking East",
+          "image": "https://www.nps.gov/webcams-mora/east.jpg"
+        },
+        {
+          "name": "Paradise - Parking West",
+          "image": "https://www.nps.gov/webcams-mora/west.jpg"
+        },
+        {
+          "name": "Paradise - Visitor Center",
+          "image": "https://www.nps.gov/webcams-mora/gh.jpg"
+        },
+        {
+          "name": "Longmire",
+          "image": "https://www.nps.gov/webcams-mora/longmire.jpg"
+        },
+        {
+          "name": "Camp Muir",
+          "image": "https://www.nps.gov/webcams-mora/muir.jpg"
+        }
+      ]
+    },
+    {
+      "name": "White Pass, WA",
+      "category": "snow",
+      "latitude": "46.64",
+      "longitude": "-121.39",
+      "link": "http://skiwhitepass.com",
+      "links": [
+        {
+          "url": "https://skiwhitepass.com/mountain-cams"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Base",
+          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
+        },
+        {
+          "name": "Highcamp",
+          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
+        },
+        {
+          "name": "Basin",
+          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
+        },
+        {
+          "name": "WSDOT Summit East",
+          "image": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mount St. Helens",
+      "category": "snow",
+      "latitude": "46.19",
+      "longitude": "-122.19",
+      "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
+      "links": [
+        {
+          "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+        },
+        {
+          "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Johnston Ridge",
+          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
+        },
+        {
+          "name": "Johnston Ridge",
+          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mt. Hood Meadows, OR",
+      "category": "snow",
+      "latitude": "45.33",
+      "longitude": "-121.67",
+      "link": "https://www.skihood.com",
+      "links": [
+        {
+          "url": "https://www.skihood.com/the-mountain/conditions"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Bottom of Vista",
+          "image": "https://www.skihood.com/cams/vista"
+        },
+        {
+          "name": "Base Area",
+          "image": "https://www.skihood.com/cams/base"
+        },
+        {
+          "name": "Top of Cascade",
+          "image": "https://www.skihood.com/cams/casc"
+        }
+      ]
+    },
+    {
+      "name": "Timberline Lodge, OR",
+      "category": "snow",
+      "latitude": "45.33",
+      "longitude": "-121.71",
+      "link": "http://www.timberlinelodge.com",
+      "links": [
+        {
+          "url": "http://www.timberlinelodge.com/webcams/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Jeff Flood",
+          "image": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
+        },
+        {
+          "name": "Palmer/Silcox",
+          "image": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
+        },
+        {
+          "name": "Bruno's",
+          "image": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
+        },
+        {
+          "name": "Lodge",
+          "image": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
+        },
+        {
+          "name": "Snow Stake",
+          "image": "https://www.timberlinelodge.com/snowcameras//snowstake.jpg"
+        },
+        {
+          "name": "US26 at G. Camp Lp Rd",
+          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
+        },
+        {
+          "name": "US26 EB at G. Camp Maint. West",
+          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govn%20Camp%20Maint_pid1899.JPG"
+        },
+        {
+          "name": "US26 at G. Camp (Timberline Rd)",
+          "image": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
+        },
+        {
+          "name": "US26 EB at Snow Bunny",
+          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Mt. Bachelor, OR",
+      "category": "snow",
+      "latitude": "43.99",
+      "longitude": "-121.68",
+      "link": "http://www.mtbachelor.com",
+      "links": [
+        {
+          "url": "http://www.mtbachelor.com/live-cams/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Sunrise Base Area",
+          "image": "https://www.mtbachelor.com/webcams/sunrisehome.jpg"
+        },
+        {
+          "name": "Outback Express",
+          "image": "https://www.mtbachelor.com/webcams/outbackliftline.jpg"
+        },
+        {
+          "name": "Summit Lift Line",
+          "image": "https://www.mtbachelor.com/webcams/summitliftlinehome.jpg"
+        },
+        {
+          "name": "Marshmallow Run",
+          "image": "https://www.mtbachelor.com/webcams/marshmallow.jpg"
+        },
+        {
+          "name": "Carrousel Learning Zone",
+          "image": "https://www.mtbachelor.com/webcams/carnivallearningzone.jpg"
+        },
+        {
+          "name": "Broken Top and Pine Marten Lodge",
+          "image": "https://www.mtbachelor.com/webcams/brokentoppinelodge.jpg"
+        },
+        {
+          "name": "South Sisters from Outback",
+          "image": "https://www.mtbachelor.com/webcams/southsisteroutback.jpg"
+        },
+        {
+          "name": "Tumalo and Bend from Outback",
+          "image": "https://www.mtbachelor.com/webcams/tumalobend.jpg"
+        },
+        {
+          "name": "West Village",
+          "image": "https://www.mtbachelor.com/webcams/westvillage.jpg"
+        },
+        {
+          "name": "Base Stake",
+          "image": "https://www.mtbachelor.com/webcams/snowstake.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tofino, BC",
+      "category": "surf",
+      "latitude": "49.10",
+      "longitude": "-125.87",
+      "link": "http://magicseaweed.com/Tofino-Cox-Bay-Surf-Report/1122/",
+      "links": [
+        {
+          "url": "http://www.longbeachlodgeresort.com"
+        },
+        {
+          "url": "https://tourismtofino.com/plan-your-trip/weather/"
+        },
+        {
+          "url": "http://tofinoseakayaking.com/webcam/"
+        },
+        {
+          "url": "https://www.crystalcove.ca/crystal-cove-webcam"
+        },
+        {
+          "url": "https://www.wickinn.com/beachcam"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Cox Bay - LBR",
+          "youtube": "SBj-U5c-DAY"
+        },
+        {
+          "name": "Chesterman Beach",
+          "youtube": "YtHlTKfm62g"
+        },
+        {
+          "name": "South Chesterman Beach",
+          "image": "http://surfcam.ca/wp-content/uploads/cameras/south-chestermans.jpg"
+        },
+        {
+          "name": "Esowista Peninsula - Tofino Sea Kayaking",
+          "image": "http://tofinoseakayaking.com/netcam/tofinoseakayaking-webcam.jpg"
+        },
+        {
+          "name": "Esowista Peninsula",
+          "youtube": "cWm0yAlMDo8"
+        },
+        {
+          "name": "Crystal Cove",
+          "youtube": "AovvFApVnKc"
+        }
+      ]
+    },
+    {
+      "name": "Strait of Juan de Fuca, WA",
+      "category": "surf",
+      "latitude": "48.18",
+      "longitude": "-124.02",
+      "link": "http://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
+      "links": [
+        {
+          "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
+        },
+        {
+          "url": "http://www.portangeles.org/pages/PortAngelesWebCams"
+        },
+        {
+          "url": "http://forkswa.com/visiting-forks/webcamsontheolympicpeninsula/"
+        },
+        {
+          "url": "http://northolympic.com/webcam/sekiu/"
+        },
+        {
+          "url": "http://icons.wunderground.com/webcamramdisk/m/a/MattHoko/1/current.jpg"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Sekiu - Hoko River",
+          "image": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
+        },
+        {
+          "name": "Downtown PA",
+          "image": "http://webcam.portangeles.org/webcam/image.jpg"
+        },
+        {
+          "name": "Dungeness Lighthouse",
+          "image": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
+        },
+        {
+          "name": "Sequim Valley Airport",
+          "image": "http://olypen.com/sequimvalleyairport/webcam/webcam.jpg"
+        }
+      ]
+    },
+    {
+      "name": "La Push, WA",
+      "category": "surf",
+      "latitude": "47.90",
+      "longitude": "-124.63",
+      "link": "http://magicseaweed.com/La-Push-Surf-Report/308/",
+      "links": [
+        {
+          "url": "http://forkswa.com/first-beach-webcam/"
+        },
+        {
+          "url": "http://forkswa.com/james-island-webcam/"
+        },
+        {
+          "url": "http://www.thekalalochlodge.com/kalaloch-web-cam.aspx"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "First Beach",
+          "image": "http://webcam.forkswa.com/webcam1/netcam.jpg"
+        },
+        {
+          "name": "James Island",
+          "image": "http://webcam.forkswa.com/webcam2/netcam.jpg"
+        },
+        {
+          "name": "Kalaloch Lodge",
+          "image": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ocean Shores, WA",
+      "category": "surf",
+      "latitude": "46.93",
+      "longitude": "-124.18",
+      "link": "http://magicseaweed.com/Ocean-Shores-Surf-Report/3813/",
+      "links": [
+        {
+          "url": "http://beachcam.osgov.com:85/"
+        },
+        {
+          "url": "http://osgov.com/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Best Western",
+          "image": "http://beachcam.osgov.com:85/nph-jpeg.cgi"
+        },
+        {
+          "name": "Moclips",
+          "iframe": "http://timecam.tv/view_cam_embed.aspx?C=6A41AHMOFA77"
+        }
+      ]
+    },
+    {
+      "name": "Westport, WA",
+      "category": "surf",
+      "latitude": "46.90",
+      "longitude": "-124.14",
+      "link": "http://magicseaweed.com/Westport-Surf-Report/310/",
+      "links": [
+        {
+          "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
+        },
+        {
+          "url": "http://www.rainbowsendcam.com/webcam32.htm"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Jetty",
+          "image": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
+        },
+        {
+          "name": "Chateau Westport",
+          "iframe": "https://c.themediacdn.com/embed/media/Olsd0P/iKXAG6ajs5j/I3afaIsc1ql_5"
+        },
+        {
+          "name": "Groins",
+          "image": "http://www.westportcam.com/images/position3.jpg"
+        },
+        {
+          "name": "Groins",
+          "image": "http://www.westportcam.com/images/position4.jpg"
+        },
+        {
+          "name": "Groins",
+          "image": "http://www.westportcam.com/images/position7.jpg"
+        },
+        {
+          "name": "Half Moon Bay",
+          "image": "http://www.westportcam.com/images/position1.jpg"
+        },
+        {
+          "name": "Half Moon Bay",
+          "image": "http://www.westportcam.com/images/position2.jpg"
+        },
+        {
+          "name": "Half Moon Bay",
+          "image": "http://www.westportcam.com/images/position5.jpg"
+        },
+        {
+          "name": "Marina & Westhaven Drive",
+          "image": "http://www.westportcam.com/images/position0.jpg"
+        },
+        {
+          "name": "Marina",
+          "image": "http://www.westportcam.com/images/position8.jpg"
+        },
+        {
+          "name": "Harbor Entrance",
+          "image": "http://www.westportcam.com/images/position6.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Long Beach Peninsula, WA",
+      "category": "surf",
+      "latitude": "46.31",
+      "longitude": "-124.07",
+      "link": "http://magicseaweed.com/Long-Beach-Surf-Report/311/",
+      "links": [
+        {
+          "url": "http://cil-www.oce.orst.edu/batman.html"
+        },
+        {
+          "url": "https://www.visitlongbeachpeninsula.com/tips-tools/web-cams/"
+        },
+        {
+          "url": "http://www.skookumsurf.com/explore/"
+        },
+        {
+          "url": "https://www.breakers.com/myrtle-beach-web-cam/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Klipsan Beach",
+          "image": "http://cam.aaapacreal.com/clamcam.jpg"
+        },
+        {
+          "name": "Columbia River - Left",
+          "image": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
+        },
+        {
+          "name": "Columbia River - Right",
+          "image": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
+        },
+        {
+          "name": "Adrift Hotel",
+          "image": "https://66.189.181.94:9091/snap.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Seaside, OR",
+      "category": "surf",
+      "latitude": "45.98",
+      "longitude": "-123.94",
+      "link": "http://www.surfline.com/surf-report/seaside-pacific-northwest_142801/",
+      "links": [
+        {
+          "url": "http://www.seasidechamber.com/camhtml/index.html"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "The Cove",
+          "image": "https://camstills.cdn-surfline.com/wc-seasideor/latest_full.jpg"
+        },
+        {
+          "name": "The Cove",
+          "image": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
+        }
+      ]
+    },
+    {
+      "name": "Cannon Beach, OR",
+      "category": "surf",
+      "latitude": "45.72",
+      "longitude": "-123.95",
+      "link": "http://magicseaweed.com/Cannon-Beach-Surf-Report/313/",
+      "links": [
+        {
+          "url": "http://www.webbsscenicsurf.com/home.html"
+        },
+        {
+          "url": "http://www.cbcc.net/whats-new/webcam/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Haystack Rock",
+          "image": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
+        },
+        {
+          "name": "Webb's Scenic Surf",
+          "image": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
+        },
+        {
+          "name": "Beachfront Lodge",
+          "image": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Manzanita, OR",
+      "category": "surf",
+      "latitude": "45.72",
+      "longitude": "-123.95",
+      "link": "http://www.surfline.com/surf-report/manzanita-pacific-northwest_142795/",
+      "links": [
+        {
+          "url": "http://www.oceaninnatmanzanita.com/oregon-coast-webcam/"
+        },
+        {
+          "url": "http://theoregoncoast.info/Webcams.html"
+        }
+      ],
+      "cameras": [
+        {
+          "image": "http://www.weathercam.neahkahnie.net/netcam.jpg"
+        },
+        {
+          "image": "http://97.90.56.254/jpeg.cgi"
+        }
+      ]
+    },
+    {
+      "name": "Tillamook, OR",
+      "category": "surf",
+      "latitude": "45.52",
+      "longitude": "-123.92",
+      "links": [
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Tillamook Bay",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Oceanside, OR",
+      "category": "surf",
+      "latitude": "45.45",
+      "longitude": "-123.97",
+      "link": "http://www.surfline.com/surf-report/oceanside-or-pacific-northwest_47668/",
+      "links": [
+        {
+          "url": "http://www.oceansideoregon.com/surf_cam.asp"
+        },
+        {
+          "url": "https://www.alltravelcams.com/webcams/oregon_coast/oceanside_three_arch_rocks.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "The Three Arch Rocks",
+          "image": "http://threearchinn.com/OceansideOregon000.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Pacific City, OR",
+      "category": "surf",
+      "latitude": "45.22",
+      "longitude": "-123.98",
+      "link": "http://magicseaweed.com/Cape-Kiwanda-Surf-Report/560/",
+      "links": [
+        {
+          "url": "http://www.yourlittlebeachtown.com/"
+        },
+        {
+          "url": "http://www.kgw.com/weather/live-cameras/pacific-city"
+        },
+        {
+          "url": "https://www.capekiwandarvresort.com/MOBI/Webcam.html"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Cape Kiwanda",
+          "image": "http://cdn.tegna-media.com/kgw/weather/pacific-city.jpg"
+        },
+        {
+          "name": "Cape Kiwanda",
+          "image": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
+        },
+        {
+          "name": "Cape Kiwanda RV Resort",
+          "image": "https://images.webcams.travel/original/1510725684-pacific-city.jpg?token=webcams.travel:4053ed0e85f373935fc736288d49a268:1519113584"
+        }
+      ]
+    },
+    {
+      "name": "Lincoln City, OR",
+      "category": "surf",
+      "latitude": "44.97",
+      "longitude": "-124.04",
+      "link": "http://magicseaweed.com/Lincoln-City-Surf-Report/316/",
+      "links": [
+        {
+          "url": "http://www.lcsurfshop.com/webcam.htm"
+        },
+        {
+          "url": "https://www.windfinder.com/webcams/yaquina_bay_bridge"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Road's End",
+          "image": "http://www.lcsurfshop.com/webcam32.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Depoe Bay, OR",
+      "category": "surf",
+      "latitude": "44.81",
+      "longitude": "-124.06",
+      "links": [
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Depoe Bay",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/DepoeB.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Newport, OR",
+      "category": "surf",
+      "latitude": "44.68",
+      "longitude": "-124.08",
+      "link": "http://magicseaweed.com/Newport-Surf-Report/318/",
+      "links": [
+        {
+          "url": "http://cil-www.oce.orst.edu/agate.html"
+        },
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        },
+        {
+          "url": "http://donaldtcampbell.com/athleticaid/yaquina/yaquinacams.html"
+        },
+        {
+          "url": "https://www.alltravelcams.com/webcams/oregon_coast/newport_yaquina_bay.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Agate Beach",
+          "image": "http://cil-www.oce.orst.edu/yhead/latest.c0.snap.jpg"
+        },
+        {
+          "name": "Yaquina Head",
+          "image": "http://cil-www.oce.orst.edu/yhead/latest.c3.snap.jpg"
+        },
+        {
+          "name": "Yaquina Bay",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/Yaquin.jpg"
+        },
+        {
+          "name": "Yaquina Bay Jetty",
+          "image": "https://www.tripcheck.com/RoadCams/cams/Yaquina%20Bay%20Jetty_pid2766.JPG"
+        },
+        {
+          "name": "Yaquina Bay - KGW TV",
+          "image": "http://cdn.tegna-media.com/kgw/weather/newport.jpg"
+        },
+        {
+          "name": "Hatfield Marine Science Center",
+          "image": "http://webcam.oregonstate.edu/cam/hmsc/live/live.jpg"
+        },
+        {
+          "name": "Yaquina Head Lighthouse",
+          "image": "http://icons.wunderground.com/webcamramdisk/b/i/BirderBob/1/current.jpg?t=1519112458"
+        }
+      ]
+    },
+    {
+      "name": "Florence, OR",
+      "category": "surf",
+      "latitude": "44.02",
+      "longitude": "-124.14",
+      "link": "http://magicseaweed.com/Florence-Surf-Report/696/",
+      "links": [
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Siuslaw River",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/Siusla.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Winchester Bay, OR",
+      "category": "surf",
+      "latitude": "43.67",
+      "longitude": "-124.21",
+      "link": "http://magicseaweed.com/Winchester-Bay-Surf-Report/319/",
+      "links": [
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Umpqua River",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/Umpqua.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Coos Bay, OR",
+      "category": "surf",
+      "latitude": "43.36",
+      "longitude": "-124.34",
+      "link": "http://magicseaweed.com/Coos-Bay-Surf-Report/320/",
+      "links": [
+        {
+          "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Coos Bay",
+          "image": "http://www.wrh.noaa.gov/images/mfr/camera/CoosBa.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Bandon, OR",
+      "category": "surf",
+      "latitude": "43.12",
+      "longitude": "-124.43",
+      "links": [
+        {
+          "url": "http://www.oregonsurf.com/pages/cams.html"
+        },
+        {
+          "url": "http://www.oregontravels.com/bandon/cam01_bandon.html"
+        },
+        {
+          "url": "http://www.bandonhomes.com"
+        },
+        {
+          "url": "http://www.rwre.com/webcam/"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "Jetty",
+          "image": "http://www.rwre.com/webcam/current_photo.jpg"
+        }
+      ]
+    }
+  ]
 }

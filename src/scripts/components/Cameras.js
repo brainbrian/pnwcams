@@ -1,17 +1,14 @@
-/**
- * Form Input React Component
- * React Component Docs - https://facebook.github.io/react/docs/react-component.html
- */
+import React from "react";
+import PropTypes from "prop-types";
+import ReactSlick from "react-slick";
 
-import '../../styles/components/Cameras.scss';
-import React from 'react';
-import PropTypes from 'prop-types';
-import ReactSlick from 'react-slick';
-import Camera from './Camera';
+import Camera from "./Camera";
+
+import "../../styles/components/Cameras.scss";
 
 class Cameras extends React.Component {
   static propTypes = {
-    data: PropTypes.array.isRequired,
+    data: PropTypes.array.isRequired
   };
 
   render() {
@@ -20,29 +17,31 @@ class Cameras extends React.Component {
         id: key,
         key: `loc-${key}`,
         name: camera.name,
-        image: camera.url,
-        youtubeId: camera.youtubeId
+        image: camera.image,
+        iframe: camera.iframe,
+        youtube: camera.youtube
       };
-      return <div key={props.key}><Camera {...props} /></div>;
+
+      return (
+        <div key={props.key}>
+          <Camera {...props} />
+        </div>
+      );
     });
 
     const slickSettings = {
       arrows: false,
       autoplay: false,
-      className: 'cameras',
+      className: "cameras",
       dots: cameras.length > 1 ? true : false,
       infinite: false,
       lazyLoad: true,
       slidesToScroll: 1,
       slidesToShow: 1,
-      swipe: cameras.length > 1 ? true : false,
+      swipe: cameras.length > 1 ? true : false
     };
 
-    return (
-      <ReactSlick {...slickSettings}>
-        {cameras}
-      </ReactSlick>
-    );
+    return <ReactSlick {...slickSettings}>{cameras}</ReactSlick>;
   }
 }
 
