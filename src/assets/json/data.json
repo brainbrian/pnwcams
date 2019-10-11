@@ -171,10 +171,6 @@
           "image": "http://www.iciclechalet.com/cam/icview.jpg"
         },
         {
-          "name": "Mtn. Home Lodge",
-          "image": "http://www.redmondrents.com/kebcam.jpg"
-        },
-        {
           "name": "Downtown",
           "image": "http://inleavenworth.com/frontstreet.jpg"
         }
@@ -224,23 +220,23 @@
       "cameras": [
         {
           "name": "Alpental Mid-Mtn",
-          "youtube": "BM_ZZPeUsjo"
+          "youtube": "pszUrUQWlUU"
         },
         {
           "name": "Alpental Base",
-          "youtube": "2FMU-CLh-N4"
+          "youtube": "nELJk3VT3zc"
         },
         {
           "name": "Summit Central",
-          "youtube": "Rw4PmRvyzPA"
+          "youtube": "11a6-H-OiDc"
         },
         {
           "name": "Central Express Top",
-          "youtube": "OL5UxNJuyPg"
+          "youtube": "wssOrAoEIfg"
         },
         {
           "name": "Silver Fir Base",
-          "youtube": "OV5bHGSkloI"
+          "youtube": "RGjdTkJdA_s"
         },
         {
           "name": "Hyak",
@@ -319,10 +315,6 @@
           "image": "https://www.nps.gov/webcams-mora/tatoosh.jpg"
         },
         {
-          "name": "Paradise - Nisqually Valley",
-          "image": "https://nature.nps.gov/air/WebCams/parks/moracam/mora.jpg"
-        },
-        {
           "name": "Paradise - Parking East",
           "image": "https://www.nps.gov/webcams-mora/east.jpg"
         },
@@ -391,11 +383,11 @@
       "cameras": [
         {
           "name": "Johnston Ridge",
-          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
+          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
         },
         {
           "name": "Johnston Ridge",
-          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
+          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
         }
       ]
     },
