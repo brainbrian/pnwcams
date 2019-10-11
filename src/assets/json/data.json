@@ -105,7 +105,7 @@
       "category": "snow",
       "latitude": "47.74",
       "longitude": "-121.10",
-      "link": "https://www.stevenspass.com/site/mountain/reports/snow-and-weather-report/",
+      "link": "https://www.stevenspass.com/the-mountain/mountain-conditions/weather-report.aspx",
       "links": [
         {
           "url": "https://www.stevenspass.com/site/mountain/cams"
@@ -113,40 +113,44 @@
       ],
       "cameras": [
         {
-          "name": "Base",
-          "image": "https://www.stevenspass.com/cams/base1/"
-        },
-        {
-          "name": "Jupiter",
-          "image": "https://www.stevenspass.com/cams/jupiter/"
+          "name": "Cowboy Mountain",
+          "image": "http://common.snow.com/mtncams/Cowboy%20Mountain.jpg"
         },
         {
           "name": "Skyline Top",
-          "image": "https://www.stevenspass.com/cams/c-3/"
+          "image": "http://common.snow.com/mtncams/UpperSkylineCamera.jpg"
         },
         {
           "name": "Skyline Base",
-          "image": "https://www.stevenspass.com/cams/mountain/"
+          "image": "http://common.snow.com/mtncams/LowerSkylineCamera.jpg"
         },
         {
-          "name": "Plaza",
-          "image": "https://www.stevenspass.com/cams/cowboy/"
+          "name": "Gemini",
+          "image": "http://common.snow.com/mtncams/Gemini.jpg"
         },
         {
-          "name": "WSDOT Summit West",
-          "image": "https://www.stevenspass.com/cams/summit-west/"
+          "name": "Tye Mill Top",
+          "image": "http://common.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
+        },
+        {
+          "name": "Glacier Peak",
+          "image": "http://common.snow.com/mtncams/Glacier%20Peak.jpg"
+        },
+        {
+          "name": "South Divide",
+          "image": "http://common.snow.com/mtncams/South%20Divide.jpg"
         },
         {
           "name": "WSDOT Summit East",
-          "image": "https://www.stevenspass.com/cams/summit-east/"
+          "image": "https://images.wsdot.wa.gov/nc/002vc06458.jpg"
         },
         {
-          "name": "WSDOT Old Faithful",
-          "image": "https://www.stevenspass.com/cams/old-faithful/"
+          "name": "WSDOT Big Windy",
+          "image": "https://images.wsdot.wa.gov/nc/002vc06300.jpg"
         },
         {
           "name": "WSDOT Lower Mill Creek",
-          "image": "https://www.stevenspass.com/cams/lower-mill-creek/"
+          "image": "https://images.wsdot.wa.gov/nc/002vc07057.jpg"
         }
       ]
     },
