@@ -69,10 +69,6 @@
           "image": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
         },
         {
-          "name": "Parking",
-          "image": "http://www.nps.gov/webcams-olym/northcam.jpg"
-        },
-        {
           "name": "Olympic View Cabins",
           "image": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
         }
@@ -113,32 +109,24 @@
       ],
       "cameras": [
         {
+          "name": "Tye Mill",
+          "image": "https://cache.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
+        },
+        {
           "name": "Cowboy Mountain",
-          "image": "http://common.snow.com/mtncams/Cowboy%20Mountain.jpg"
-        },
-        {
-          "name": "Skyline Top",
-          "image": "http://common.snow.com/mtncams/UpperSkylineCamera.jpg"
-        },
-        {
-          "name": "Skyline Base",
-          "image": "http://common.snow.com/mtncams/LowerSkylineCamera.jpg"
+          "image": "https://cache.snow.com/mtncams/Cowboy%20Mountain.jpg"
         },
         {
           "name": "Gemini",
-          "image": "http://common.snow.com/mtncams/Gemini.jpg"
+          "image": "https://cache.snow.com/mtncams/Gemini.jpg"
         },
         {
-          "name": "Tye Mill Top",
-          "image": "http://common.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
+          "name": "Base Area",
+          "image": "https://cache.snow.com/mtncams/SPBaseArea.jpg"
         },
         {
-          "name": "Glacier Peak",
-          "image": "http://common.snow.com/mtncams/Glacier%20Peak.jpg"
-        },
-        {
-          "name": "South Divide",
-          "image": "http://common.snow.com/mtncams/South%20Divide.jpg"
+          "name": "Skyline",
+          "image": "https://cache.snow.com/mtncams/Skyline.jpg"
         },
         {
           "name": "WSDOT Summit East",
@@ -147,10 +135,6 @@
         {
           "name": "WSDOT Big Windy",
           "image": "https://images.wsdot.wa.gov/nc/002vc06300.jpg"
-        },
-        {
-          "name": "WSDOT Lower Mill Creek",
-          "image": "https://images.wsdot.wa.gov/nc/002vc07057.jpg"
         }
       ]
     },
@@ -172,7 +156,7 @@
         },
         {
           "name": "Downtown",
-          "image": "http://inleavenworth.com/frontstreet.jpg"
+          "youtube": "TmtVbezZaqg"
         }
       ]
     },
@@ -542,6 +526,9 @@
         },
         {
           "url": "https://www.wickinn.com/beachcam"
+        },
+        {
+          "url": "https://www.wickinn.com/about/beachcam/"
         }
       ],
       "cameras": [
@@ -550,20 +537,16 @@
           "youtube": "SBj-U5c-DAY"
         },
         {
-          "name": "Chesterman Beach",
-          "youtube": "YtHlTKfm62g"
+          "name": "Cox Bay - PS",
+          "youtube": "sesNhVIZGIs"
         },
         {
           "name": "South Chesterman Beach",
           "image": "http://surfcam.ca/wp-content/uploads/cameras/south-chestermans.jpg"
         },
         {
-          "name": "Esowista Peninsula - Tofino Sea Kayaking",
-          "image": "http://tofinoseakayaking.com/netcam/tofinoseakayaking-webcam.jpg"
-        },
-        {
-          "name": "Esowista Peninsula",
-          "youtube": "cWm0yAlMDo8"
+          "name": "Tofino Harbour",
+          "youtube": "BzQLsYCwL88"
         },
         {
           "name": "Crystal Cove",
@@ -592,16 +575,15 @@
         },
         {
           "url": "http://icons.wunderground.com/webcamramdisk/m/a/MattHoko/1/current.jpg"
+        },
+        {
+          "url": "https://portofpa.com"
         }
       ],
       "cameras": [
         {
           "name": "Sekiu - Hoko River",
           "image": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
-        },
-        {
-          "name": "Downtown PA",
-          "image": "http://webcam.portangeles.org/webcam/image.jpg"
         },
         {
           "name": "Dungeness Lighthouse",
@@ -646,31 +628,6 @@
       ]
     },
     {
-      "name": "Ocean Shores, WA",
-      "category": "surf",
-      "latitude": "46.93",
-      "longitude": "-124.18",
-      "link": "http://magicseaweed.com/Ocean-Shores-Surf-Report/3813/",
-      "links": [
-        {
-          "url": "http://beachcam.osgov.com:85/"
-        },
-        {
-          "url": "http://osgov.com/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Best Western",
-          "image": "http://beachcam.osgov.com:85/nph-jpeg.cgi"
-        },
-        {
-          "name": "Moclips",
-          "iframe": "http://timecam.tv/view_cam_embed.aspx?C=6A41AHMOFA77"
-        }
-      ]
-    },
-    {
       "name": "Westport, WA",
       "category": "surf",
       "latitude": "46.90",
@@ -682,52 +639,19 @@
         },
         {
           "url": "http://www.rainbowsendcam.com/webcam32.htm"
+        },
+        {
+          "url": "https://www.experiencewestport.com/surfing"
         }
       ],
       "cameras": [
         {
-          "name": "Jetty",
-          "image": "http://www.rainbowsendcam.com/images/rainbowsendcam.jpg"
+          "name": "Westport Cam",
+          "iframe": "https://c.themediacdn.com/embed/media/WFsdJr/1MA8ku9sO6U/ShdKpisATtu_5?autoPlay=0&showPlayPauseBtn=0"
         },
         {
           "name": "Chateau Westport",
-          "iframe": "https://c.themediacdn.com/embed/media/Olsd0P/iKXAG6ajs5j/I3afaIsc1ql_5"
-        },
-        {
-          "name": "Groins",
-          "image": "http://www.westportcam.com/images/position3.jpg"
-        },
-        {
-          "name": "Groins",
-          "image": "http://www.westportcam.com/images/position4.jpg"
-        },
-        {
-          "name": "Groins",
-          "image": "http://www.westportcam.com/images/position7.jpg"
-        },
-        {
-          "name": "Half Moon Bay",
-          "image": "http://www.westportcam.com/images/position1.jpg"
-        },
-        {
-          "name": "Half Moon Bay",
-          "image": "http://www.westportcam.com/images/position2.jpg"
-        },
-        {
-          "name": "Half Moon Bay",
-          "image": "http://www.westportcam.com/images/position5.jpg"
-        },
-        {
-          "name": "Marina & Westhaven Drive",
-          "image": "http://www.westportcam.com/images/position0.jpg"
-        },
-        {
-          "name": "Marina",
-          "image": "http://www.westportcam.com/images/position8.jpg"
-        },
-        {
-          "name": "Harbor Entrance",
-          "image": "http://www.westportcam.com/images/position6.jpg"
+          "iframe": "https://c.themediacdn.com/embed/media/Olsd0P/iKXAG6ajs5j/I3afaIsc1ql_5?autoPlay=0&showPlayPauseBtn=0"
         }
       ]
     },
