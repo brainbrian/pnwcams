@@ -3,11 +3,11 @@
  * React Component Docs - https://facebook.github.io/react/docs/react-component.html
  */
 
-import '../../styles/components/Location.scss';
-import React from 'react';
-import PropTypes from 'prop-types';
-import TitleCard from './TitleCard';
-import Cameras from './Cameras';
+import "../../styles/components/Location.scss";
+import React from "react";
+import PropTypes from "prop-types";
+import TitleCard from "./TitleCard";
+import Cameras from "./Cameras";
 
 class Location extends React.Component {
   static propTypes = {

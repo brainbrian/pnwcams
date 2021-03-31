@@ -4,8 +4,8 @@
  */
 
 // import '../../styles/components/Preloader.scss';
-import React from 'react';
-import loadingGif from '../../assets/images/logo-pop-white.svg';
+import React from "react";
+import loadingGif from "../../assets/images/logo-pop-white.svg";
 
 class Preloader extends React.Component {
   render() {

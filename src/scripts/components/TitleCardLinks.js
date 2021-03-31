@@ -3,12 +3,12 @@
  * React Component Docs - https://facebook.github.io/react/docs/react-component.html
  */
 
-import '../../styles/components/TitleCard.scss';
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { linksUpdate, locationsUpdate } from '../actions';
+import "../../styles/components/TitleCard.scss";
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { linksUpdate, locationsUpdate } from "../actions";
 
 class TitleCardLinks extends React.Component {
   static propTypes = {
@@ -24,24 +24,29 @@ class TitleCardLinks extends React.Component {
   render() {
     let links = null;
     let linkID = 0;
-    links = this.props.links.data.map(link => {
+    links = this.props.links.data.map((link) => {
       const props = {
         id: linkID,
         key: `link-${linkID}`,
         url: link.url,
         name: link.name,
       };
-      linkID ++;
+      linkID++;
       let returnComponent = null;
-      if (link.category === this.props.locations.category) returnComponent = <li key={props.key}><a href={props.url} className="link" target="_blank" rel="noopener noreferrer">{props.name}</a></li>;
+      if (link.category === this.props.locations.category)
+        returnComponent = (
+          <li key={props.key}>
+            <a href={props.url} className="link" target="_blank" rel="noopener noreferrer">
+              {props.name}
+            </a>
+          </li>
+        );
       return returnComponent;
     });
 
     return (
       <div className="title-card title-card--links">
-          <ul className="title-card__vertical-align">
-            {links}
-          </ul>
+        <ul className="title-card__vertical-align">{links}</ul>
       </div>
     );
   }

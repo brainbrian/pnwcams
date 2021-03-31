@@ -8,7 +8,7 @@ import "../../styles/components/Cameras.scss";
 
 class Cameras extends React.Component {
   static propTypes = {
-    data: PropTypes.array.isRequired
+    data: PropTypes.array.isRequired,
   };
 
   render() {
@@ -19,7 +19,7 @@ class Cameras extends React.Component {
         name: camera.name,
         image: camera.image,
         iframe: camera.iframe,
-        youtube: camera.youtube
+        youtube: camera.youtube,
       };
 
       return (
@@ -38,7 +38,7 @@ class Cameras extends React.Component {
       lazyLoad: true,
       slidesToScroll: 1,
       slidesToShow: 1,
-      swipe: cameras.length > 1 ? true : false
+      swipe: cameras.length > 1 ? true : false,
     };
 
     return <ReactSlick {...slickSettings}>{cameras}</ReactSlick>;

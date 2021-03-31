@@ -13,10 +13,13 @@ class Camera extends React.Component {
     image: PropTypes.string,
     iframe: PropTypes.string,
     name: PropTypes.string,
-    youtube: PropTypes.string
+    youtube: PropTypes.string,
   };
 
   randomImage(img) {
+    if (img.match(/^http.*\.(jpeg|jpg|gif|png)$/) === null) {
+      return img;
+    }
     img = img.indexOf("?") > -1 ? `${img}&` : `${img}?`;
     img += `random=${Math.round(Math.random() * 100000000)}`;
     return img;
@@ -27,7 +30,7 @@ class Camera extends React.Component {
     let iframeUrl = "";
 
     if (youtube) {
-      iframeUrl = `http://www.youtube.com/embed/${youtube}?controls=0&color=white&modestbranding=1&playsinline=1`;
+      iframeUrl = `https://www.youtube.com/embed/${youtube}?controls=0&color=white&modestbranding=1&playsinline=1`;
     } else if (iframe) {
       iframeUrl = iframe;
     }

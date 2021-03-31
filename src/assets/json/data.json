@@ -88,11 +88,11 @@
       "cameras": [
         {
           "name": "Top",
-          "image": "https://skitheloup.com/skiview/loup-loup-ski-bowl-top-chair.jpg"
+          "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
         },
         {
           "name": "Base",
-          "image": "https://skitheloup.com/loup-loup-ski-bowl-base-area.jpg"
+          "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
         }
       ]
     },
@@ -195,48 +195,40 @@
       "category": "snow",
       "latitude": "47.42",
       "longitude": "-121.43",
-      "link": "http://www.summitatsnoqualmie.com/conditions",
+      "link": "https://summitatsnoqualmie.com/conditions",
       "links": [
         {
-          "url": "http://www.summitatsnoqualmie.com/conditions/webcams"
+          "url": "https://summitatsnoqualmie.com/webcams"
         }
       ],
       "cameras": [
         {
-          "name": "Alpental Mid-Mtn",
-          "youtube": "pszUrUQWlUU"
-        },
-        {
           "name": "Alpental Base",
-          "youtube": "nELJk3VT3zc"
+          "youtube": "SLDXxe2ddvU"
         },
         {
           "name": "Summit Central",
-          "youtube": "11a6-H-OiDc"
+          "youtube": "8qGhmBtFe9g"
         },
         {
           "name": "Central Express Top",
-          "youtube": "wssOrAoEIfg"
-        },
-        {
-          "name": "Silver Fir Base",
-          "youtube": "RGjdTkJdA_s"
+          "youtube": "Vn-KQqPfjIo"
         },
         {
           "name": "Hyak",
-          "image": "http://images.wsdot.wa.gov/airports/hyaksw.jpg"
+          "image": "https://images.wsdot.wa.gov/airports/hyaksw.jpg"
         },
         {
           "name": "WSDOT Snoqualmie Summit",
-          "image": "http://images.wsdot.wa.gov/sc/090VC05200.jpg"
+          "image": "https://images.wsdot.wa.gov/sc/090VC05200.jpg"
         },
         {
           "name": "WSDOT East Snoqualmie Summit",
-          "image": "http://images.wsdot.wa.gov/sc/090VC05347.jpg"
+          "image": "https://images.wsdot.wa.gov/sc/090VC05347.jpg"
         },
         {
           "name": "WSDOT Hyak",
-          "image": "http://images.wsdot.wa.gov/sc/090VC05517.jpg"
+          "image": "https://images.wsdot.wa.gov/sc/090VC05517.jpg"
         }
       ]
     },
@@ -346,7 +338,7 @@
         },
         {
           "name": "WSDOT Summit East",
-          "image": "http://images.wsdot.wa.gov/sc/012vc15095.jpg"
+          "image": "https://images.wsdot.wa.gov/sc/012vc15095.jpg"
         }
       ]
     },
@@ -456,52 +448,44 @@
       "category": "snow",
       "latitude": "43.99",
       "longitude": "-121.68",
-      "link": "http://www.mtbachelor.com",
+      "link": "https://www.mtbachelor.com",
       "links": [
         {
-          "url": "http://www.mtbachelor.com/live-cams/"
+          "url": "https://www.mtbachelor.com/live-cams/"
         }
       ],
       "cameras": [
         {
-          "name": "Sunrise Base Area",
-          "image": "https://www.mtbachelor.com/webcams/sunrisehome.jpg"
+          "name": "West Village Snow Stake",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/14"
         },
         {
-          "name": "Outback Express",
-          "image": "https://www.mtbachelor.com/webcams/outbackliftline.jpg"
+          "name": "Nordic Center",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
         },
         {
-          "name": "Summit Lift Line",
-          "image": "https://www.mtbachelor.com/webcams/summitliftlinehome.jpg"
+          "name": "The Cone",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
+        },
+        {
+          "name": "Outback Lift Line",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
         },
         {
           "name": "Marshmallow Run",
-          "image": "https://www.mtbachelor.com/webcams/marshmallow.jpg"
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/6"
         },
         {
-          "name": "Carrousel Learning Zone",
-          "image": "https://www.mtbachelor.com/webcams/carnivallearningzone.jpg"
+          "name": "Summit Lift Line",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
         },
         {
-          "name": "Broken Top and Pine Marten Lodge",
-          "image": "https://www.mtbachelor.com/webcams/brokentoppinelodge.jpg"
+          "name": "Three Sisters",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/10"
         },
         {
-          "name": "South Sisters from Outback",
-          "image": "https://www.mtbachelor.com/webcams/southsisteroutback.jpg"
-        },
-        {
-          "name": "Tumalo and Bend from Outback",
-          "image": "https://www.mtbachelor.com/webcams/tumalobend.jpg"
-        },
-        {
-          "name": "West Village",
-          "image": "https://www.mtbachelor.com/webcams/westvillage.jpg"
-        },
-        {
-          "name": "Base Stake",
-          "image": "https://www.mtbachelor.com/webcams/snowstake.jpg"
+          "name": "Tumalo and Bend",
+          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
         }
       ]
     },
@@ -542,7 +526,7 @@
         },
         {
           "name": "South Chesterman Beach",
-          "image": "http://surfcam.ca/wp-content/uploads/cameras/south-chestermans.jpg"
+          "image": "https://surfcam.ca/wp-content/uploads/cameras/south-chestermans.jpg"
         },
         {
           "name": "Tofino Harbour",
@@ -559,7 +543,7 @@
       "category": "surf",
       "latitude": "48.18",
       "longitude": "-124.02",
-      "link": "http://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
+      "link": "https://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
       "links": [
         {
           "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
@@ -583,15 +567,15 @@
       "cameras": [
         {
           "name": "Sekiu - Hoko River",
-          "image": "http://hoko.pnwas.org/images/webcam/hoko/current.jpg"
+          "image": "https://hoko.pnwas.org/images/webcam/hoko/current.jpg"
         },
         {
           "name": "Dungeness Lighthouse",
-          "image": "http://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
+          "image": "https://newdungenesslighthouse.com/documents/NDLwebcam.jpg"
         },
         {
           "name": "Sequim Valley Airport",
-          "image": "http://olypen.com/sequimvalleyairport/webcam/webcam.jpg"
+          "image": "https://olypen.com/sequimvalleyairport/webcam/webcam.jpg"
         }
       ]
     },
@@ -615,15 +599,15 @@
       "cameras": [
         {
           "name": "First Beach",
-          "image": "http://webcam.forkswa.com/webcam1/netcam.jpg"
+          "image": "https://webcam.forkswa.com/webcam1/netcam.jpg"
         },
         {
           "name": "James Island",
-          "image": "http://webcam.forkswa.com/webcam2/netcam.jpg"
+          "image": "https://webcam.forkswa.com/webcam2/netcam.jpg"
         },
         {
           "name": "Kalaloch Lodge",
-          "image": "http://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
+          "image": "https://pixelcaster.com/dnc-kalaloch/kalaloch.jpg"
         }
       ]
     },
@@ -687,10 +671,6 @@
         {
           "name": "Columbia River - Right",
           "image": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
-        },
-        {
-          "name": "Adrift Hotel",
-          "image": "https://66.189.181.94:9091/snap.jpeg"
         }
       ]
     },
@@ -728,9 +708,16 @@
         },
         {
           "url": "http://www.cbcc.net/whats-new/webcam/"
+        },
+        {
+          "url": "https://cannonbeachphoto.com/oregon-coast-webcams/"
         }
       ],
       "cameras": [
+        {
+          "name": "Beachfront Lodge",
+          "image": "https://www.cbccmedia.org/BeachFrontCam/image.jpg"
+        },
         {
           "name": "Haystack Rock",
           "image": "http://wwc.instacam.com/instacamimg/CNHNB/CNHNB_l.jpg"
@@ -738,10 +725,6 @@
         {
           "name": "Webb's Scenic Surf",
           "image": "http://65.100.41.14/-wvhttp-01-/image.cgi?v=jpg:640x480"
-        },
-        {
-          "name": "Beachfront Lodge",
-          "image": "http://www.cbccmedia.org/BeachFrontCam/image.jpg"
         }
       ]
     },
@@ -760,6 +743,10 @@
         }
       ],
       "cameras": [
+        {
+          "name": "Ocean Inn",
+          "youtube": "IE8jC_kwqjg"
+        },
         {
           "image": "http://www.weathercam.neahkahnie.net/netcam.jpg"
         },
@@ -781,7 +768,7 @@
       "cameras": [
         {
           "name": "Tillamook Bay",
-          "image": "http://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
+          "image": "https://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
         }
       ]
     },
@@ -826,15 +813,11 @@
       "cameras": [
         {
           "name": "Cape Kiwanda",
-          "image": "http://cdn.tegna-media.com/kgw/weather/pacific-city.jpg"
+          "iframe": "https://content.streamhoster.com/player/lv_kiwandarv/kiwandarv?autoPlay=0&showPlayPauseBtn=0&poster=http%3A%2F%2Fcontent.streamhoster.com%2Ffile%2Fkiwandarv%2Fkiwandarv.jpg"
         },
         {
-          "name": "Cape Kiwanda",
-          "image": "http://camera.innatcapekiwanda.com:81/axis-cgi/mjpg/video.cgi?resolution=CIF&camera=1"
-        },
-        {
-          "name": "Cape Kiwanda RV Resort",
-          "image": "https://images.webcams.travel/original/1510725684-pacific-city.jpg?token=webcams.travel:4053ed0e85f373935fc736288d49a268:1519113584"
+          "name": "Pacific City",
+          "iframe": "https://camera.innatcapekiwanda.com/"
         }
       ]
     },
