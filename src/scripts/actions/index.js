@@ -7,8 +7,8 @@ import { hashHistory } from 'react-router';
 import fetchJsonp from 'fetch-jsonp';
 
 const DATA_URL = process.env.DATA_URL || '/assets/json/data.json';
-const API_URL_SNOW = 'http://forecast.weather.gov/MapClick.php?FcstType=json';
-const API_URL_SURF = 'http://api.openweathermap.org/data/2.5/weather?units=imperial&appid=aedd7de81c14d670e877d39ead4ed7b4';
+const API_URL_SNOW = 'https://forecast.weather.gov/MapClick.php?FcstType=json';
+const API_URL_SURF = 'https://api.openweathermap.org/data/2.5/weather?units=imperial&appid=aedd7de81c14d670e877d39ead4ed7b4';
 
 export const LOCATIONS_UPDATE = 'LOCATIONS_UPDATE';
 export const LOCATIONS_FAILED = 'LOCATIONS_FAILED';
