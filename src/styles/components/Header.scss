@@ -2,64 +2,64 @@
 // Header
 // -------------------------------------
 
-@import 'utils/config';
-@import 'utils/helpers';
+@import '../utils/Config';
+@import '../utils/Helpers';
 
 .header {
-  @extend %clearfix;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-
-  &:after {
-    border-bottom: 1px solid $color-grey;
-    bottom: -1px;
-    opacity: .4;
-    position: absolute;
+    @extend %clearfix;
+    position: fixed;
     width: 100%;
-  }
+    z-index: 10;
 
-  &__nav {
-    height: 3em;
-    margin: 0;
-  }
-
-  &__nav-list {
-    height: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  &__nav-item {
-    float: left;
-    height: 100%;
-    margin: 0;
-    width: 50%;
-  }
-
-  &__nav-btn {
-    background-color: $color-blue-light;
-    color: $color-grey;
-    display: block;
-    height: 100%;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-
-    &:hover,
-    &:focus,
-    &--active {
-      background-color: $color-blue-medium;
-      color: $color-white;
+    &:after {
+        border-bottom: 1px solid $color-grey;
+        bottom: -1px;
+        opacity: 0.4;
+        position: absolute;
+        width: 100%;
     }
 
-    .h1 {
-      display: block;
-      font-size: 2em;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+    &__nav {
+        height: 3em;
+        margin: 0;
     }
-  }
+
+    &__nav-list {
+        height: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-item {
+        float: left;
+        height: 100%;
+        margin: 0;
+        width: 50%;
+    }
+
+    &__nav-btn {
+        background-color: $color-blue-light;
+        color: $color-grey;
+        display: block;
+        height: 100%;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+
+        &:hover,
+        &:focus,
+        &--active {
+            background-color: $color-blue-medium;
+            color: $color-white;
+        }
+
+        .h1 {
+            display: block;
+            font-size: 2em;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
 }

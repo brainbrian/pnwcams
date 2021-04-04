@@ -2,34 +2,34 @@
 // Footer
 // -------------------------------------
 
-@import 'utils/config';
+@import '../utils/Config';
 
 .footer {
-  background-color: $color-blue-dark;
-  height: 100px;
-  margin: 0 auto;
-  max-width: $xl-breakpoint;
-  position: relative;
-  text-align: center;
+    background-color: $color-blue-dark;
+    height: 100px;
+    margin: 0 auto;
+    max-width: $xl-breakpoint;
+    position: relative;
+    text-align: center;
 
-  &__title {
-    color: $color-white;
-    font-family: $font;
-    font-size: 1.2em;
-    position: absolute;
-    text-transform: uppercase;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
+    &__title {
+        color: $color-white;
+        font-family: $font;
+        font-size: 1.2em;
+        position: absolute;
+        text-transform: uppercase;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
 
-    a {
-      color: $color-blue-light;
-      text-decoration: none;
+        a {
+            color: $color-blue-light;
+            text-decoration: none;
 
-      &:hover,
-      &:focus {
-        color: $color-grey;
-      }
+            &:hover,
+            &:focus {
+                color: $color-grey;
+            }
+        }
     }
-  }
 }
