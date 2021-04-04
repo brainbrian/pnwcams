@@ -2,8 +2,8 @@
 // Title Card
 // -------------------------------------
 
-@import 'utils/config';
-@import 'utils/helpers';
+@import "../utils/config";
+@import "../utils/helpers";
 
 .title-card {
   background-color: $color-blue-light;
@@ -37,7 +37,7 @@
 
     li {
       display: inline-block;
-      margin: 0 .5em;
+      margin: 0 0.5em;
     }
   }
 
@@ -48,7 +48,7 @@
       height: 4em;
 
       li {
-        margin: 0 .8em;
+        margin: 0 0.8em;
       }
 
       a {

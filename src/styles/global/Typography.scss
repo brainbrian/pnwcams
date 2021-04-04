@@ -3,23 +3,9 @@
 // -------------------------------------
 // sass-lint:disable no-duplicate-properties
 
-@import 'utils/config';
+@import "../utils/config";
 
-@font-face {
-  font-family: 'League Gothic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../assets/fonts/leaguegothic-regular-webfont.eot');
-  src: url('../../assets/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/leaguegothic-regular-webfont.woff') format('woff'), url('../../assets/fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('../../assets/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-}
-
-@font-face {
-  font-family: 'League Gothic Condensed';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../assets/fonts/leaguegothic-condensedregular-webfont.eot');
-  src: url('../../assets/fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/leaguegothic-condensedregular-webfont.woff') format('woff'), url('../../assets/fonts/leaguegothic-condensedregular-webfont.ttf') format('truetype'), url('../../assets/fonts/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
-}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap");
 
 h1,
 .h1 {
@@ -34,7 +20,7 @@ h2 {
   font-family: $font-condensed;
   font-size: 3em;
   font-weight: normal;
-  margin: 0 0 .2em;
+  margin: 0 0 0.2em;
 }
 
 h3 {

@@ -1,40 +1,48 @@
-# PNW Cams
-Application code for [pnwcams.com](http://www.pnwcams.com)
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
-I'm building this tool for myself to see webcams around the Pacific Northwest that I check on a regular basis. I hope you find it useful too!
+## 🚀 Quick start
 
-– [Brian](http://www.brainbrian.com)
+1.  **Create a Gatsby site.**
 
-## Built w/ Webpack and React
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-[React](https://facebook.github.io/react/) w/ Hot Module Replacement and production bundle for pnwcams.
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-Adapted from the [Hot Module Replacement](https://webpack.js.org/guides/hmr-react/) and [Building for Production](https://webpack.js.org/guides/production-build/) guides on [webpack.js.org](https://webpack.js.org).
+2.  **Start developing.**
 
-## Install
-Download the repository.
+    Navigate into your new site’s directory and start it up.
 
-Install the NPM module dependancies<br>
-`$ npm install`
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-## Development Server
-After the required node modules are installed you can run a local development build with hot module replacement by running<br>
-`$ npm start` or `$ npm start --verbose` for verbose.
+3.  **Open the code and start customizing!**
 
-This build will be located in the git ignored directory `dist`. You will only see the static resources and not the compiled js/assets. These will only exist in memory.
+    Your site is now running at http://localhost:8000!
 
-## Production Build
-A static production build can be created by running<br>
-`$ npm run build` or `$ npm run build --verbose` for verbose.
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-These static production build files can be seen in `dist`.
+4.  **Learn more**
 
-## Webpack Configuration
-Configuration of the Webpack build is located in `webpack-config`. Here you will find the shared config in `webpack-config/base.js`. The development specific configuration settings are in `webpack-config/dev.js` and the production specific settings in `webpack-config/prod.js`. The npm script `build` outputs a static build to the `dist` folder, which is ignored in git.
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Weather Services Used
-* [NOAA](http://forecast.weather.gov/MapClick.php?lat=46.80&lon=-121.73&FcstType=json)
-* [OpenWeatherMap](http://api.openweathermap.org/data/2.5/weather?lat=46.80&lon=-121.73)
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Todo
-* Build App w/ React Native
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)

@@ -2,10 +2,10 @@
 // Cameras
 // -------------------------------------
 
-@import 'utils/config';
-@import 'utils/helpers';
-@import '~slick-carousel/slick/slick.scss';
-@import '~slick-carousel/slick/slick-theme.scss';
+@import "../utils/config";
+@import "../utils/helpers";
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
 
 .cameras {
   background: $color-black;

@@ -2,8 +2,8 @@
 // Layout
 // -------------------------------------
 
-@import 'utils/config';
-@import 'utils/helpers';
+@import "../utils/config";
+@import "../utils/helpers";
 
 body,
 html {
@@ -20,7 +20,7 @@ html {
 
 .weather-data {
   display: block;
-  opacity: .5;
+  opacity: 0.5;
   text-align: center;
   text-decoration: none;
   transition: opacity 200ms ease-in-out;
@@ -40,14 +40,14 @@ html {
       padding: 0 10px;
 
       small {
-        opacity: .5;
+        opacity: 0.5;
       }
     }
   }
 
   p {
     margin: 5px 0;
-    opacity: .7;
+    opacity: 0.7;
     text-transform: capitalize;
   }
 }

@@ -2,8 +2,8 @@
 // Header
 // -------------------------------------
 
-@import 'utils/config';
-@import 'utils/helpers';
+@import "../utils/config";
+@import "../utils/helpers";
 
 .header {
   @extend %clearfix;
@@ -14,7 +14,7 @@
   &:after {
     border-bottom: 1px solid $color-grey;
     bottom: -1px;
-    opacity: .4;
+    opacity: 0.4;
     position: absolute;
     width: 100%;
   }
