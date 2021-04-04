@@ -3,43 +3,43 @@
 // -------------------------------------
 // sass-lint:disable no-duplicate-properties
 
-@import "../utils/config";
+@import '../utils/config';
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap');
 
 h1,
 .h1 {
-  font-family: $font;
-  font-size: 4em;
-  font-weight: normal;
-  text-transform: uppercase;
+    font-family: $font;
+    font-size: 4em;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 h2 {
-  color: $color-grey;
-  font-family: $font-condensed;
-  font-size: 3em;
-  font-weight: normal;
-  margin: 0 0 0.2em;
+    color: $color-grey;
+    font-family: $font-condensed;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0 0 0.2em;
 }
 
 h3 {
-  color: $color-blue-dark;
-  font-family: $font;
-  font-size: 1.5em;
-  font-weight: normal;
+    color: $color-blue-dark;
+    font-family: $font;
+    font-size: 1.5em;
+    font-weight: normal;
 }
 
 .link,
 .weather-data {
-  color: $color-grey;
-  font-family: $font;
-  font-size: 1em;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: $color-grey;
+    font-family: $font;
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
 
-  @media (min-width: $s-breakpoint) {
-    font-size: 1.4em;
-  }
+    @media (min-width: $s-breakpoint) {
+        font-size: 1.4em;
+    }
 }

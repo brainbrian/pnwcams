@@ -1,19 +1,19 @@
-import * as React from "react";
-import { navigate } from "gatsby";
+import * as React from 'react';
+import { navigate } from 'gatsby';
 
-import "../styles/containers/Layout.scss";
+import '../styles/containers/Layout.scss';
 
 const IndexPage = () => {
-  const currentMonth = new Date().getMonth();
+    const currentMonth = new Date().getMonth();
 
-  // set it to snow if we're October - March, otherwise default to surf
-  if (currentMonth > 8 || currentMonth < 3) {
-    navigate(`/snow`);
-  } else {
-    navigate(`/surf`);
-  }
+    // set it to snow if we're October - March, otherwise default to surf
+    if (currentMonth > 8 || currentMonth < 3) {
+        navigate(`/snow`);
+    } else {
+        navigate(`/surf`);
+    }
 
-  return <></>;
+    return <></>;
 };
 
 export default IndexPage;

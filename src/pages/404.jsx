@@ -1,14 +1,19 @@
-import * as React from "react";
+import * as React from 'react';
+import { navigate } from 'gatsby';
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import '../styles/containers/Layout.scss';
 
-const SnowPage = () => (
-  <>
-    <Header />
-    <main>404 page</main>
-    <Footer />
-  </>
-);
+const ErrorPage = () => {
+    const currentMonth = new Date().getMonth();
 
-export default SnowPage;
+    // set it to snow if we're October - March, otherwise default to surf
+    if (currentMonth > 8 || currentMonth < 3) {
+        navigate(`/snow`);
+    } else {
+        navigate(`/surf`);
+    }
+
+    return <></>;
+};
+
+export default ErrorPage;

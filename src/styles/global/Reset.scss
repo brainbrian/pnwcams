@@ -5,7 +5,7 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
@@ -89,13 +89,13 @@ time,
 mark,
 audio,
 video {
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
 
 article,
@@ -109,77 +109,77 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 audio,
 canvas,
 video {
-  display: inline-block;
+    display: inline-block;
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 a,
 a:focus,
 a:hover {
-  outline: 0;
-  text-decoration: none;
+    outline: 0;
+    text-decoration: none;
 }
 
 b,
 strong {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 em,
 i {
-  font-style: italic;
+    font-style: italic;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote::after,
 blockquote::before,
 q::after,
 q::before {
-  content: "";
-  // sass-lint:disable no-duplicate-properties
-  content: none;
+    content: '';
+    // sass-lint:disable no-duplicate-properties
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 hr {
-  background: none;
-  clear: both;
+    background: none;
+    clear: both;
 }
 
 img {
-  height: auto;
-  max-width: 100%;
-  width: auto;
+    height: auto;
+    max-width: 100%;
+    width: auto;
 }
 
 sup {
-  font-size: 75%;
-  vertical-align: super;
+    font-size: 75%;
+    vertical-align: super;
 }
 
 sub {
-  font-size: 75%;
-  vertical-align: sub;
+    font-size: 75%;
+    vertical-align: sub;
 }

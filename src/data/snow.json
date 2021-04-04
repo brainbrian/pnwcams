@@ -1,450 +1,450 @@
 {
-  "links": [
-    {
-      "name": "NWAC",
-      "url": "https://www.nwac.us"
-    },
-    {
-      "name": "Pass Reports",
-      "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
-    },
-    {
-      "name": "POTW",
-      "url": "http://thepeakoftheweek.com"
-    },
-    {
-      "name": "TAY",
-      "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
-    },
-    {
-      "name": "Mt. Baker",
-      "url": "http://www.mtbaker.us/snow-report"
-    }
-  ],
-  "locations": [
-    {
-      "name": "Hurricane Ridge, WA",
-      "latitude": "47.93",
-      "longitude": "-123.41",
-      "link": "http://hurricaneridge.com",
-      "links": [
+    "links": [
         {
-          "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+            "name": "NWAC",
+            "url": "https://www.nwac.us"
+        },
+        {
+            "name": "Pass Reports",
+            "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
+        },
+        {
+            "name": "POTW",
+            "url": "http://thepeakoftheweek.com"
+        },
+        {
+            "name": "TAY",
+            "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
+        },
+        {
+            "name": "Mt. Baker",
+            "url": "http://www.mtbaker.us/snow-report"
         }
-      ],
-      "cameras": [
+    ],
+    "locations": [
         {
-          "name": "Ridge",
-          "image": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
+            "name": "Hurricane Ridge, WA",
+            "latitude": "47.93",
+            "longitude": "-123.41",
+            "link": "http://hurricaneridge.com",
+            "links": [
+                {
+                    "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Ridge",
+                    "image": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
+                },
+                {
+                    "name": "Olympic View Cabins",
+                    "image": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
+                }
+            ]
         },
         {
-          "name": "Olympic View Cabins",
-          "image": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
+            "name": "Loup Loup, WA",
+            "latitude": "48.39",
+            "longitude": "-119.91",
+            "link": "https://skitheloup.com",
+            "links": [
+                {
+                    "url": "https://skitheloup.com/loup-loup-mountain-cams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Top",
+                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
+                },
+                {
+                    "name": "Base",
+                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Stevens Pass, WA",
+            "latitude": "47.74",
+            "longitude": "-121.10",
+            "link": "https://www.stevenspass.com/the-mountain/mountain-conditions/weather-report.aspx",
+            "links": [
+                {
+                    "url": "https://www.stevenspass.com/site/mountain/cams"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Tye Mill",
+                    "image": "https://cache.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
+                },
+                {
+                    "name": "Cowboy Mountain",
+                    "image": "https://cache.snow.com/mtncams/Cowboy%20Mountain.jpg"
+                },
+                {
+                    "name": "Gemini",
+                    "image": "https://cache.snow.com/mtncams/Gemini.jpg"
+                },
+                {
+                    "name": "Base Area",
+                    "image": "https://cache.snow.com/mtncams/SPBaseArea.jpg"
+                },
+                {
+                    "name": "Skyline",
+                    "image": "https://cache.snow.com/mtncams/Skyline.jpg"
+                },
+                {
+                    "name": "WSDOT Summit East",
+                    "image": "https://images.wsdot.wa.gov/nc/002vc06458.jpg"
+                },
+                {
+                    "name": "WSDOT Big Windy",
+                    "image": "https://images.wsdot.wa.gov/nc/002vc06300.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Leavenworth, WA",
+            "latitude": "47.48",
+            "longitude": "-120.82",
+            "link": "http://www.wta.org/go-hiking/hikes/enchantment-lakes",
+            "links": [
+                {
+                    "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Icicle Chalet",
+                    "image": "http://www.iciclechalet.com/cam/icview.jpg"
+                },
+                {
+                    "name": "Downtown",
+                    "youtube": "TmtVbezZaqg"
+                }
+            ]
+        },
+        {
+            "name": "Mission Ridge, WA",
+            "latitude": "47.29",
+            "longitude": "-120.40",
+            "link": "https://www.missionridge.com",
+            "links": [
+                {
+                    "url": "https://www.missionridge.com/webcams"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Sunspot",
+                    "image": "https://www.missionridge.com/webcam/sunspot-cam.jpg"
+                },
+                {
+                    "name": "Midway",
+                    "image": "https://www.missionridge.com/webcam/midway-cam.jpg"
+                },
+                {
+                    "name": "Micro",
+                    "image": "https://www.missionridge.com/webcam/microwave-cam.jpg"
+                },
+                {
+                    "name": "WSDOT Blewett Pass",
+                    "image": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Snoqualmie Pass, WA",
+            "latitude": "47.42",
+            "longitude": "-121.43",
+            "link": "https://summitatsnoqualmie.com/conditions",
+            "links": [
+                {
+                    "url": "https://summitatsnoqualmie.com/webcams"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Alpental Base",
+                    "youtube": "SLDXxe2ddvU"
+                },
+                {
+                    "name": "Summit Central",
+                    "youtube": "8qGhmBtFe9g"
+                },
+                {
+                    "name": "Central Express Top",
+                    "youtube": "Vn-KQqPfjIo"
+                },
+                {
+                    "name": "Hyak",
+                    "image": "https://images.wsdot.wa.gov/airports/hyaksw.jpg"
+                },
+                {
+                    "name": "WSDOT Snoqualmie Summit",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05200.jpg"
+                },
+                {
+                    "name": "WSDOT East Snoqualmie Summit",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05347.jpg"
+                },
+                {
+                    "name": "WSDOT Hyak",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05517.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Crystal Mountain, WA",
+            "latitude": "46.92",
+            "longitude": "-121.51",
+            "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
+            "links": [
+                {
+                    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Summit (6,856 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
+                },
+                {
+                    "name": "Chair 6 Top (7,002 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
+                },
+                {
+                    "name": "Chair 6 Bottom (6,080 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
+                },
+                {
+                    "name": "Rainier Express (5,270 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
+                },
+                {
+                    "name": "Gold Hills (5,044 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
+                },
+                {
+                    "name": "Base (4,440 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mt. Rainier, WA",
+            "latitude": "46.80",
+            "longitude": "-121.73",
+            "link": "https://www.nps.gov/mora/index.htm",
+            "links": [
+                {
+                    "url": "https://www.nps.gov/mora/photosmultimedia/webcams.htm"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Paradise - Mountain",
+                    "image": "https://www.nps.gov/webcams-mora/mountain.jpg"
+                },
+                {
+                    "name": "Paradise - Tatoosh",
+                    "image": "https://www.nps.gov/webcams-mora/tatoosh.jpg"
+                },
+                {
+                    "name": "Paradise - Parking East",
+                    "image": "https://www.nps.gov/webcams-mora/east.jpg"
+                },
+                {
+                    "name": "Paradise - Parking West",
+                    "image": "https://www.nps.gov/webcams-mora/west.jpg"
+                },
+                {
+                    "name": "Paradise - Visitor Center",
+                    "image": "https://www.nps.gov/webcams-mora/gh.jpg"
+                },
+                {
+                    "name": "Longmire",
+                    "image": "https://www.nps.gov/webcams-mora/longmire.jpg"
+                },
+                {
+                    "name": "Camp Muir",
+                    "image": "https://www.nps.gov/webcams-mora/muir.jpg"
+                }
+            ]
+        },
+        {
+            "name": "White Pass, WA",
+            "latitude": "46.64",
+            "longitude": "-121.39",
+            "link": "http://skiwhitepass.com",
+            "links": [
+                {
+                    "url": "https://skiwhitepass.com/mountain-cams"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Base",
+                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
+                },
+                {
+                    "name": "Highcamp",
+                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
+                },
+                {
+                    "name": "Basin",
+                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
+                },
+                {
+                    "name": "WSDOT Summit East",
+                    "image": "https://images.wsdot.wa.gov/sc/012vc15095.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mount St. Helens",
+            "latitude": "46.19",
+            "longitude": "-122.19",
+            "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
+            "links": [
+                {
+                    "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+                },
+                {
+                    "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Johnston Ridge",
+                    "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
+                },
+                {
+                    "name": "Johnston Ridge",
+                    "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mt. Hood Meadows, OR",
+            "latitude": "45.33",
+            "longitude": "-121.67",
+            "link": "https://www.skihood.com",
+            "links": [
+                {
+                    "url": "https://www.skihood.com/the-mountain/conditions"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Bottom of Vista",
+                    "image": "https://www.skihood.com/cams/vista"
+                },
+                {
+                    "name": "Base Area",
+                    "image": "https://www.skihood.com/cams/base"
+                },
+                {
+                    "name": "Top of Cascade",
+                    "image": "https://www.skihood.com/cams/casc"
+                }
+            ]
+        },
+        {
+            "name": "Timberline Lodge, OR",
+            "latitude": "45.33",
+            "longitude": "-121.71",
+            "link": "http://www.timberlinelodge.com",
+            "links": [
+                {
+                    "url": "http://www.timberlinelodge.com/webcams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Jeff Flood",
+                    "image": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
+                },
+                {
+                    "name": "Palmer/Silcox",
+                    "image": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
+                },
+                {
+                    "name": "Bruno's",
+                    "image": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
+                },
+                {
+                    "name": "Lodge",
+                    "image": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
+                },
+                {
+                    "name": "Snow Stake",
+                    "image": "https://www.timberlinelodge.com/snowcameras//snowstake.jpg"
+                },
+                {
+                    "name": "US26 at G. Camp Lp Rd",
+                    "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
+                },
+                {
+                    "name": "US26 EB at G. Camp Maint. West",
+                    "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govn%20Camp%20Maint_pid1899.JPG"
+                },
+                {
+                    "name": "US26 at G. Camp (Timberline Rd)",
+                    "image": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
+                },
+                {
+                    "name": "US26 EB at Snow Bunny",
+                    "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
+                }
+            ]
+        },
+        {
+            "name": "Mt. Bachelor, OR",
+            "latitude": "43.99",
+            "longitude": "-121.68",
+            "link": "https://www.mtbachelor.com",
+            "links": [
+                {
+                    "url": "https://www.mtbachelor.com/live-cams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "West Village Snow Stake",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/14"
+                },
+                {
+                    "name": "Nordic Center",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
+                },
+                {
+                    "name": "The Cone",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
+                },
+                {
+                    "name": "Outback Lift Line",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
+                },
+                {
+                    "name": "Marshmallow Run",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/6"
+                },
+                {
+                    "name": "Summit Lift Line",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
+                },
+                {
+                    "name": "Three Sisters",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/10"
+                },
+                {
+                    "name": "Tumalo and Bend",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Loup Loup, WA",
-      "latitude": "48.39",
-      "longitude": "-119.91",
-      "link": "https://skitheloup.com",
-      "links": [
-        {
-          "url": "https://skitheloup.com/loup-loup-mountain-cams/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Top",
-          "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
-        },
-        {
-          "name": "Base",
-          "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Stevens Pass, WA",
-      "latitude": "47.74",
-      "longitude": "-121.10",
-      "link": "https://www.stevenspass.com/the-mountain/mountain-conditions/weather-report.aspx",
-      "links": [
-        {
-          "url": "https://www.stevenspass.com/site/mountain/cams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Tye Mill",
-          "image": "https://cache.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
-        },
-        {
-          "name": "Cowboy Mountain",
-          "image": "https://cache.snow.com/mtncams/Cowboy%20Mountain.jpg"
-        },
-        {
-          "name": "Gemini",
-          "image": "https://cache.snow.com/mtncams/Gemini.jpg"
-        },
-        {
-          "name": "Base Area",
-          "image": "https://cache.snow.com/mtncams/SPBaseArea.jpg"
-        },
-        {
-          "name": "Skyline",
-          "image": "https://cache.snow.com/mtncams/Skyline.jpg"
-        },
-        {
-          "name": "WSDOT Summit East",
-          "image": "https://images.wsdot.wa.gov/nc/002vc06458.jpg"
-        },
-        {
-          "name": "WSDOT Big Windy",
-          "image": "https://images.wsdot.wa.gov/nc/002vc06300.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Leavenworth, WA",
-      "latitude": "47.48",
-      "longitude": "-120.82",
-      "link": "http://www.wta.org/go-hiking/hikes/enchantment-lakes",
-      "links": [
-        {
-          "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Icicle Chalet",
-          "image": "http://www.iciclechalet.com/cam/icview.jpg"
-        },
-        {
-          "name": "Downtown",
-          "youtube": "TmtVbezZaqg"
-        }
-      ]
-    },
-    {
-      "name": "Mission Ridge, WA",
-      "latitude": "47.29",
-      "longitude": "-120.40",
-      "link": "https://www.missionridge.com",
-      "links": [
-        {
-          "url": "https://www.missionridge.com/webcams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Sunspot",
-          "image": "https://www.missionridge.com/webcam/sunspot-cam.jpg"
-        },
-        {
-          "name": "Midway",
-          "image": "https://www.missionridge.com/webcam/midway-cam.jpg"
-        },
-        {
-          "name": "Micro",
-          "image": "https://www.missionridge.com/webcam/microwave-cam.jpg"
-        },
-        {
-          "name": "WSDOT Blewett Pass",
-          "image": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Snoqualmie Pass, WA",
-      "latitude": "47.42",
-      "longitude": "-121.43",
-      "link": "https://summitatsnoqualmie.com/conditions",
-      "links": [
-        {
-          "url": "https://summitatsnoqualmie.com/webcams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Alpental Base",
-          "youtube": "SLDXxe2ddvU"
-        },
-        {
-          "name": "Summit Central",
-          "youtube": "8qGhmBtFe9g"
-        },
-        {
-          "name": "Central Express Top",
-          "youtube": "Vn-KQqPfjIo"
-        },
-        {
-          "name": "Hyak",
-          "image": "https://images.wsdot.wa.gov/airports/hyaksw.jpg"
-        },
-        {
-          "name": "WSDOT Snoqualmie Summit",
-          "image": "https://images.wsdot.wa.gov/sc/090VC05200.jpg"
-        },
-        {
-          "name": "WSDOT East Snoqualmie Summit",
-          "image": "https://images.wsdot.wa.gov/sc/090VC05347.jpg"
-        },
-        {
-          "name": "WSDOT Hyak",
-          "image": "https://images.wsdot.wa.gov/sc/090VC05517.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Crystal Mountain, WA",
-      "latitude": "46.92",
-      "longitude": "-121.51",
-      "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
-      "links": [
-        {
-          "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Summit (6,856 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
-        },
-        {
-          "name": "Chair 6 Top (7,002 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
-        },
-        {
-          "name": "Chair 6 Bottom (6,080 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
-        },
-        {
-          "name": "Rainier Express (5,270 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
-        },
-        {
-          "name": "Gold Hills (5,044 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
-        },
-        {
-          "name": "Base (4,440 ft)",
-          "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Mt. Rainier, WA",
-      "latitude": "46.80",
-      "longitude": "-121.73",
-      "link": "https://www.nps.gov/mora/index.htm",
-      "links": [
-        {
-          "url": "https://www.nps.gov/mora/photosmultimedia/webcams.htm"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Paradise - Mountain",
-          "image": "https://www.nps.gov/webcams-mora/mountain.jpg"
-        },
-        {
-          "name": "Paradise - Tatoosh",
-          "image": "https://www.nps.gov/webcams-mora/tatoosh.jpg"
-        },
-        {
-          "name": "Paradise - Parking East",
-          "image": "https://www.nps.gov/webcams-mora/east.jpg"
-        },
-        {
-          "name": "Paradise - Parking West",
-          "image": "https://www.nps.gov/webcams-mora/west.jpg"
-        },
-        {
-          "name": "Paradise - Visitor Center",
-          "image": "https://www.nps.gov/webcams-mora/gh.jpg"
-        },
-        {
-          "name": "Longmire",
-          "image": "https://www.nps.gov/webcams-mora/longmire.jpg"
-        },
-        {
-          "name": "Camp Muir",
-          "image": "https://www.nps.gov/webcams-mora/muir.jpg"
-        }
-      ]
-    },
-    {
-      "name": "White Pass, WA",
-      "latitude": "46.64",
-      "longitude": "-121.39",
-      "link": "http://skiwhitepass.com",
-      "links": [
-        {
-          "url": "https://skiwhitepass.com/mountain-cams"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Base",
-          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
-        },
-        {
-          "name": "Highcamp",
-          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
-        },
-        {
-          "name": "Basin",
-          "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
-        },
-        {
-          "name": "WSDOT Summit East",
-          "image": "https://images.wsdot.wa.gov/sc/012vc15095.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Mount St. Helens",
-      "latitude": "46.19",
-      "longitude": "-122.19",
-      "link": "https://www.fs.usda.gov/recarea/giffordpinchot/recarea/?recid=34143",
-      "links": [
-        {
-          "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
-        },
-        {
-          "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Johnston Ridge",
-          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
-        },
-        {
-          "name": "Johnston Ridge",
-          "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Mt. Hood Meadows, OR",
-      "latitude": "45.33",
-      "longitude": "-121.67",
-      "link": "https://www.skihood.com",
-      "links": [
-        {
-          "url": "https://www.skihood.com/the-mountain/conditions"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Bottom of Vista",
-          "image": "https://www.skihood.com/cams/vista"
-        },
-        {
-          "name": "Base Area",
-          "image": "https://www.skihood.com/cams/base"
-        },
-        {
-          "name": "Top of Cascade",
-          "image": "https://www.skihood.com/cams/casc"
-        }
-      ]
-    },
-    {
-      "name": "Timberline Lodge, OR",
-      "latitude": "45.33",
-      "longitude": "-121.71",
-      "link": "http://www.timberlinelodge.com",
-      "links": [
-        {
-          "url": "http://www.timberlinelodge.com/webcams/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "Jeff Flood",
-          "image": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
-        },
-        {
-          "name": "Palmer/Silcox",
-          "image": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
-        },
-        {
-          "name": "Bruno's",
-          "image": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
-        },
-        {
-          "name": "Lodge",
-          "image": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
-        },
-        {
-          "name": "Snow Stake",
-          "image": "https://www.timberlinelodge.com/snowcameras//snowstake.jpg"
-        },
-        {
-          "name": "US26 at G. Camp Lp Rd",
-          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govt%20Camp%20Lp%20Rd_pid1776.JPG"
-        },
-        {
-          "name": "US26 EB at G. Camp Maint. West",
-          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Govn%20Camp%20Maint_pid1899.JPG"
-        },
-        {
-          "name": "US26 at G. Camp (Timberline Rd)",
-          "image": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
-        },
-        {
-          "name": "US26 EB at Snow Bunny",
-          "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
-        }
-      ]
-    },
-    {
-      "name": "Mt. Bachelor, OR",
-      "latitude": "43.99",
-      "longitude": "-121.68",
-      "link": "https://www.mtbachelor.com",
-      "links": [
-        {
-          "url": "https://www.mtbachelor.com/live-cams/"
-        }
-      ],
-      "cameras": [
-        {
-          "name": "West Village Snow Stake",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/14"
-        },
-        {
-          "name": "Nordic Center",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
-        },
-        {
-          "name": "The Cone",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
-        },
-        {
-          "name": "Outback Lift Line",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
-        },
-        {
-          "name": "Marshmallow Run",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/6"
-        },
-        {
-          "name": "Summit Lift Line",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
-        },
-        {
-          "name": "Three Sisters",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/10"
-        },
-        {
-          "name": "Tumalo and Bend",
-          "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
-        }
-      ]
-    }
-  ]
+    ]
 }

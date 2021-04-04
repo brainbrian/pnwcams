@@ -2,63 +2,63 @@
 // Title Card
 // -------------------------------------
 
-@import "../utils/config";
-@import "../utils/helpers";
+@import '../utils/config';
+@import '../utils/helpers';
 
 .title-card {
-  background-color: $color-blue-light;
-  display: table;
-  height: 170px;
-  position: relative;
-  text-align: center;
-  width: 100%;
+    background-color: $color-blue-light;
+    display: table;
+    height: 170px;
+    position: relative;
+    text-align: center;
+    width: 100%;
 
-  &__vertical-align {
-    display: table-cell;
-    vertical-align: middle;
-  }
-
-  &__title {
-    a {
-      color: $color-grey-dark;
-      text-decoration: none;
-    }
-  }
-
-  &--links {
-    border-bottom: solid 1px $color-grey-light;
-    height: 3em;
-
-    ul {
-      margin: 0;
-      padding: 0;
-      width: 100%;
+    &__vertical-align {
+        display: table-cell;
+        vertical-align: middle;
     }
 
-    li {
-      display: inline-block;
-      margin: 0 0.5em;
+    &__title {
+        a {
+            color: $color-grey-dark;
+            text-decoration: none;
+        }
     }
-  }
-
-  @media (min-width: $s-breakpoint) {
-    height: 250px;
 
     &--links {
-      height: 4em;
+        border-bottom: solid 1px $color-grey-light;
+        height: 3em;
 
-      li {
-        margin: 0 0.8em;
-      }
-
-      a {
-        transition: color 200ms ease-in-out;
-
-        &:hover,
-        &:focus {
-          color: $color-grey-dark;
+        ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
         }
-      }
+
+        li {
+            display: inline-block;
+            margin: 0 0.5em;
+        }
     }
-  }
+
+    @media (min-width: $s-breakpoint) {
+        height: 250px;
+
+        &--links {
+            height: 4em;
+
+            li {
+                margin: 0 0.8em;
+            }
+
+            a {
+                transition: color 200ms ease-in-out;
+
+                &:hover,
+                &:focus {
+                    color: $color-grey-dark;
+                }
+            }
+        }
+    }
 }

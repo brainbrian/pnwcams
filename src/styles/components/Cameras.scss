@@ -2,66 +2,66 @@
 // Cameras
 // -------------------------------------
 
-@import "../utils/config";
-@import "../utils/helpers";
-@import "~slick-carousel/slick/slick.scss";
-@import "~slick-carousel/slick/slick-theme.scss";
+@import '../utils/config';
+@import '../utils/helpers';
+@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick-theme.scss';
 
 .cameras {
-  background: $color-black;
-  height: 300px;
-  position: relative;
-
-  @media (min-width: $s-breakpoint) {
-    height: 420px;
-  }
-
-  @media (min-width: $m-breakpoint) {
-    height: 540px;
-  }
-
-  @media (min-width: $l-breakpoint) {
-    height: 660px;
-  }
-
-  .slick-list,
-  .slick-track {
-    height: 100%;
-  }
-
-  .slick-dots {
-    bottom: auto;
-    top: -35px;
+    background: $color-black;
+    height: 300px;
+    position: relative;
 
     @media (min-width: $s-breakpoint) {
-      top: -50px;
+        height: 420px;
     }
 
     @media (min-width: $m-breakpoint) {
-      top: -55px;
+        height: 540px;
     }
 
-    li {
-      button {
-        &::before {
-          color: $color-grey;
-          font-size: 16px;
-        }
-
-        &:hover {
-          &::before {
-            opacity: 1;
-          }
-        }
-      }
-
-      &.slick-active {
-        button {
-          &::before {
-            opacity: 0.9;
-          }
-        }
-      }
+    @media (min-width: $l-breakpoint) {
+        height: 660px;
     }
-  }
+
+    .slick-list,
+    .slick-track {
+        height: 100%;
+    }
+
+    .slick-dots {
+        bottom: auto;
+        top: -35px;
+
+        @media (min-width: $s-breakpoint) {
+            top: -50px;
+        }
+
+        @media (min-width: $m-breakpoint) {
+            top: -55px;
+        }
+
+        li {
+            button {
+                &::before {
+                    color: $color-grey;
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    &::before {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            &.slick-active {
+                button {
+                    &::before {
+                        opacity: 0.9;
+                    }
+                }
+            }
+        }
+    }
 }

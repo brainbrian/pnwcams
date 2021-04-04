@@ -2,66 +2,66 @@
 // Layout
 // -------------------------------------
 
-@import "../utils/config";
-@import "../utils/helpers";
+@import '../utils/config';
+@import '../utils/helpers';
 
 body,
 html {
-  background: $color-grey;
-  color: $color-white;
+    background: $color-grey;
+    color: $color-white;
 }
 
 .main-content {
-  margin: 0 auto;
-  max-width: $xl-breakpoint;
-  padding-top: 3em;
-  position: relative;
+    margin: 0 auto;
+    max-width: $xl-breakpoint;
+    padding-top: 3em;
+    position: relative;
 }
 
 .weather-data {
-  display: block;
-  opacity: 0.5;
-  text-align: center;
-  text-decoration: none;
-  transition: opacity 200ms ease-in-out;
+    display: block;
+    opacity: 0.5;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 200ms ease-in-out;
 
-  &:hover,
-  &:focus {
-    opacity: 1;
-  }
-
-  ul {
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
-
-    li {
-      display: inline-block;
-      padding: 0 10px;
-
-      small {
-        opacity: 0.5;
-      }
+    &:hover,
+    &:focus {
+        opacity: 1;
     }
-  }
 
-  p {
-    margin: 5px 0;
-    opacity: 0.7;
-    text-transform: capitalize;
-  }
+    ul {
+        list-style-type: circle;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding: 0 10px;
+
+            small {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    p {
+        margin: 5px 0;
+        opacity: 0.7;
+        text-transform: capitalize;
+    }
 }
 
 @media (min-width: $s-breakpoint) {
-  .section-card {
-    height: 300px;
+    .section-card {
+        height: 300px;
 
-    &--footer {
-      height: 150px;
+        &--footer {
+            height: 150px;
 
-      .title {
-        font-size: 1.5em;
-      }
+            .title {
+                font-size: 1.5em;
+            }
+        }
     }
-  }
 }
