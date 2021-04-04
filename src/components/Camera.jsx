@@ -17,7 +17,7 @@ const Camera = ({ image, name, youtube, iframe }) => {
     let iframeUrl = '';
 
     if (youtube) {
-        iframeUrl = `https://www.youtube.com/embed/${youtube}?controls=0&color=white&modestbranding=1&playsinline=1`;
+        iframeUrl = `https://www.youtube-nocookie.com/embed/${youtube}`;
     } else if (iframe) {
         iframeUrl = iframe;
     }

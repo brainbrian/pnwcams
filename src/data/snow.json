@@ -9,16 +9,16 @@
             "url": "http://www.wsdot.com/traffic/passes/passinformation.aspx"
         },
         {
-            "name": "POTW",
-            "url": "http://thepeakoftheweek.com"
-        },
-        {
             "name": "TAY",
-            "url": "http://www.turns-all-year.com/skiing_snowboarding/trip_reports/index.php"
+            "url": "https://turns-all-year.com/trip-reports"
         },
         {
             "name": "Mt. Baker",
             "url": "http://www.mtbaker.us/snow-report"
+        },
+        {
+            "name": "POTW",
+            "url": "http://thepeakoftheweek.com"
         }
     ],
     "locations": [
