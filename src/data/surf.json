@@ -307,6 +307,9 @@
                 },
                 {
                     "url": "https://www.alltravelcams.com/webcams/oregon_coast/oceanside_three_arch_rocks.php"
+                },
+                {
+                    "url": "https://www.robtrost.com/webcam.php"
                 }
             ],
             "cameras": [
@@ -370,6 +373,9 @@
             "links": [
                 {
                     "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+                },
+                {
+                    "url": "https://www.weather.gov/pqr/barcams"
                 }
             ],
             "cameras": [
