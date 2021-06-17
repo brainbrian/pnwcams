@@ -301,13 +301,16 @@
             "longitude": "-123.92",
             "links": [
                 {
-                    "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+                    "url": "https://www.weather.gov/pqr/barcams"
+                },
+                {
+                    "url": "https://tripcheck.com"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Tillamook Bay",
-                    "image": "https://www.wrh.noaa.gov/images/mfr/camera/Tillam.jpg"
+                    "name": "Tillamook Bay - Barview Jetty",
+                    "image": "https://tripcheck.com/RoadCams/cams/Barview%20Jetty%20Lookout_pid4457.jpg"
                 }
             ]
         },
@@ -491,13 +494,20 @@
             "link": "http://magicseaweed.com/Coos-Bay-Surf-Report/320/",
             "links": [
                 {
-                    "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
+                    "url": "https://www.weather.gov/pqr/barcams"
+                },
+                {
+                    "url": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=70"
                 }
             ],
             "cameras": [
                 {
                     "name": "Coos Bay",
-                    "image": "http://www.wrh.noaa.gov/images/mfr/camera/CoosBa.jpg"
+                    "image": "https://stateparks.oregon.gov/view/conditions/shoreacres000M.jpg"
+                },
+                {
+                    "name": "Coos Bay",
+                    "image": "https://www.coosbaywebcam.com/images/webcam/camera0.jpg"
                 }
             ]
         },
