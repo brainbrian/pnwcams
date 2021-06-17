@@ -93,12 +93,27 @@
                 },
                 {
                     "url": "https://portofpa.com"
+                },
+                {
+                    "url": "https://hoko.pnwas.org"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Sekiu - Hoko River",
+                    "name": "Sekiu",
                     "image": "https://hoko.pnwas.org/images/webcam/hoko/current.jpg"
+                },
+                {
+                    "name": "Sekiu",
+                    "image": "https://hoko.pnwas.org/images/webcam/beach/current.jpg"
+                },
+                {
+                    "name": "Sekiu",
+                    "image": "https://hoko.pnwas.org/images/webcam/westcabin/current.jpg"
+                },
+                {
+                    "name": "Sekiu",
+                    "image": "https://hoko.pnwas.org/images/webcam/northcabin/current.jpg"
                 },
                 {
                     "name": "Dungeness Lighthouse",
