@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactSlick from 'react-slick';
+import SwiperCore, { Pagination } from 'swiper/core';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import Camera from './Camera';
 
 import '../styles/components/Cameras.scss';
+
+SwiperCore.use([Pagination]);
 
 const Cameras = ({ data }) => {
     const cameras = data.map((camera, key) => {
@@ -18,25 +21,19 @@ const Cameras = ({ data }) => {
         };
 
         return (
-            <div key={props.key}>
+            <SwiperSlide key={props.key}>
                 <Camera {...props} />
-            </div>
+            </SwiperSlide>
         );
     });
 
-    const slickSettings = {
-        arrows: false,
-        autoplay: false,
-        className: 'cameras',
-        dots: cameras.length > 1 ? true : false,
-        infinite: false,
-        lazyLoad: true,
-        slidesToScroll: 1,
-        slidesToShow: 1,
-        swipe: cameras.length > 1 ? true : false,
-    };
-
-    return <ReactSlick {...slickSettings}>{cameras}</ReactSlick>;
+    return (
+        <>
+            <Swiper pagination={{ clickable: true }} className="cameras">
+                {cameras}
+            </Swiper>
+        </>
+    );
 };
 
 Cameras.propTypes = {

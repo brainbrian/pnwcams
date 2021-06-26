@@ -4,8 +4,8 @@
 
 @import '../utils/Config';
 @import '../utils/Helpers';
-@import '~slick-carousel/slick/slick.scss';
-@import '~slick-carousel/slick/slick-theme.scss';
+@import '~swiper/swiper.min.css';
+@import '~swiper/components/pagination/pagination.min.css';
 
 .cameras {
     background: $color-black;
@@ -24,43 +24,25 @@
         height: 660px;
     }
 
-    .slick-list,
-    .slick-track {
-        height: 100%;
-    }
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            background: $color-blue-dark;
+            height: 12px;
+            opacity: 0.7;
+            width: 12px;
 
-    .slick-dots {
-        bottom: auto;
-        top: -35px;
-
-        @media (min-width: $s-breakpoint) {
-            top: -50px;
-        }
-
-        @media (min-width: $m-breakpoint) {
-            top: -55px;
-        }
-
-        li {
-            button {
-                &::before {
-                    color: $color-grey;
-                    font-size: 16px;
-                }
-
-                &:hover {
-                    &::before {
-                        opacity: 1;
-                    }
-                }
+            &-active {
+                background: $color-blue;
             }
 
-            &.slick-active {
-                button {
-                    &::before {
-                        opacity: 0.9;
-                    }
-                }
+            @media (min-width: $m-breakpoint) {
+                height: 16px;
+                width: 16px;
+            }
+
+            @media (min-width: $l-breakpoint) {
+                height: 18px;
+                width: 18px;
             }
         }
     }
