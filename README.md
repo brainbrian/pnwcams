@@ -4,7 +4,7 @@
 
 Application code for [pnwcams.com](http://www.pnwcams.com)
 
-I'm built this site as a tool for myself to see webcams around the Pacific Northwest that I check on a regular basis. I hope you find it useful too!
+I built this site as a tool for myself to see webcams around the Pacific Northwest that I check on a regular basis. I hope you find it useful.
 
 – [Brian](http://www.brainbrian.com)
 
