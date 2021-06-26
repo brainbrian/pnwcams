@@ -18,9 +18,13 @@ h1,
 h2 {
     color: $color-grey;
     font-family: $font-condensed;
-    font-size: 3em;
+    font-size: 2.25em;
     font-weight: normal;
     margin: 0 0 0.2em;
+
+    @media (min-width: $s-breakpoint) {
+        font-size: 3em;
+    }
 }
 
 h3 {

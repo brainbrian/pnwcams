@@ -6,7 +6,15 @@ import TitleCard from './TitleCard';
 
 import '../styles/components/Location.scss';
 
-const Location = ({ cameras, latitude, longitude, link, name, weather }) => (
+const Location = ({
+    cameras,
+    id,
+    latitude,
+    link,
+    longitude,
+    name,
+    weather,
+}) => (
     <div className="location">
         <TitleCard
             name={name}
@@ -15,7 +23,7 @@ const Location = ({ cameras, latitude, longitude, link, name, weather }) => (
             longitude={longitude}
             weather={weather}
         />
-        <Cameras data={cameras} />
+        <Cameras data={cameras} id={id} />
     </div>
 );
 

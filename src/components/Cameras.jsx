@@ -9,7 +9,7 @@ import '../styles/components/Cameras.scss';
 
 SwiperCore.use([Pagination]);
 
-const Cameras = ({ data }) => {
+const Cameras = ({ data, id }) => {
     const cameras = data.map((camera, key) => {
         const props = {
             id: key,
@@ -29,9 +29,13 @@ const Cameras = ({ data }) => {
 
     return (
         <>
-            <Swiper pagination={{ clickable: true }} className="cameras">
+            <Swiper
+                pagination={{ clickable: true, el: `#pagination-${id}` }}
+                className="cameras"
+            >
                 {cameras}
             </Swiper>
+            <div className="cameras-pagination" id={`pagination-${id}`} />
         </>
     );
 };

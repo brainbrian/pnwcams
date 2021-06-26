@@ -23,27 +23,37 @@
     @media (min-width: $l-breakpoint) {
         height: 660px;
     }
+}
 
-    .swiper-pagination {
-        .swiper-pagination-bullet {
+.cameras-pagination {
+    position: absolute;
+    top: 144px;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: $s-breakpoint) {
+        top: 205px;
+    }
+
+    .swiper-pagination-bullet {
+        background: $color-grey-light;
+        height: 12px;
+        opacity: 0.7;
+        width: 12px;
+        margin: 0 4px;
+
+        &-active {
             background: $color-blue-dark;
-            height: 12px;
-            opacity: 0.7;
-            width: 12px;
+        }
 
-            &-active {
-                background: $color-blue;
-            }
+        @media (min-width: $m-breakpoint) {
+            height: 16px;
+            width: 16px;
+        }
 
-            @media (min-width: $m-breakpoint) {
-                height: 16px;
-                width: 16px;
-            }
-
-            @media (min-width: $l-breakpoint) {
-                height: 18px;
-                width: 18px;
-            }
+        @media (min-width: $l-breakpoint) {
+            height: 18px;
+            width: 18px;
         }
     }
 }
