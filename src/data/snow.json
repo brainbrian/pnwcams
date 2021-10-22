@@ -30,16 +30,19 @@
             "links": [
                 {
                     "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+                },
+                {
+                    "url": "https://nwac.us/weatherdata/hurricaneridge/now/"
                 }
             ],
             "cameras": [
                 {
                     "name": "Ridge",
-                    "image": "http://www.nps.gov/webcams-olym/current_ridgecam.jpg"
+                    "image": "https://www.nps.gov/webcams-olym/southcam.jpg"
                 },
                 {
-                    "name": "Olympic View Cabins",
-                    "image": "https://assets2.webcam.io/w/6P4eWz/latest.jpg"
+                    "name": "Main Entrance",
+                    "image": "https://www.nps.gov/webcams-olym/northcam.jpg"
                 }
             ]
         },
@@ -163,20 +166,31 @@
             "links": [
                 {
                     "url": "https://summitatsnoqualmie.com/webcams"
+                },
+                {
+                    "url": "https://www.youtube.com/channel/UCKEFryZlrSRBFJ_EyPEOI6A"
                 }
             ],
             "cameras": [
                 {
+                    "name": "Alpental Mid-Mountain",
+                    "youtube": "33-OvNuXKs4"
+                },
+                {
                     "name": "Alpental Base",
-                    "youtube": "SLDXxe2ddvU"
+                    "youtube": "5mcKPiNaab0"
                 },
                 {
                     "name": "Summit Central",
-                    "youtube": "8qGhmBtFe9g"
+                    "youtube": "SstacApO7uE"
                 },
                 {
-                    "name": "Central Express Top",
-                    "youtube": "Vn-KQqPfjIo"
+                    "name": "Central Express",
+                    "youtube": "J6HCWBtuw5c"
+                },
+                {
+                    "name": "Silver Fir",
+                    "youtube": "MAX4ojhbsS8"
                 },
                 {
                     "name": "Hyak",
@@ -364,19 +378,19 @@
             ],
             "cameras": [
                 {
-                    "name": "Jeff Flood",
+                    "name": "Magic Mile",
                     "image": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
                 },
                 {
-                    "name": "Palmer/Silcox",
-                    "image": "https://www.timberlinelodge.com/snowcameras/palmerbottom.jpg"
+                    "name": "Silcox Hut",
+                    "image": "https://www.timberlinelodge.com/snowcameras//palmerbottom.jpg"
                 },
                 {
                     "name": "Bruno's",
-                    "image": "https://www.timberlinelodge.com/snowcameras/brunotop.jpg"
+                    "image": "https://www.timberlinelodge.com/snowcameras//brunotop.jpg"
                 },
                 {
-                    "name": "Lodge",
+                    "name": "Timberline Lodge",
                     "image": "https://www.timberlinelodge.com/snowcameras/lodge.jpg"
                 },
                 {
