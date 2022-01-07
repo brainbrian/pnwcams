@@ -23,47 +23,54 @@
     ],
     "locations": [
         {
-            "name": "Hurricane Ridge, WA",
-            "latitude": "47.93",
-            "longitude": "-123.41",
-            "link": "http://hurricaneridge.com",
+            "name": "Snoqualmie Pass, WA",
+            "latitude": "47.42",
+            "longitude": "-121.43",
+            "link": "https://summitatsnoqualmie.com/conditions",
             "links": [
                 {
-                    "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+                    "url": "https://summitatsnoqualmie.com/webcams"
                 },
                 {
-                    "url": "https://nwac.us/weatherdata/hurricaneridge/now/"
+                    "url": "https://www.youtube.com/channel/UCKEFryZlrSRBFJ_EyPEOI6A"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Ridge",
-                    "image": "https://www.nps.gov/webcams-olym/southcam.jpg"
+                    "name": "Summit Central",
+                    "youtube": "RJ7fIjQW34A"
                 },
                 {
-                    "name": "Main Entrance",
-                    "image": "https://www.nps.gov/webcams-olym/northcam.jpg"
-                }
-            ]
-        },
-        {
-            "name": "Loup Loup, WA",
-            "latitude": "48.39",
-            "longitude": "-119.91",
-            "link": "https://skitheloup.com",
-            "links": [
-                {
-                    "url": "https://skitheloup.com/loup-loup-mountain-cams/"
-                }
-            ],
-            "cameras": [
-                {
-                    "name": "Top",
-                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
+                    "name": "Alpental Mid-Mountain",
+                    "youtube": "m_B8EghZ6gg"
                 },
                 {
-                    "name": "Base",
-                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
+                    "name": "Alpental Base",
+                    "youtube": "SOINZhfHlQQ"
+                },
+                {
+                    "name": "Central Express",
+                    "youtube": "91eI60BHlKw"
+                },
+                {
+                    "name": "Silver Fir",
+                    "youtube": "prX4LVcj9FE"
+                },
+                {
+                    "name": "Hyak",
+                    "image": "https://images.wsdot.wa.gov/airports/hyaksw.jpg"
+                },
+                {
+                    "name": "WSDOT Snoqualmie Summit",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05200.jpg"
+                },
+                {
+                    "name": "WSDOT East Snoqualmie Summit",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05347.jpg"
+                },
+                {
+                    "name": "WSDOT Hyak",
+                    "image": "https://images.wsdot.wa.gov/sc/090VC05517.jpg"
                 }
             ]
         },
@@ -105,6 +112,88 @@
                 {
                     "name": "WSDOT Big Windy",
                     "image": "https://images.wsdot.wa.gov/nc/002vc06300.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Crystal Mountain, WA",
+            "latitude": "46.92",
+            "longitude": "-121.51",
+            "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
+            "links": [
+                {
+                    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Summit (6,856 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
+                },
+                {
+                    "name": "Chair 6 Top (7,002 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
+                },
+                {
+                    "name": "Chair 6 Bottom (6,080 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
+                },
+                {
+                    "name": "Rainier Express (5,270 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
+                },
+                {
+                    "name": "Gold Hills (5,044 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
+                },
+                {
+                    "name": "Base (4,440 ft)",
+                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Hurricane Ridge, WA",
+            "latitude": "47.93",
+            "longitude": "-123.41",
+            "link": "http://hurricaneridge.com",
+            "links": [
+                {
+                    "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
+                },
+                {
+                    "url": "https://nwac.us/weatherdata/hurricaneridge/now/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Ridge",
+                    "image": "https://www.nps.gov/webcams-olym/southcam.jpg"
+                },
+                {
+                    "name": "Main Entrance",
+                    "image": "https://www.nps.gov/webcams-olym/northcam.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Loup Loup, WA",
+            "latitude": "48.39",
+            "longitude": "-119.91",
+            "link": "https://skitheloup.com",
+            "links": [
+                {
+                    "url": "https://skitheloup.com/loup-loup-mountain-cams/"
+                }
+            ],
+            "cameras": [
+                {
+                    "name": "Top",
+                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
+                },
+                {
+                    "name": "Base",
+                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
                 }
             ]
         },
@@ -155,95 +244,6 @@
                 {
                     "name": "WSDOT Blewett Pass",
                     "image": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
-                }
-            ]
-        },
-        {
-            "name": "Snoqualmie Pass, WA",
-            "latitude": "47.42",
-            "longitude": "-121.43",
-            "link": "https://summitatsnoqualmie.com/conditions",
-            "links": [
-                {
-                    "url": "https://summitatsnoqualmie.com/webcams"
-                },
-                {
-                    "url": "https://www.youtube.com/channel/UCKEFryZlrSRBFJ_EyPEOI6A"
-                }
-            ],
-            "cameras": [
-                {
-                    "name": "Alpental Mid-Mountain",
-                    "youtube": "m_B8EghZ6gg"
-                },
-                {
-                    "name": "Alpental Base",
-                    "youtube": "SOINZhfHlQQ"
-                },
-                {
-                    "name": "Summit Central",
-                    "youtube": "RJ7fIjQW34A"
-                },
-                {
-                    "name": "Central Express",
-                    "youtube": "91eI60BHlKw"
-                },
-                {
-                    "name": "Silver Fir",
-                    "youtube": "prX4LVcj9FE"
-                },
-                {
-                    "name": "Hyak",
-                    "image": "https://images.wsdot.wa.gov/airports/hyaksw.jpg"
-                },
-                {
-                    "name": "WSDOT Snoqualmie Summit",
-                    "image": "https://images.wsdot.wa.gov/sc/090VC05200.jpg"
-                },
-                {
-                    "name": "WSDOT East Snoqualmie Summit",
-                    "image": "https://images.wsdot.wa.gov/sc/090VC05347.jpg"
-                },
-                {
-                    "name": "WSDOT Hyak",
-                    "image": "https://images.wsdot.wa.gov/sc/090VC05517.jpg"
-                }
-            ]
-        },
-        {
-            "name": "Crystal Mountain, WA",
-            "latitude": "46.92",
-            "longitude": "-121.51",
-            "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
-            "links": [
-                {
-                    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
-                }
-            ],
-            "cameras": [
-                {
-                    "name": "Summit (6,856 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
-                },
-                {
-                    "name": "Chair 6 Top (7,002 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
-                },
-                {
-                    "name": "Chair 6 Bottom (6,080 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
-                },
-                {
-                    "name": "Rainier Express (5,270 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
-                },
-                {
-                    "name": "Gold Hills (5,044 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
-                },
-                {
-                    "name": "Base (4,440 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
                 }
             ]
         },
@@ -379,7 +379,7 @@
             "cameras": [
                 {
                     "name": "Magic Mile",
-                    "image": "https://www.timberlinelodge.com/snowcameras/floodtop.jpg"
+                    "image": "https://www.timberlinelodge.com/snowcameras/FloodEast.jpg"
                 },
                 {
                     "name": "Silcox Hut",
@@ -408,10 +408,6 @@
                 {
                     "name": "US26 at G. Camp (Timberline Rd)",
                     "image": "https://www.tripcheck.com/roadcams/cams/GovernmentCamp_pid624.jpg"
-                },
-                {
-                    "name": "US26 EB at Snow Bunny",
-                    "image": "https://www.tripcheck.com/roadcams/cams/US26%20at%20Snow%20Bunny_pid1887.JPG"
                 }
             ]
         },
