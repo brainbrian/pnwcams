@@ -205,6 +205,9 @@
             "links": [
                 {
                     "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
+                },
+                {
+                    "url": "https://leavenworth.org/webcams/"
                 }
             ],
             "cameras": [
@@ -214,7 +217,19 @@
                 },
                 {
                     "name": "Downtown",
+                    "youtube": "DxgiDvNDjoA"
+                },
+                {
+                    "name": "Kris Kringl",
                     "youtube": "TmtVbezZaqg"
+                },
+                {
+                    "name": "Festhalle",
+                    "youtube": "lim5hCR59kw"
+                },
+                {
+                    "name": "Rhein Haus",
+                    "youtube": "7H-6gBSAu4o"
                 }
             ]
         },
