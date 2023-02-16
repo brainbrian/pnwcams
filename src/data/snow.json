@@ -38,23 +38,23 @@
             "cameras": [
                 {
                     "name": "Summit Central",
-                    "youtube": "MkTEjUuq5cM"
+                    "youtube": "3kDa4aaGzv0"
                 },
                 {
                     "name": "Alpental Mid-Mountain",
-                    "youtube": "6rKLp0d37b4"
+                    "youtube": "9ZS6voipLCc"
                 },
                 {
                     "name": "Alpental Base",
-                    "youtube": "BjQ1WwM-Cq8"
+                    "youtube": "Onw16RdpWUk"
                 },
                 {
                     "name": "Central Express",
-                    "youtube": "epsJss2bC90"
+                    "youtube": "eZCPyyAb4MU"
                 },
                 {
                     "name": "Silver Fir",
-                    "youtube": "cg-z_04PuLM"
+                    "youtube": "PLfRorQfTDo"
                 },
                 {
                     "name": "Hyak",
@@ -119,36 +119,23 @@
             "name": "Crystal Mountain, WA",
             "latitude": "46.92",
             "longitude": "-121.51",
-            "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report/weather-conditions/",
+            "link": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams/",
             "links": [
                 {
-                    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report/webcams/"
+                    "url": "https://www.crystalmountainresort.com/the-mountain/mountain-report-and-webcams/webcams"
+                },
+                {
+                    "url": "https://cams.mtnfeed.com/"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Summit (6,856 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM7/CRYM7_l.jpg"
+                    "name": "Summit (6,872 ft)",
+                    "image": "https://cams.mtnfeed.com/fullsize/CRYM7_l_1280x720.jpg"
                 },
                 {
-                    "name": "Chair 6 Top (7,002 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM3/CRYM3_l.jpg"
-                },
-                {
-                    "name": "Chair 6 Bottom (6,080 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM2/CRYM2_l.jpg"
-                },
-                {
-                    "name": "Rainier Express (5,270 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM5/CRYM5_l.jpg"
-                },
-                {
-                    "name": "Gold Hills (5,044 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM4/CRYM4_l.jpg"
-                },
-                {
-                    "name": "Base (4,440 ft)",
-                    "image": "https://instacam.earthnetworks.com/instacamimg/CRYM6/CRYM6_l.jpg"
+                    "name": "Snow Stake (6,080 ft)",
+                    "image": "https://cams.mtnfeed.com/fullsize/CRYM4_l_1280x720.jpg"
                 }
             ]
         },
@@ -156,7 +143,7 @@
             "name": "Hurricane Ridge, WA",
             "latitude": "47.93",
             "longitude": "-123.41",
-            "link": "http://hurricaneridge.com",
+            "link": "https://www.hurricaneridge.com",
             "links": [
                 {
                     "url": "http://www.nps.gov/olym/photosmultimedia/hurricane-ridge-webcam.htm"
@@ -208,20 +195,19 @@
                 },
                 {
                     "url": "https://leavenworth.org/webcams/"
+                },
+                {
+                    "url": "http://www.iciclechalet.com"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Icicle Chalet",
-                    "image": "http://www.iciclechalet.com/cam/icview.jpg"
+                    "name": "Kris Kringl",
+                    "youtube": "TmtVbezZaqg"
                 },
                 {
                     "name": "Downtown",
-                    "youtube": "DxgiDvNDjoA"
-                },
-                {
-                    "name": "Kris Kringl",
-                    "youtube": "TmtVbezZaqg"
+                    "youtube": "XjhxRZEm638"
                 },
                 {
                     "name": "Festhalle",
@@ -258,7 +244,7 @@
                 },
                 {
                     "name": "WSDOT Blewett Pass",
-                    "image": "http://images.wsdot.wa.gov/us97/blewett/sumtnorth.jpg"
+                    "image": "https://images.wsdot.wa.gov/nc/097vc16375.jpg"
                 }
             ]
         },
@@ -298,6 +284,10 @@
                     "image": "https://www.nps.gov/webcams-mora/longmire.jpg"
                 },
                 {
+                    "name": "Air Quality",
+                    "image": "https://www.nps.gov/featurecontent/ard/webcams/images/mora.jpg"
+                },
+                {
                     "name": "Camp Muir",
                     "image": "https://www.nps.gov/webcams-mora/muir.jpg"
                 }
@@ -323,10 +313,6 @@
                     "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
                 },
                 {
-                    "name": "Basin",
-                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/basin.jpg"
-                },
-                {
                     "name": "WSDOT Summit East",
                     "image": "https://images.wsdot.wa.gov/sc/012vc15095.jpg"
                 }
@@ -342,17 +328,13 @@
                     "url": "http://www.iloveseattle.org/sog/washington-state-webcams.asp"
                 },
                 {
-                    "url": "https://www.fs.fed.us/gpnf/volcanocams/msh/"
+                    "url": "https://www.usgs.gov/media/webcams/johnston-ridge-observatory-webcam-mount-st-helens"
                 }
             ],
             "cameras": [
                 {
                     "name": "Johnston Ridge",
-                    "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images02/volcanocamhd.jpg"
-                },
-                {
-                    "name": "Johnston Ridge",
-                    "image": "https://www.fs.fed.us/gpnf/volcanocams/msh/images01/volcanocamhd.jpg"
+                    "image": "https://volcanoes.usgs.gov/vsc/captures/st_helens/MSH.jpeg"
                 }
             ]
         },
