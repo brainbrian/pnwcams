@@ -43,13 +43,13 @@ export default function Cameras({ data, id }: CamerasProps) {
     <>
       <div
         ref={scrollContainerRef}
-        className="flex overflow-x-scroll snap-x snap-mandatory bg-black h-[300px] sm:h-[420px] md:h-[540px] lg:h-[660px] scrollbar-hide"
+        className="flex overflow-x-scroll snap-x snap-mandatory bg-black scrollbar-hide aspect-video"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
         {data.map((camera, key) => (
           <div
             key={`cam-${id}-${key}`}
-            className="min-w-full snap-start flex-shrink-0"
+            className="min-w-full snap-start flex-shrink-0 h-full"
           >
             <Camera {...camera} />
           </div>

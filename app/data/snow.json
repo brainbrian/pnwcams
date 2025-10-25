@@ -78,13 +78,38 @@
             "name": "Stevens Pass, WA",
             "latitude": "47.74",
             "longitude": "-121.10",
-            "link": "https://www.stevenspass.com/the-mountain/mountain-conditions/weather-report.aspx",
+            "link": "https://www.stevenspass.com/the-mountain/mountain-conditions/mountain-cams.aspx",
             "links": [
                 {
-                    "url": "https://www.stevenspass.com/site/mountain/cams"
+                    "url": "https://www.stevenspass.com/the-mountain/mountain-conditions/mountain-cams.aspx"
                 }
             ],
             "cameras": [
+                {
+                    "name": "Jupiter",
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassjupiter.jpg",
+                    "iframe": "https://player.brownrice.com/embed/stevenspassjupiter"
+                },
+                {
+                    "name": "Skyline",
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassskyline.jpg",
+                    "iframe": "https://player.brownrice.com/embed/stevenspassskyline"
+                },
+                {
+                    "name": "Snow Stake",
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasssnowstake.jpg",
+                    "iframe": "https://player.brownrice.com/embed/stevenspasssnowstake"
+                },
+                {
+                    "name": "Courtyard",
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasscourtyard.jpg",
+                    "iframe": "https://player.brownrice.com/embed/stevenspasscourtyard"
+                },
+                {
+                    "name": "Ski and Snowboard School",
+                    "image": "https://streamer3.brownrice.com/cam-images/stevenspassschool.jpg",
+                    "iframe": "https://player.brownrice.com/embed/stevenspassschool"
+                },
                 {
                     "name": "Tye Mill",
                     "image": "https://cache.snow.com/mtncams/Tye%20Mill%20Top%20Terminal.jpg"
@@ -100,10 +125,6 @@
                 {
                     "name": "Base Area",
                     "image": "https://cache.snow.com/mtncams/SPBaseArea.jpg"
-                },
-                {
-                    "name": "Skyline",
-                    "image": "https://cache.snow.com/mtncams/Skyline.jpg"
                 },
                 {
                     "name": "WSDOT Summit East",

@@ -11,18 +11,18 @@ export default function Camera({ image, name, youtube, iframe }: CameraType) {
   }
 
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full overflow-hidden">
       {image && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          className="absolute top-0 left-0 w-full h-full overflow-hidden object-cover"
+          className="absolute top-0 left-0 w-full h-full object-cover"
           src={randomImage(image)}
           alt={`Web camera for ${name}`}
         />
       )}
       {iframeUrl !== '' && (
         <iframe
-          className="absolute top-0 left-0 w-full h-full overflow-hidden"
+          className="absolute top-0 left-0 w-full h-full object-cover"
           src={iframeUrl}
           frameBorder="0"
           scrolling="no"
