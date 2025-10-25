@@ -1,48 +1,109 @@
 # PNW Cams
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9ca0a896-e5d6-4955-ab7e-6d7c42fdecab/deploy-status)](https://app.netlify.com/sites/pnwcams/deploys)
+![Vercel](https://vercelbadge.vercel.app/api/brainbrian/pnwcams)
 
-Application code for [pnwcams.com](http://www.pnwcams.com)
+Live webcams for surf and snow conditions across the Pacific Northwest.
+
+Built with Next.js 16 (App Router), TypeScript, and Tailwind CSS.
 
 I built this site as a tool for myself to see webcams around the Pacific Northwest that I check on a regular basis. I hope you find it useful.
 
 – [Brian](http://www.brainbrian.com)
 
-## 🚀 Quick start
+## Features
+
+- 🏄 **Surf Cams**: Live webcams from BC to Oregon coast
+- ⛷️ **Snow Cams**: Live webcams from PNW ski resorts and mountains
+- 🌡️ **Weather Data**: Real-time weather conditions for each location
+- 📱 **Responsive Design**: Works on all devices
+- 🎨 **Modern UI**: Built with Tailwind CSS
+- ⚡ **Fast Performance**: Next.js App Router with TypeScript
+
+## 🚀 Quick Start
 
 1.  **Clone the repo**
 
-2.  **Developing locally**
-
-    Navigate into your new site’s directory and start it up.
+2.  **Install dependencies**
 
     ```shell
     cd pnwcams/
-    npm i
-    npm run develop
+    npm install
     ```
 
-    Site is now running at http://localhost:8000
+3.  **Start development server**
 
-3.  **Gatsby Documentation**
+    ```shell
+    npm run dev
+    ```
 
-    -   [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    Site is now running at http://localhost:3000
 
-    -   [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    The app will automatically redirect to `/surf` or `/snow` based on the current month:
+    - October - March → Snow Cams
+    - April - September → Surf Cams
 
-    -   [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+4.  **Build for production**
 
-    -   [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    ```shell
+    npm run build
+    npm start
+    ```
 
-    -   [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Project Structure
 
-    -   [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+app/
+├── api/
+│   └── weather/          # Weather API proxy routes
+│       ├── surf/
+│       └── snow/
+├── components/           # React components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Camera.tsx
+│   ├── Cameras.tsx      # Scroll-snap carousel
+│   ├── TitleCard.tsx
+│   ├── TitleCardLinks.tsx
+│   ├── Location.tsx
+│   └── Category.tsx
+├── data/                 # JSON data files
+│   ├── surf.json
+│   └── snow.json
+├── hooks/                # Custom React hooks
+│   └── useWeather.ts
+├── lib/                  # Utility functions
+│   └── utils.ts
+├── types/                # TypeScript type definitions
+│   └── index.ts
+├── surf/                 # Surf page
+│   └── page.tsx
+├── snow/                 # Snow page
+│   └── page.tsx
+├── layout.tsx            # Root layout
+├── page.tsx              # Home (redirect)
+└── globals.css           # Global styles
+```
 
-## Weather Services Used
+## Technologies
 
--   [NOAA](http://forecast.weather.gov/MapClick.php?lat=46.80&lon=-121.73&FcstType=json)
--   [OpenWeatherMap](http://api.openweathermap.org/data/2.5/weather?lat=46.80&lon=-121.73)
+- **Next.js 16**: App Router, API Routes, Server Components
+- **React 19**: Latest React features
+- **TypeScript**: Type-safe code
+- **Tailwind CSS 4**: Utility-first styling
 
-## Todo
+## Weather APIs
 
--   Build App w/ React Native
+- **Surf**: OpenWeatherMap API (proxied through Next.js API routes)
+- **Snow**: NOAA/forecast.weather.gov API (proxied through Next.js API routes)
+
+## Deployment
+
+Deployed on Vercel with automatic deployments from the main branch.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the MIT License.
