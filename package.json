@@ -1,36 +1,26 @@
 {
-    "name": "pnwcams",
-    "version": "1.0.0",
-    "private": true,
-    "description": "pnwcams",
-    "author": "Brian Behrens",
-    "keywords": [
-        "gatsby"
-    ],
-    "scripts": {
-        "develop": "gatsby develop",
-        "start": "gatsby develop",
-        "build": "gatsby build",
-        "serve": "gatsby serve",
-        "clean": "gatsby clean"
-    },
-    "dependencies": {
-        "classnames": "^2.5.1",
-        "gatsby": "^3.15.0",
-        "gatsby-plugin-sass": "^4.15.0",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.2",
-        "sass": "^1.93.2",
-        "swiper": "^6.8.4"
-    },
-    "devDependencies": {
-        "@typescript-eslint/parser": "^4.33.0",
-        "babel-eslint": "^10.1.0",
-        "eslint-config-prettier": "^8.10.2",
-        "eslint-config-react-app": "^6.0.0",
-        "eslint-plugin-prettier": "^3.4.1",
-        "gatsby-plugin-prettier-eslint": "^1.0.6",
-        "postcss": "^8.5.6",
-        "typescript": "^4.9.5"
-    }
+  "name": "pnwcams",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "next": "16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0"
+  }
 }
