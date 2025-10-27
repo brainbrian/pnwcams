@@ -464,12 +464,12 @@
             ],
             "cameras": [
                 {
-                    "name": "West Village Snow Stake",
-                    "youtube": "jF9f7hsdlJg"
-                },
-                {
                     "name": "Mid-Mountain Pine Marten Lodge",
                     "youtube": "qjfPiDu9F50"
+                },
+                {
+                    "name": "West Village Snow Stake",
+                    "youtube": "jF9f7hsdlJg"
                 },
                 {
                     "name": "Top of Cloudchaser Lift",
