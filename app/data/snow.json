@@ -313,7 +313,7 @@
             "name": "White Pass, WA",
             "latitude": "46.64",
             "longitude": "-121.39",
-            "link": "http://skiwhitepass.com",
+            "link": "https://skiwhitepass.com",
             "links": [
                 {
                     "url": "https://skiwhitepass.com/mountain-cams"
@@ -321,15 +321,23 @@
             ],
             "cameras": [
                 {
-                    "name": "Base",
-                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/current.jpg"
+                    "name": "High Camp",
+                    "image": "https://streamer6.brownrice.com/cam-images/whitepasshighcamp.jpg"
                 },
                 {
-                    "name": "Highcamp",
-                    "image": "https://whitepass-cdn.s3.amazonaws.com/webcams/highcamp.jpg"
+                    "name": "Couloir Express",
+                    "image": "https://streamer8.brownrice.com/cam-images/couloir.jpg"
                 },
                 {
-                    "name": "WSDOT Summit East",
+                    "name": "Pigtail Peak",
+                    "image": "https://streamer8.brownrice.com/cam-images/pigtailpeak.jpg"
+                },
+                {
+                    "name": "Base Area",
+                    "image": "https://streamer8.brownrice.com/cam-images/whitepasslive.jpg"
+                },
+                {
+                    "name": "WSDOT White Pass Summit",
                     "image": "https://images.wsdot.wa.gov/sc/012vc15095.jpg"
                 }
             ]
