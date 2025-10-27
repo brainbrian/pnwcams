@@ -369,21 +369,41 @@
             "link": "https://www.skihood.com",
             "links": [
                 {
-                    "url": "https://www.skihood.com/the-mountain/conditions"
+                    "url": "https://www.skihood.com/mountain-report/mountain-cams"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Bottom of Vista",
-                    "image": "https://www.skihood.com/cams/vista"
+                    "name": "Base Area",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=072e3c1a6016174851619e4180909d3d"
                 },
                 {
-                    "name": "Base Area",
-                    "image": "https://www.skihood.com/cams/base"
+                    "name": "Snowstake",
+                    "image": "https://manage.hdrelay.com/webPlayer/iframe/63d44d707803e58fc2e6d8cc"
+                },
+                {
+                    "name": "Top of Blue",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=c878c340832e23aab90526673b71cc17"
+                },
+                {
+                    "name": "Bottom of Vista",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=1be5f08dfca10d15d5e4ec9627c17c7c"
+                },
+                {
+                    "name": "Top of Vista",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=eec27f8164fc1105656ea4d46df4cd37"
+                },
+                {
+                    "name": "Top of Heather",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=05d8cf6ff60357a37c6f97318ad3ea8d"
                 },
                 {
                     "name": "Top of Cascade",
-                    "image": "https://www.skihood.com/cams/casc"
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=27a40badfb43d1ee5f6e18ff23d1545d"
+                },
+                {
+                    "name": "Nordic",
+                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=1d84bd2e0e9b83af2a1c6b8dd5474f95"
                 }
             ]
         },
