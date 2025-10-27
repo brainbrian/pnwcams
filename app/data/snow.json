@@ -459,41 +459,69 @@
             "link": "https://www.mtbachelor.com",
             "links": [
                 {
-                    "url": "https://www.mtbachelor.com/live-cams/"
+                    "url": "https://www.mtbachelor.com/the-mountain/webcams/"
                 }
             ],
             "cameras": [
                 {
                     "name": "West Village Snow Stake",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/14"
+                    "youtube": "jF9f7hsdlJg"
                 },
                 {
-                    "name": "Nordic Center",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
+                    "name": "Mid-Mountain Pine Marten Lodge",
+                    "youtube": "qjfPiDu9F50"
+                },
+                {
+                    "name": "Top of Cloudchaser Lift",
+                    "youtube": "kVkLyuigAwA"
+                },
+                {
+                    "name": "Base of Pine Marten Lift",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/5"
                 },
                 {
                     "name": "The Cone",
                     "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
                 },
                 {
+                    "name": "Rock Bar Patio",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/7"
+                },
+                {
+                    "name": "Pine Marten Lodge",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/4"
+                },
+                {
                     "name": "Outback Lift Line",
                     "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
                 },
                 {
-                    "name": "Marshmallow Run",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/6"
+                    "name": "Tumalo Mountain & Top of Pine Marten",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
                 },
                 {
                     "name": "Summit Lift Line",
                     "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
                 },
                 {
-                    "name": "Three Sisters",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/10"
+                    "name": "Sunrise Base",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/9"
                 },
                 {
-                    "name": "Tumalo and Bend",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
+                    "name": "Nordic Center",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
+                },
+                {
+                    "name": "West Village Base Area & Parking Lot",
+                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/15"
+                },
+                {
+                    "name": "Century Drive - Mile 21 West",
+                    "image": "https://tripcheck.com/RoadCams/cams/Century%20Dr%20at%20MP%2021_pid3367.jpg"
+                },
+                {
+                    "name": "Century Drive - Mile 21 East",
+                    "image": "https://tripcheck.com/RoadCams/cams/Century%20Dr%20at%20MP%2021_pid3368.jpg"
                 }
             ]
         }
