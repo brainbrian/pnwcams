@@ -191,12 +191,12 @@
             ],
             "cameras": [
                 {
-                    "name": "Top",
-                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-top-chair.jpg"
+                    "name": "Upper Mountain",
+                    "youtube": "qp-GrRsWBEQ"
                 },
                 {
-                    "name": "Base",
-                    "image": "https://skitheloup.com/sv2/loup-loup-ski-bowl-base-area.jpg"
+                    "name": "Lower Mountain",
+                    "youtube": "PNG3i1HMPg4"
                 }
             ]
         },
