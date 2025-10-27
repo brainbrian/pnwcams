@@ -87,28 +87,23 @@
             "cameras": [
                 {
                     "name": "Jupiter",
-                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassjupiter.jpg",
-                    "iframe": "https://player.brownrice.com/embed/stevenspassjupiter"
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassjupiter.jpg"
                 },
                 {
                     "name": "Skyline",
-                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassskyline.jpg",
-                    "iframe": "https://player.brownrice.com/embed/stevenspassskyline"
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspassskyline.jpg"
                 },
                 {
                     "name": "Snow Stake",
-                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasssnowstake.jpg",
-                    "iframe": "https://player.brownrice.com/embed/stevenspasssnowstake"
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasssnowstake.jpg"
                 },
                 {
                     "name": "Courtyard",
-                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasscourtyard.jpg",
-                    "iframe": "https://player.brownrice.com/embed/stevenspasscourtyard"
+                    "image": "https://streamer8.brownrice.com/cam-images/stevenspasscourtyard.jpg"
                 },
                 {
                     "name": "Ski and Snowboard School",
-                    "image": "https://streamer3.brownrice.com/cam-images/stevenspassschool.jpg",
-                    "iframe": "https://player.brownrice.com/embed/stevenspassschool"
+                    "image": "https://streamer3.brownrice.com/cam-images/stevenspassschool.jpg"
                 },
                 {
                     "name": "Tye Mill",
