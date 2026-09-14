@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const oswald = Oswald({
@@ -22,6 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${oswald.variable} antialiased`}>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
