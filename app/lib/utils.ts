@@ -40,3 +40,15 @@ export function randomImage(img: string): string {
   return `${img}${separator}random=${Math.round(Math.random() * 100000000)}`;
 }
 
+
+/**
+ * Convert a display name into a URL-safe anchor id
+ * @param value Display name, e.g. "Snoqualmie Pass, WA"
+ * @returns Slug, e.g. "snoqualmie-pass-wa"
+ */
+export function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}

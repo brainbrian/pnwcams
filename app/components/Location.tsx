@@ -1,5 +1,6 @@
 import Cameras from './Cameras';
 import TitleCard from './TitleCard';
+import { slugify } from '../lib/utils';
 import type { Location as LocationType } from '../types';
 
 interface LocationProps extends LocationType {
@@ -17,7 +18,10 @@ export default function Location({
   category,
 }: LocationProps) {
   return (
-    <div className="relative">
+    <article
+      id={slugify(name)}
+      className="card group/card flex scroll-mt-24 flex-col overflow-hidden rounded-3xl transition-[border-color,box-shadow] duration-300 hover:border-accent/25"
+    >
       <TitleCard
         name={name}
         link={link}
@@ -26,7 +30,6 @@ export default function Location({
         category={category}
       />
       <Cameras data={cameras} id={id} />
-    </div>
+    </article>
   );
 }
-

@@ -11,13 +11,14 @@ export default function Camera({ image, name, youtube, iframe }: CameraType) {
   }
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
+    <div className="relative w-full h-full overflow-hidden bg-[radial-gradient(ellipse_at_center,#13293a_0%,#070e14_75%)]">
       {image && (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           className="absolute top-0 left-0 w-full h-full object-cover"
           src={randomImage(image)}
           alt={`Web camera for ${name}`}
+          loading="lazy"
         />
       )}
       {iframeUrl !== '' && (
@@ -27,21 +28,16 @@ export default function Camera({ image, name, youtube, iframe }: CameraType) {
           frameBorder="0"
           scrolling="no"
           allowFullScreen
+          loading="lazy"
           title={`Web camera for ${name}`}
         />
       )}
-      {name && (
-        <h3
-          className={`absolute text-center w-full z-[3] m-0 ${
-            iframeUrl ? 'top-[35%]' : 'top-1/2'
-          } -translate-y-1/2`}
-        >
-          <span className="bg-[rgba(185,227,255,0.5)] px-[10px] py-[5px] pb-[3px] text-[#305771] font-oswald text-2xl font-normal">
-            {name}
-          </span>
-        </h3>
+      {name && image && (
+        // still images get a corner label; embeds already show their own title bar
+        <span className="pointer-events-none absolute left-3 top-3 z-[3] rounded-lg border border-white/15 bg-black/45 px-2.5 py-1 font-display text-sm uppercase tracking-wide text-white shadow-lg backdrop-blur-md">
+          {name}
+        </span>
       )}
     </div>
   );
 }
-

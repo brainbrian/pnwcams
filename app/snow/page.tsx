@@ -14,7 +14,7 @@ export default function SnowPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-[1024px] pt-12 relative">
+      <main className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
         <Category links={links} locations={locations} category="snow" />
       </main>
       <Footer />
