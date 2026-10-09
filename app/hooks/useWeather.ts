@@ -24,6 +24,8 @@ export function useWeather({ category, latitude, longitude }: UseWeatherParams) 
       })
       .catch((reason) => {
         console.error(reason);
+        // resolve to an empty payload so the UI stops showing a loading state
+        setWeather({});
       });
 
     return () => {

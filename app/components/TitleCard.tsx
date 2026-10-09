@@ -2,6 +2,13 @@
 
 import { useMemo } from 'react';
 import { useWeather } from '../hooks/useWeather';
+import {
+  CloudIcon,
+  ElevationIcon,
+  ExternalIcon,
+  ThermometerIcon,
+  WindIcon,
+} from './Icons';
 import { degToCompass } from '../lib/utils';
 import type { ProcessedWeatherData, SurfWeatherData, SnowWeatherData } from '../types';
 
@@ -107,66 +114,96 @@ export default function TitleCard({
     return null;
   }, [weather]);
 
+  const round = (value: number | string) =>
+    typeof value === 'number' ? Math.round(value) : value;
+
+  const stats = weatherData
+    ? [
+        weatherData.temp != null && {
+          key: 'temp',
+          Icon: ThermometerIcon,
+          value: round(weatherData.temp),
+          unit: '°F',
+        },
+        weatherData.windSpeed != null && {
+          key: 'wind',
+          Icon: WindIcon,
+          value: round(weatherData.windSpeed),
+          unit: `mph${weatherData.windDirection ? ` ${weatherData.windDirection}` : ''}`,
+        },
+        weatherData.elevation && {
+          key: 'elevation',
+          Icon: ElevationIcon,
+          value: `${weatherData.elevation}'`,
+          unit: 'elev',
+        },
+        weatherData.clouds && {
+          key: 'clouds',
+          Icon: CloudIcon,
+          value: weatherData.clouds,
+          unit: '',
+        },
+      ].filter((stat) => !!stat)
+    : [];
+
   return (
-    <div className="bg-[#b9e3ff] table h-[170px] sm:h-[250px] relative text-center w-full">
-      <div className="table-cell align-middle">
-        {link ? (
-          <h2 className="text-[#5c717f] font-oswald text-4xl sm:text-5xl font-normal m-0 mb-1">
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#3d4d56] no-underline"
-            >
-              {name}
-            </a>
-          </h2>
+    <div className="flex items-start justify-between gap-3 p-4 sm:gap-6 sm:p-6">
+      <div className="flex min-w-0 flex-col gap-2">
+        <h2 className="m-0 font-display text-2xl font-normal uppercase leading-tight tracking-wide text-foreground sm:text-[2rem]">
+          {name}
+        </h2>
+        {weather === null ? (
+          <div className="flex gap-2" aria-hidden="true">
+            {[64, 96, 80].map((width) => (
+              <span
+                key={width}
+                className="relative h-7 overflow-hidden rounded-full bg-white/5"
+                style={{ width }}
+              >
+                <span className="absolute inset-0 -translate-x-full animate-[shimmer_1.6s_infinite] bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+              </span>
+            ))}
+          </div>
         ) : (
-          <h2 className="text-[#5c717f] font-oswald text-4xl sm:text-5xl font-normal m-0 mb-1">
-            {name}
-          </h2>
-        )}
-        {weatherData && weatherData.url && (
-          <a
-            href={weatherData.url}
-            className="block opacity-50 text-center no-underline transition-opacity hover:opacity-100 text-[#5c717f] font-oswald text-base sm:text-xl uppercase font-normal"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <ul className="list-none m-0 p-0">
-              {weatherData.temp && (
-                <li className="inline-block px-[10px]">
-                  {weatherData.temp} <small className="opacity-50">°f</small>
-                </li>
+          weatherData && (
+            <a
+              href={weatherData.url ?? undefined}
+              className="group/wx flex flex-wrap items-center gap-2 no-underline"
+              target="_blank"
+              rel="noreferrer"
+              title="View the full forecast at weather.gov"
+            >
+              {stats.map(({ key, Icon, value, unit }) => (
+                <span
+                  key={key}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-black/20 px-2.5 py-1 text-sm text-foreground transition-colors group-hover/wx:border-accent/30"
+                >
+                  <Icon className="h-3.5 w-3.5 text-accent" />
+                  <span className="font-semibold tabular-nums">{value}</span>
+                  {unit && <span className="text-muted">{unit}</span>}
+                </span>
+              ))}
+              {weatherData.description && (
+                <span className="text-sm capitalize text-muted transition-colors group-hover/wx:text-foreground">
+                  {weatherData.description}
+                </span>
               )}
-              {weatherData.windSpeed && (
-                <li className="inline-block px-[10px]">
-                  {weatherData.windSpeed} <small className="opacity-50">mph</small>
-                  {weatherData.windDirection && (
-                    <span> {weatherData.windDirection}</span>
-                  )}
-                  <small className="opacity-50"> wind</small>
-                </li>
-              )}
-              {weatherData.elevation && (
-                <li className="inline-block px-[10px]">
-                  {weatherData.elevation}&apos;{' '}
-                  <small className="opacity-50">Elevation</small>
-                </li>
-              )}
-              {weatherData.clouds && (
-                <li className="inline-block px-[10px]">{weatherData.clouds}</li>
-              )}
-            </ul>
-            {weatherData.description && (
-              <p className="my-[5px] opacity-70 capitalize">
-                {weatherData.description}
-              </p>
-            )}
-          </a>
+            </a>
+          )
         )}
       </div>
+      {link && (
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group/cta inline-flex shrink-0 items-center justify-center gap-1 self-start rounded-xl bg-gradient-to-b from-accent to-accent-strong px-3 py-2 font-display text-xs sm:gap-1.5 sm:px-4 sm:py-2.5 sm:text-sm font-medium uppercase tracking-wider text-[#0b1620] no-underline shadow-[0_1px_0_rgba(255,255,255,0.35)_inset,0_6px_18px_-6px_rgba(124,196,242,0.6)] transition-all hover:-translate-y-px hover:shadow-[0_1px_0_rgba(255,255,255,0.35)_inset,0_10px_24px_-6px_rgba(124,196,242,0.75)] active:translate-y-0"
+          aria-label={`View conditions for ${name}`}
+        >
+          Conditions
+          <ExternalIcon className="h-4 w-4 transition-transform group-hover/cta:-translate-y-0.5 group-hover/cta:translate-x-0.5" />
+        </a>
+      )}
     </div>
   );
 }
-
