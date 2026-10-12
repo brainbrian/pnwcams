@@ -1,16 +1,8 @@
 {
     "links": [
         {
-            "name": "MSW CA",
-            "url": "http://magicseaweed.com/Canada-West-Surf-Forecast/50/"
-        },
-        {
-            "name": "MSW WA",
-            "url": "http://magicseaweed.com/Washington-Surf-Forecast/14/"
-        },
-        {
-            "name": "MSW OR",
-            "url": "http://magicseaweed.com/Oregon-Surf-Forecast/15/"
+            "name": "Surfline",
+            "url": "https://www.surfline.com/surf-reports-forecasts-cams-map/@46.74362499884439,-120.55297851562501,7z"
         },
         {
             "name": "NW Surfing",
@@ -26,7 +18,7 @@
             "name": "Tofino, BC",
             "latitude": "49.10",
             "longitude": "-125.87",
-            "link": "http://magicseaweed.com/Tofino-Cox-Bay-Surf-Report/1122/",
+            "link": "https://www.surfline.com/surf-report/cox-bay/5842041f4e65fad6a7708db7",
             "links": [
                 {
                     "url": "http://www.longbeachlodgeresort.com"
@@ -41,32 +33,25 @@
                     "url": "https://www.crystalcove.ca/crystal-cove-webcam"
                 },
                 {
-                    "url": "https://www.wickinn.com/beachcam"
-                },
-                {
                     "url": "https://www.wickinn.com/about/beachcam/"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Cox Bay - Beach",
-                    "youtube": "g2HGBY2v-wo"
-                },
-                {
                     "name": "Cox Bay - Surf Cam",
-                    "youtube": "2g_kegONjmE"
+                    "youtube": "LqaP8m2OIqM"
                 },
                 {
-                    "name": "Cox Bay - LBL",
-                    "youtube": "84dLnpdqC_U"
+                    "name": "Cox Bay - Beach",
+                    "youtube": "Tbt6_787CB8"
                 },
                 {
-                    "name": "South Chesterman Beach",
-                    "image": "https://surfcam.ca/wp-content/uploads/cameras/south-chestermans.jpg"
+                    "name": "North Chesterman Beach",
+                    "image": "Yx9WvQiTCLo"
                 },
                 {
                     "name": "Tofino Harbour",
-                    "youtube": "gbCKyQkpzPc"
+                    "youtube": "_qN4aao5kWc"
                 },
                 {
                     "name": "Crystal Cove",
@@ -78,7 +63,7 @@
             "name": "Strait of Juan de Fuca, WA",
             "latitude": "48.18",
             "longitude": "-124.02",
-            "link": "https://magicseaweed.com/Cape-Flattery-Surf-Report/710/",
+            "link": "https://www.surfline.com/surf-report/cape-flattery/640a3fd0b6d7690063514311",
             "links": [
                 {
                     "url": "http://www.wunderground.com/personal-weather-station/dashboard?ID=KWASEKIU2"
@@ -104,16 +89,16 @@
             ],
             "cameras": [
                 {
+                    "name": "Port Angeles",
+                    "image": "https://www.karensistekstudio.com/pawx/webcam/webcam.jpg"
+                },
+                {
                     "name": "Sekiu",
                     "image": "https://hoko.pnwas.org/images/webcam/hoko/current.jpg"
                 },
                 {
                     "name": "Sekiu",
                     "image": "https://hoko.pnwas.org/images/webcam/beach/current.jpg"
-                },
-                {
-                    "name": "Sekiu",
-                    "image": "https://hoko.pnwas.org/images/webcam/westcabin/current.jpg"
                 },
                 {
                     "name": "Sekiu",
@@ -133,7 +118,7 @@
             "name": "La Push, WA",
             "latitude": "47.90",
             "longitude": "-124.63",
-            "link": "http://magicseaweed.com/La-Push-Surf-Report/308/",
+            "link": "https://www.surfline.com/surf-report/la-push/5842041f4e65fad6a77089af",
             "links": [
                 {
                     "url": "http://forkswa.com/first-beach-webcam/"
@@ -164,7 +149,7 @@
             "name": "Westport, WA",
             "latitude": "46.90",
             "longitude": "-124.14",
-            "link": "http://magicseaweed.com/Westport-Surf-Report/310/",
+            "link": "https://www.surfline.com/surf-report/westport-olympic-peninsula/5842041f4e65fad6a77089ad",
             "links": [
                 {
                     "url": "http://www.westportgrayland-chamber.org/surfing_info.php"
@@ -174,16 +159,23 @@
                 },
                 {
                     "url": "https://www.experiencewestport.com/surfing"
+                },
+                {
+                    "url": "https://c.streamhoster.com"
                 }
             ],
             "cameras": [
                 {
-                    "name": "Westport Cam",
-                    "iframe": "https://c.themediacdn.com/embed/media/WFsdJr/1MA8ku9sO6U/ShdKpisATtu_5?autoPlay=0&showPlayPauseBtn=0"
+                    "name": "Westport Grays Harbor Lighthouse",
+                    "iframe": "https://c.streamhoster.com/embed/media/WFsdJr/1MA8ku9sO6U/mTVjlmsV9ZE_5?autoPlay=1"
                 },
                 {
-                    "name": "Chateau Westport",
+                    "name": "Westport Beach",
                     "iframe": "https://c.themediacdn.com/embed/media/Olsd0P/iKXAG6ajs5j/I3afaIsc1ql_5?autoPlay=0&showPlayPauseBtn=0"
+                },
+                {
+                    "name": "Westport Groins",
+                    "iframe": "https://c.themediacdn.com/embed/media/WFsdJr/1MA8ku9sO6U/ShdKpisATtu_5?autoPlay=0&showPlayPauseBtn=0"
                 }
             ]
         },
@@ -191,13 +183,13 @@
             "name": "Long Beach Peninsula, WA",
             "latitude": "46.31",
             "longitude": "-124.07",
-            "link": "http://magicseaweed.com/Long-Beach-Surf-Report/311/",
+            "link": "https://www.surfline.com/surf-report/long-beach-peninsula/5842041f4e65fad6a77089ae",
             "links": [
                 {
                     "url": "http://cil-www.oce.orst.edu/batman.html"
                 },
                 {
-                    "url": "https://www.visitlongbeachpeninsula.com/tips-tools/web-cams/"
+                    "url": "https://www.evergreencoastwa.com/plan/web-cams/"
                 },
                 {
                     "url": "http://www.skookumsurf.com/explore/"
@@ -208,16 +200,16 @@
             ],
             "cameras": [
                 {
-                    "name": "Klipsan Beach",
-                    "image": "http://cam.aaapacreal.com/clamcam.jpg"
+                    "name": "Long Beach",
+                    "youtube": "nhw_BIAWNQ8"
                 },
                 {
-                    "name": "Columbia River - Left",
-                    "image": "http://cil-www.oce.orst.edu/batman/latest.c2.snap.jpg"
+                    "name": "North Head Lighthouse - Cape Disappointment",
+                    "image": "https://biz.parks.wa.gov/webcams/CapedNorthHead1.jpg"
                 },
                 {
-                    "name": "Columbia River - Right",
-                    "image": "http://cil-www.oce.orst.edu/batman/latest.c1.snap.jpg"
+                    "name": "Columbia River Bar",
+                    "image": "https://biz.parks.wa.gov/webcams/FortColumbia1.jpg"
                 }
             ]
         },
@@ -225,20 +217,19 @@
             "name": "Seaside, OR",
             "latitude": "45.98",
             "longitude": "-123.94",
-            "link": "http://www.surfline.com/surf-report/seaside-pacific-northwest_142801/",
+            "link": "https://www.surfline.com/surf-report/seaside/584204214e65fad6a7709d26",
             "links": [
                 {
-                    "url": "http://www.seasidechamber.com/camhtml/index.html"
+                    "url": "http://www.seasidechamber.com"
+                },
+                {
+                    "url": "https://www.koin.com/weather/webcams/"
                 }
             ],
             "cameras": [
                 {
-                    "name": "The Cove",
-                    "image": "https://camstills.cdn-surfline.com/wc-seasideor/latest_full.jpg"
-                },
-                {
-                    "name": "The Cove",
-                    "image": "http://68.185.24.174/-wvhttp-01-/image.cgi?v=jpg:640x480"
+                    "name": "Seaside Beach",
+                    "image": "Ce_vAKq1kUA"
                 }
             ]
         },
@@ -246,7 +237,7 @@
             "name": "Cannon Beach, OR",
             "latitude": "45.72",
             "longitude": "-123.95",
-            "link": "http://magicseaweed.com/Cannon-Beach-Surf-Report/313/",
+            "link": "https://www.surfline.com/surf-report/cannon-beach/5842041f4e65fad6a77089b8",
             "links": [
                 {
                     "url": "http://www.webbsscenicsurf.com/home.html"
@@ -277,7 +268,7 @@
             "name": "Manzanita, OR",
             "latitude": "45.72",
             "longitude": "-123.95",
-            "link": "http://www.surfline.com/surf-report/manzanita-pacific-northwest_142795/",
+            "link": "https://www.surfline.com/surf-report/manzanita/584204214e65fad6a7709d25",
             "links": [
                 {
                     "url": "http://www.oceaninnatmanzanita.com/oregon-coast-webcam/"
@@ -303,6 +294,7 @@
             "name": "Tillamook, OR",
             "latitude": "45.52",
             "longitude": "-123.92",
+            "link": "https://www.surfline.com/surf-report/short-beach/640a3fc1606c45473cb0aab8",
             "links": [
                 {
                     "url": "https://www.weather.gov/pqr/barcams"
@@ -322,7 +314,7 @@
             "name": "Oceanside, OR",
             "latitude": "45.45",
             "longitude": "-123.97",
-            "link": "http://www.surfline.com/surf-report/oceanside-or-pacific-northwest_47668/",
+            "link": "https://www.surfline.com/surf-report/oceanside-or/5842041f4e65fad6a7708fa1",
             "links": [
                 {
                     "url": "http://www.oceansideoregon.com/surf_cam.asp"
@@ -345,7 +337,7 @@
             "name": "Pacific City, OR",
             "latitude": "45.22",
             "longitude": "-123.98",
-            "link": "http://magicseaweed.com/Cape-Kiwanda-Surf-Report/560/",
+            "link": "https://www.surfline.com/surf-report/pacific-city/5842041f4e65fad6a77089b7",
             "links": [
                 {
                     "url": "http://www.yourlittlebeachtown.com/"
@@ -372,7 +364,7 @@
             "name": "Lincoln City, OR",
             "latitude": "44.97",
             "longitude": "-124.04",
-            "link": "http://magicseaweed.com/Lincoln-City-Surf-Report/316/",
+            "link": "https://www.surfline.com/surf-report/lincoln-city/5842041f4e65fad6a77089b4",
             "links": [
                 {
                     "url": "http://www.lcsurfshop.com/webcam.htm"
@@ -392,6 +384,7 @@
             "name": "Depoe Bay, OR",
             "latitude": "44.81",
             "longitude": "-124.06",
+            "link": "https://www.surfline.com/surf-report/beverly-beach/584204214e65fad6a7709d23",
             "links": [
                 {
                     "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
@@ -411,7 +404,7 @@
             "name": "Newport, OR",
             "latitude": "44.68",
             "longitude": "-124.08",
-            "link": "http://magicseaweed.com/Newport-Surf-Report/318/",
+            "link": "https://www.surfline.com/surf-report/agate-beach/584204214e65fad6a7709d27",
             "links": [
                 {
                     "url": "http://cil-www.oce.orst.edu/agate.html"
@@ -461,7 +454,7 @@
             "name": "Florence, OR",
             "latitude": "44.02",
             "longitude": "-124.14",
-            "link": "http://magicseaweed.com/Florence-Surf-Report/696/",
+            "link": "https://www.surfline.com/surf-report/florence-south-jetty/5842041f4e65fad6a77089b2",
             "links": [
                 {
                     "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
@@ -478,7 +471,7 @@
             "name": "Winchester Bay, OR",
             "latitude": "43.67",
             "longitude": "-124.21",
-            "link": "http://magicseaweed.com/Winchester-Bay-Surf-Report/319/",
+            "link": "https://www.surfline.com/surf-report/winchester-bay/640a3fbc99dd44a8e4033a0d",
             "links": [
                 {
                     "url": "http://www.wrh.noaa.gov/pqr/marine/bars_mover.php"
@@ -495,7 +488,7 @@
             "name": "Coos Bay, OR",
             "latitude": "43.36",
             "longitude": "-124.34",
-            "link": "http://magicseaweed.com/Coos-Bay-Surf-Report/320/",
+            "link": "https://www.surfline.com/surf-report/bastendorff-beach/601ae044df7c711be586dd8f",
             "links": [
                 {
                     "url": "https://www.weather.gov/pqr/barcams"
@@ -519,6 +512,7 @@
             "name": "Bandon, OR",
             "latitude": "43.12",
             "longitude": "-124.43",
+            "link": "https://www.surfline.com/surf-report/brookings-jetty/5842041f4e65fad6a77089b0",
             "links": [
                 {
                     "url": "http://www.oregonsurf.com/pages/cams.html"
