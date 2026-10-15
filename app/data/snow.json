@@ -468,56 +468,56 @@
             ],
             "cameras": [
                 {
-                    "name": "Mid-Mountain Pine Marten Lodge",
-                    "youtube": "qjfPiDu9F50"
+                    "name": "Sunrise",
+                    "youtube": "pXHMtXbmo7k"
                 },
                 {
-                    "name": "West Village Snow Stake",
-                    "youtube": "jF9f7hsdlJg"
+                    "name": "Mid Mountain",
+                    "youtube": "lyN2JG7zowo"
                 },
                 {
-                    "name": "Top of Cloudchaser Lift",
-                    "youtube": "kVkLyuigAwA"
+                    "name": "Cloudchaser",
+                    "youtube": "gAftCYziGW4"
+                },
+                {
+                    "name": "Snow Stake",
+                    "youtube": "ORlXPRywWd4"
                 },
                 {
                     "name": "Base of Pine Marten Lift",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/5"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/1"
                 },
                 {
                     "name": "The Cone",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/3"
                 },
                 {
                     "name": "Rock Bar Patio",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/7"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/2"
                 },
                 {
                     "name": "Pine Marten Lodge",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/4"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/9"
                 },
                 {
                     "name": "Outback Lift Line",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/11"
                 },
                 {
                     "name": "Tumalo Mountain & Top of Pine Marten",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
-                },
-                {
-                    "name": "Summit Lift Line",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/12"
                 },
                 {
                     "name": "Sunrise Base",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/9"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/5"
                 },
                 {
                     "name": "Nordic Center",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/16"
                 },
                 {
                     "name": "West Village Base Area & Parking Lot",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/15"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/13"
                 },
                 {
                     "name": "Century Drive - Mile 21 West",
