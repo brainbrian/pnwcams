@@ -248,11 +248,11 @@
             "cameras": [
                 {
                     "name": "Sunspot",
-                    "youtube": "Wy1f0CzNaAM"
+                    "youtube": "28Vhz4mcM64"
                 },
                 {
                     "name": "Midway",
-                    "youtube": "WviO5Mlq_TE"
+                    "youtube": "AlJPPPl1yIw"
                 },
                 {
                     "name": "Mimi",
@@ -322,19 +322,23 @@
             "cameras": [
                 {
                     "name": "High Camp",
-                    "image": "https://streamer6.brownrice.com/cam-images/whitepasshighcamp.jpg"
-                },
-                {
-                    "name": "Couloir Express",
-                    "image": "https://streamer8.brownrice.com/cam-images/couloir.jpg"
+                    "image": "https://skiwhitepass.com/webcam-posters/whitepasshighcamp.jpg"
                 },
                 {
                     "name": "Pigtail Peak",
-                    "image": "https://streamer8.brownrice.com/cam-images/pigtailpeak.jpg"
+                    "image": "https://skiwhitepass.com/webcam-posters/pigtailpeak.jpg"
+                },
+                {
+                    "name": "Couloir Express",
+                    "image": "https://skiwhitepass.com/webcam-posters/couloir.jpg"
                 },
                 {
                     "name": "Base Area",
-                    "image": "https://streamer8.brownrice.com/cam-images/whitepasslive.jpg"
+                    "image": "https://skiwhitepass.com/webcam-posters/whitepasslive.jpg"
+                },
+                {
+                    "name": "Nordic Headquarters",
+                    "image": "https://skiwhitepass.com/webcam-posters/whitepassnordic.jpg"
                 },
                 {
                     "name": "WSDOT White Pass Summit",
@@ -375,35 +379,35 @@
             "cameras": [
                 {
                     "name": "Base Area",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=072e3c1a6016174851619e4180909d3d"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=072e3c1a6016174851619e4180909d3d"
                 },
                 {
                     "name": "Snowstake",
-                    "image": "https://manage.hdrelay.com/webPlayer/iframe/63d44d707803e58fc2e6d8cc"
+                    "iframe": "https://manage.hdrelay.com/webPlayer/iframe/63d44d707803e58fc2e6d8cc"
                 },
                 {
                     "name": "Top of Blue",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=c878c340832e23aab90526673b71cc17"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=c878c340832e23aab90526673b71cc17"
                 },
                 {
                     "name": "Bottom of Vista",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=1be5f08dfca10d15d5e4ec9627c17c7c"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=1be5f08dfca10d15d5e4ec9627c17c7c"
                 },
                 {
                     "name": "Top of Vista",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=eec27f8164fc1105656ea4d46df4cd37"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=eec27f8164fc1105656ea4d46df4cd37"
                 },
                 {
                     "name": "Top of Heather",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=05d8cf6ff60357a37c6f97318ad3ea8d"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=05d8cf6ff60357a37c6f97318ad3ea8d"
                 },
                 {
                     "name": "Top of Cascade",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=27a40badfb43d1ee5f6e18ff23d1545d"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=27a40badfb43d1ee5f6e18ff23d1545d"
                 },
                 {
                     "name": "Nordic",
-                    "image": "https://api.wetmet.net/widgets/stream/frame.php?uid=1d84bd2e0e9b83af2a1c6b8dd5474f95"
+                    "iframe": "https://api.wetmet.net/widgets/stream/frame.php?uid=1d84bd2e0e9b83af2a1c6b8dd5474f95"
                 }
             ]
         },
@@ -464,56 +468,56 @@
             ],
             "cameras": [
                 {
-                    "name": "Mid-Mountain Pine Marten Lodge",
-                    "youtube": "qjfPiDu9F50"
+                    "name": "Sunrise",
+                    "youtube": "pXHMtXbmo7k"
                 },
                 {
-                    "name": "West Village Snow Stake",
-                    "youtube": "jF9f7hsdlJg"
+                    "name": "Mid Mountain",
+                    "youtube": "lyN2JG7zowo"
                 },
                 {
-                    "name": "Top of Cloudchaser Lift",
-                    "youtube": "kVkLyuigAwA"
+                    "name": "Cloudchaser",
+                    "youtube": "gAftCYziGW4"
+                },
+                {
+                    "name": "Snow Stake",
+                    "youtube": "ORlXPRywWd4"
                 },
                 {
                     "name": "Base of Pine Marten Lift",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/5"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/1"
                 },
                 {
                     "name": "The Cone",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/3"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/3"
                 },
                 {
                     "name": "Rock Bar Patio",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/7"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/2"
                 },
                 {
                     "name": "Pine Marten Lodge",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/4"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/9"
                 },
                 {
                     "name": "Outback Lift Line",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/11"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/11"
                 },
                 {
                     "name": "Tumalo Mountain & Top of Pine Marten",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/12"
-                },
-                {
-                    "name": "Summit Lift Line",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/8"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/12"
                 },
                 {
                     "name": "Sunrise Base",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/9"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/5"
                 },
                 {
                     "name": "Nordic Center",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/16"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/16"
                 },
                 {
                     "name": "West Village Base Area & Parking Lot",
-                    "image": "https://www.mtbachelor.com/api/v1/cams/mtn/15"
+                    "image": "https://api.mtbachelor.com/api/v1/cams/mtn/13"
                 },
                 {
                     "name": "Century Drive - Mile 21 West",
